@@ -1,0 +1,2253 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "tmdb_id": 1030462,
+      "title": "10 Regras Para Salvar um Casamento",
+      "original_title": "Le processus de paix",
+      "release_date": "2023-06-07",
+      "overview": "Marie e Simon vivem um casamento caótico, marcado por discussões e desafios na criação dos filhos. Apesar de não se suportarem mais, eles lutam para manter a união e criam dez mandamentos para alcançar a paz e o amor na relação.",
+      "local_poster_path": "assets/poster_images/1030462.jpg",
+      "genres": [
+        "Romance",
+        "Drama",
+        "Comédia"
+      ],
+      "runtime": 92,
+      "vote_average": 5.3,
+      "directors": [
+        "Ilan Klipper"
+      ],
+      "cast": [
+        "Camille Chamoux",
+        "Damien Bonnard",
+        "Ariane Ascaride",
+        "Jeanne Balibar",
+        "Sabrina Seyvecou"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/10 Regras para Salvar um Casamento/10 Regras para Salvar um Casamento.mkv",
+      "date_added": "2025-04-22T23:18:28.218104",
+      "last_updated": "2025-04-22T23:18:28.218112"
+    },
+    {
+      "id": 2,
+      "tmdb_id": 864101,
+      "title": "12 Horas Para o Fim do Mundo",
+      "original_title": "Мира",
+      "release_date": "2022-12-22",
+      "overview": "Um pai que trabalha em uma estação espacial precisa salvar sua filha de 15 anos após uma devastadora chuva de meteoros atingir a Terra. Usando apenas telefones e câmeras via satélite, ele embarca numa jornada emocionante para resgatá-la.",
+      "local_poster_path": "assets/poster_images/864101.jpg",
+      "genres": [
+        "Ficção científica",
+        "Drama",
+        "Aventura",
+        "Família"
+      ],
+      "runtime": 110,
+      "vote_average": 7.628,
+      "directors": [
+        "Дмитрий Киселёв"
+      ],
+      "cast": [
+        "Анатолий Белый",
+        "Дарья Мороз",
+        "Вероника Устимова",
+        "Максим Лагашкин",
+        "Евгений Егоров"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/12 Horas Para o Fim do Mundo/12 Horas Para o Fim do Mundo.mkv",
+      "date_added": "2025-04-22T23:20:21.314186",
+      "last_updated": "2025-04-22T23:20:21.314194"
+    },
+    {
+      "id": 5,
+      "tmdb_id": 3021,
+      "title": "1408",
+      "original_title": "1408",
+      "release_date": "2007-06-22",
+      "overview": "Mike é um famoso escritor de livros sobre lugares mal-assombrados. Ele resolve explorar o quarto 1408 do hotel Dolphin, local em que ninguém coloca os pés há muito tempo. Sem dar atenção às advertências do gerente, ele descobre o verdadeiro significado do terror quando passa uma noite no misterioso recinto.",
+      "local_poster_path": "assets/poster_images/3021.jpg",
+      "genres": [
+        "Terror",
+        "Mistério"
+      ],
+      "runtime": 104,
+      "vote_average": 6.692,
+      "directors": [
+        "Mikael Håfström"
+      ],
+      "cast": [
+        "John Cusack",
+        "Samuel L. Jackson",
+        "Mary McCormack",
+        "Jasmine Jessica Anthony",
+        "Tony Shalhoub"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/1408/1408.mkv",
+      "date_added": "2025-04-22T23:35:00.650830",
+      "last_updated": "2025-04-22T23:35:00.650837"
+    },
+    {
+      "id": 3,
+      "tmdb_id": 1096804,
+      "title": "50 Km Por Hora",
+      "original_title": "50 km all'ora",
+      "release_date": "2024-01-04",
+      "overview": "Após muitos anos, dois irmãos se reencontram no funeral do pai. Entre rancores do passado e afetos adormecidos, os dois embarcam em uma jornada a fim de levar as cinzas do falecido pai para junto da esposa dele, um de seus últimos pedidos. Usando duas scooters surradas, construídas quando os dois ainda eram crianças, eles viajarão pela Emilia-Romagna, atravessando seus próprios sentimentos.",
+      "local_poster_path": "assets/poster_images/1096804.jpg",
+      "genres": [
+        "Comédia"
+      ],
+      "runtime": 110,
+      "vote_average": 6.724,
+      "directors": [
+        "Fabio De Luigi"
+      ],
+      "cast": [
+        "Fabio De Luigi",
+        "Stefano Accorsi",
+        "Elisa Di Eusanio",
+        "Giorgia Arena",
+        "Barbara Abbondanza"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/50 Km Por Hora/50 Km Por Hora.mkv",
+      "date_added": "2025-04-22T23:21:20.770018",
+      "last_updated": "2025-04-22T23:21:20.770026"
+    },
+    {
+      "id": 4,
+      "tmdb_id": 937249,
+      "title": "57 Segundos",
+      "original_title": "57 Seconds",
+      "release_date": "2023-09-29",
+      "overview": "Quando um blogueiro de tecnologia consegue uma entrevista com um guru da tecnologia e interrompe um ataque contra ele, ele encontra um anel misterioso que o leva de volta 57 segundos no passado.",
+      "local_poster_path": "assets/poster_images/937249.jpg",
+      "genres": [
+        "Thriller",
+        "Ficção científica",
+        "Ação"
+      ],
+      "runtime": 99,
+      "vote_average": 6.124,
+      "directors": [
+        "Rusty Cundieff"
+      ],
+      "cast": [
+        "Josh Hutcherson",
+        "Morgan Freeman",
+        "Lovie Simone",
+        "Greg Germann",
+        "Bevin Bru"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/57 Segundos/57 Segundos.mkv",
+      "date_added": "2025-04-22T23:21:35.642218",
+      "last_updated": "2025-04-22T23:21:35.642226"
+    },
+    {
+      "id": 6,
+      "tmdb_id": 1300962,
+      "title": "A Fera Interior",
+      "original_title": "The Beast Within",
+      "release_date": "2024-07-22",
+      "overview": "Willow, de dez anos, segue seus pais em uma de suas caminhadas secretas noturnas até o coração de uma floresta antiga. Depois de testemunhar o pai passar por uma terrível transformação, ela também se torna presa do sombrio segredo ancestral que eles tentaram desesperadamente esconder.",
+      "local_poster_path": "assets/poster_images/1300962.jpg",
+      "genres": [
+        "Terror",
+        "Drama",
+        "Thriller"
+      ],
+      "runtime": 97,
+      "vote_average": 6.0,
+      "directors": [
+        "Alexander J. Farrell"
+      ],
+      "cast": [
+        "Kit Harington",
+        "Ashleigh Cummings",
+        "Caoilinn Springall",
+        "James Cosmo",
+        "Andrei Nova"
+      ],
+      "trailer_key": "1ASadX5yeZc",
+      "file_path": "D:/Movies/A Fera Interior/A Fera Interior.mkv",
+      "date_added": "2025-04-22T23:39:18.251178",
+      "last_updated": "2025-04-22T23:39:18.251185"
+    },
+    {
+      "id": 7,
+      "tmdb_id": 754342,
+      "title": "A Garota na Floresta",
+      "original_title": "The Girl on the Mountain",
+      "release_date": "2022-03-08",
+      "overview": "Quando um eremita que habita na floresta encontra uma garota muda a vagar sozinha entre as árvores, decide protegê-la das forças malignas que querem acabar com as suas vidas.",
+      "local_poster_path": "assets/poster_images/754342.jpg",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 94,
+      "vote_average": 6.326,
+      "directors": [
+        "Matt Sconce"
+      ],
+      "cast": [
+        "Daniel O'Reilly",
+        "Makenzie Sconce",
+        "Sarah Dorothy Little",
+        "D.T. Carney",
+        "Heather Sconce"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/A Garota na Floresta/A Garota na Floresta.mkv",
+      "date_added": "2025-04-22T23:39:32.307283",
+      "last_updated": "2025-04-22T23:39:32.307291"
+    },
+    {
+      "id": 9,
+      "tmdb_id": 748230,
+      "title": "A Hora do Vampiro",
+      "original_title": "Salem's Lot",
+      "release_date": "2024-10-03",
+      "overview": "Ben Mears (David Soul) é um romancista natural da pequena cidade de Jerusalem's Lot - ou, como os habitantes locais a chamavam, Salem's Lot. Enquanto volta para casa em busca de inspiração para sua próxima obra, ele descobre que há um novo morador em uma casa que permaneceu vazia por décadas, um vendedor de antiguidades chamado Barlow. Nenhum dos habitantes da cidade conhece o tal Barlow, e sim o seu charmoso representante, Straker. Mas quando pessoas começam a morrer de repente, as coisas ficam ainda mais estranhas.",
+      "local_poster_path": "assets/poster_images/748230.jpg",
+      "genres": [
+        "Terror"
+      ],
+      "runtime": 113,
+      "vote_average": 6.172,
+      "directors": [
+        "Gary Dauberman"
+      ],
+      "cast": [
+        "Lewis Pullman",
+        "Makenzie Leigh",
+        "Jordan Preston Carter",
+        "Alfre Woodard",
+        "Bill Camp"
+      ],
+      "trailer_key": "8t8Ls49uMhs",
+      "file_path": "D:/Movies/A Hora do Vampiro/A Hora do Vampiro.mkv",
+      "date_added": "2025-04-22T23:40:02.155106",
+      "last_updated": "2025-04-22T23:40:02.155113"
+    },
+    {
+      "id": 20,
+      "tmdb_id": 923939,
+      "title": "A Incrível História de Henry Sugar",
+      "original_title": "The Wonderful Story of Henry Sugar",
+      "release_date": "2023-09-20",
+      "overview": "Wes Anderson dirige esta adaptação do conto de Roald Dahl sobre um homem rico determinado a dominar uma técnica extraordinária para trapacear no jogo.",
+      "local_poster_path": "assets/poster_images/923939.jpg",
+      "genres": [
+        "Comédia",
+        "Fantasia",
+        "Aventura"
+      ],
+      "runtime": 39,
+      "vote_average": 7.24,
+      "directors": [
+        "Wes Anderson"
+      ],
+      "cast": [
+        "Ralph Fiennes",
+        "Benedict Cumberbatch",
+        "Dev Patel",
+        "Ben Kingsley",
+        "Richard Ayoade"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/A Maravilhosa História de Henry Sugar/A Maravilhosa História de Henry Sugar.mkv",
+      "date_added": "2025-04-23T01:08:04.640619",
+      "last_updated": "2025-04-23T01:08:04.640627"
+    },
+    {
+      "id": 10,
+      "tmdb_id": 1586,
+      "title": "A Janela Secreta",
+      "original_title": "Secret Window",
+      "release_date": "2004-03-12",
+      "overview": "Mort Rainey é um escritor em crise, que acaba de se separar de sua esposa após tê-la flagrado com outro homem. Mort decide se isolar em uma cabana à beira do lago Tashmore, em busca de tranquilidade. Porém lá aparece John Shooter, que começa a atormentá-lo ao acusá-lo seguidamente de plágio.",
+      "local_poster_path": "assets/poster_images/1586.jpg",
+      "genres": [
+        "Mistério",
+        "Thriller"
+      ],
+      "runtime": 96,
+      "vote_average": 6.565,
+      "directors": [
+        "David Koepp"
+      ],
+      "cast": [
+        "Johnny Depp",
+        "John Turturro",
+        "Maria Bello",
+        "Timothy Hutton",
+        "Charles S. Dutton"
+      ],
+      "trailer_key": "zr3Lt1GGuXo",
+      "file_path": "D:/Movies/A Janela Secreta/A Janela Secreta.mkv",
+      "date_added": "2025-04-22T23:40:14.595161",
+      "last_updated": "2025-04-22T23:40:14.595169"
+    },
+    {
+      "id": 11,
+      "tmdb_id": 1035048,
+      "title": "A Linha da Extinção",
+      "original_title": "Elevation",
+      "release_date": "2024-11-07",
+      "overview": "A humanidade foi destruída por bestas alienígenas. Os sobreviventes se escondem no alto de montanhas, onde as criaturas não conseguem sobreviver. Mas o grupo é forçado a se arriscar na zona dominada pelos predadores em busca de suprimentos.",
+      "local_poster_path": "assets/poster_images/1035048.jpg",
+      "genres": [
+        "Ação",
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 95,
+      "vote_average": 6.501,
+      "directors": [
+        "George Nolfi"
+      ],
+      "cast": [
+        "Anthony Mackie",
+        "Morena Baccarin",
+        "Maddie Hasson",
+        "Danny Boyd Jr.",
+        "Rachel Nicks"
+      ],
+      "trailer_key": "6To3jPSmjo4",
+      "file_path": "D:/Movies/A Linha da Extinção/A Linha da Extinção.mkv",
+      "date_added": "2025-04-22T23:41:17.275340",
+      "last_updated": "2025-04-22T23:41:17.275347"
+    },
+    {
+      "id": 12,
+      "tmdb_id": 647250,
+      "title": "A Máquina do Crime",
+      "original_title": "The Machine",
+      "release_date": "2023-05-25",
+      "overview": "O passado de bebedeiras de Bert o alcança 20 anos depois, quando ele e seu pai são sequestrados por aqueles que Bert ofendeu há 20 anos enquanto estava em uma excursão de faculdade na Rússia.",
+      "local_poster_path": "assets/poster_images/647250.jpg",
+      "genres": [
+        "Comédia",
+        "Ação",
+        "Crime"
+      ],
+      "runtime": 112,
+      "vote_average": 5.845,
+      "directors": [
+        "Peter Atencio"
+      ],
+      "cast": [
+        "Bert Kreischer",
+        "Mark Hamill",
+        "Jimmy Tatro",
+        "Stephanie Kurtzuba",
+        "Nikola Đuričko"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/A Máquina do Crime/A Máquina do Crime.mkv",
+      "date_added": "2025-04-22T23:41:28.315177",
+      "last_updated": "2025-04-22T23:41:28.315184"
+    },
+    {
+      "id": 13,
+      "tmdb_id": 27205,
+      "title": "A Origem",
+      "original_title": "Inception",
+      "release_date": "2010-07-15",
+      "overview": "Cobb é um ladrão habilidoso que comete espionagem corporativa infiltrando-se no subconsciente de seus alvos durante o estado de sono. Impedido de retornar para sua família, ele recebe a oportunidade de se redimir ao realizar uma tarefa aparentemente impossível: plantar uma ideia na mente do herdeiro de um império. Para realizar o crime perfeito, ele conta com a ajuda do parceiro Arthur, o discreto Eames e a arquiteta de sonhos Ariadne. Juntos, eles correm para que o inimigo não antecipe seus passos.",
+      "local_poster_path": "assets/poster_images/27205.jpg",
+      "genres": [
+        "Ação",
+        "Ficção científica",
+        "Aventura"
+      ],
+      "runtime": 148,
+      "vote_average": 8.368,
+      "directors": [
+        "Christopher Nolan"
+      ],
+      "cast": [
+        "Leonardo DiCaprio",
+        "Joseph Gordon-Levitt",
+        "Ken Watanabe",
+        "Tom Hardy",
+        "Elliot Page"
+      ],
+      "trailer_key": "R_VX0e0PX90",
+      "file_path": "D:/Movies/A Origem/A Origem.mkv",
+      "date_added": "2025-04-22T23:44:35.699448",
+      "last_updated": "2025-04-22T23:44:35.699455"
+    },
+    {
+      "id": 53,
+      "tmdb_id": 8066,
+      "title": "A Passagem",
+      "original_title": "Stay",
+      "release_date": "2005-09-24",
+      "overview": "O psicólogo Sam Foster estuda o caso de um paciente que pretende se suicidar. As terríveis profecias do rapaz começam a se realizar e, enquanto tenta salvá-lo, Sam também lida com questões pessoais e dolorosas.",
+      "local_poster_path": "assets/poster_images/8066.jpg",
+      "genres": [
+        "Mistério",
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 99,
+      "vote_average": 6.589,
+      "directors": [
+        "Marc Forster"
+      ],
+      "cast": [
+        "Ewan McGregor",
+        "Ryan Gosling",
+        "Naomi Watts",
+        "Kate Burton",
+        "Elizabeth Reaser"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Stay - A Passagem (2005) (480p).mp4",
+      "date_added": "2025-04-23T03:11:53.128594",
+      "last_updated": "2025-04-23T03:11:53.128601"
+    },
+    {
+      "id": 15,
+      "tmdb_id": 848887,
+      "title": "A Vigia",
+      "original_title": "Outpost",
+      "release_date": "2023-05-19",
+      "overview": "Após fugir de um relacionamento abusivo, Kate consegue um trabalho como vigia florestal no norte dos Estados Unidos. Ela espera encontrar um pouco de paz para recomeçar a vida, mas é assombrada pelo seu passado.",
+      "local_poster_path": "assets/poster_images/848887.jpg",
+      "genres": [
+        "Terror",
+        "Thriller",
+        "Drama"
+      ],
+      "runtime": 88,
+      "vote_average": 5.0,
+      "directors": [
+        "Joe Lo Truglio"
+      ],
+      "cast": [
+        "Beth Dover",
+        "Ato Essandoh",
+        "Dylan Baker",
+        "Dallas Roberts",
+        "Becky Ann Baker"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/A Vigia/A Vigia.mkv",
+      "date_added": "2025-04-23T00:29:52.806269",
+      "last_updated": "2025-04-23T00:29:52.806277"
+    },
+    {
+      "id": 14,
+      "tmdb_id": 754452,
+      "title": "A Última Caçada",
+      "original_title": "The Last Manhunt",
+      "release_date": "2022-11-18",
+      "overview": "O filme contará a história de Willy Boy, um menino que atirou e matou o pai de sua namorada de 16 anos. Os dois, apaixonados, fugiram juntos e obrigaram a polícia a uma perseguição violenta e implacável nos territórios desérticos dos Estados Unidos.",
+      "local_poster_path": "assets/poster_images/754452.jpg",
+      "genres": [
+        "Faroeste",
+        "Crime",
+        "Drama",
+        "Romance"
+      ],
+      "runtime": 103,
+      "vote_average": 6.068,
+      "directors": [
+        "Christian Camargo"
+      ],
+      "cast": [
+        "Martin Sensmeier",
+        "Mainei Kinimaka",
+        "Jason Momoa",
+        "Zahn McClarnon",
+        "Lily Gladstone"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/A Ultima Caçada/A Ultima Caçada.mkv",
+      "date_added": "2025-04-23T00:29:19.142291",
+      "last_updated": "2025-04-23T00:29:19.142299"
+    },
+    {
+      "id": 16,
+      "tmdb_id": 945961,
+      "title": "Alien: Romulus",
+      "original_title": "Alien: Romulus",
+      "release_date": "2024-08-13",
+      "overview": "Enquanto vasculham as profundezas de uma estação espacial abandonada, um grupo de jovens colonizadores espaciais se depara com a forma de vida mais aterrorizante do universo.",
+      "local_poster_path": "assets/poster_images/945961.jpg",
+      "genres": [
+        "Terror",
+        "Ficção científica"
+      ],
+      "runtime": 119,
+      "vote_average": 7.21,
+      "directors": [
+        "Fede Álvarez"
+      ],
+      "cast": [
+        "Cailee Spaeny",
+        "David Jonsson",
+        "Archie Renaux",
+        "Isabela Merced",
+        "Spike Fearn"
+      ],
+      "trailer_key": "IPMxNH2sz7E",
+      "file_path": "D:/Movies/Alien.Romulus.2024.1080p.WEB-DL.DUAL.5.1/Alien.Romulus.2024.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T01:00:16.248366",
+      "last_updated": "2025-04-23T01:00:16.248374"
+    },
+    {
+      "id": 17,
+      "tmdb_id": 1126166,
+      "title": "Ameaça no Ar",
+      "original_title": "Flight Risk",
+      "release_date": "2025-01-22",
+      "overview": "Um piloto de avião transporta um agente federal e um fugitivo para julgamento através das montanhas do Alasca. A tensão aumenta quando verdades são reveladas e ninguém a bordo parecem ser quem realmente são.",
+      "local_poster_path": "assets/poster_images/1126166.jpg",
+      "genres": [
+        "Ação",
+        "Thriller"
+      ],
+      "runtime": 91,
+      "vote_average": 6.1,
+      "directors": [
+        "Mel Gibson"
+      ],
+      "cast": [
+        "Mark Wahlberg",
+        "Michelle Dockery",
+        "Topher Grace",
+        "Leah Remini",
+        "Maaz Ali"
+      ],
+      "trailer_key": "JFwklEzal3Y",
+      "file_path": "D:/Movies/Ameaça.No.Ar.2025.1080p.WEB-DL.DUAL.5.1/Ameaça.No.Ar.2025.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T01:02:23.408436",
+      "last_updated": "2025-04-23T01:02:23.408444"
+    },
+    {
+      "id": 18,
+      "tmdb_id": 1118031,
+      "title": "Apocalipse Z: O Princípio do Fim",
+      "original_title": "Apocalipsis Z: el principio del fin",
+      "release_date": "2024-10-04",
+      "overview": "Quando um tipo de raiva que transforma as pessoas em criaturas agressivas se espalha pelo planeta, Manel se isola em casa com seu gato, confiando em sua inteligência para sobreviver; mas logo eles precisam sair em busca de comida, por terra e por mar, esquivando-se de muitos perigos.",
+      "local_poster_path": "assets/poster_images/1118031.jpg",
+      "genres": [
+        "Drama",
+        "Ação",
+        "Terror"
+      ],
+      "runtime": 119,
+      "vote_average": 6.718,
+      "directors": [
+        "Carles Torrens"
+      ],
+      "cast": [
+        "Francisco Ortiz",
+        "José María Yázpik",
+        "Berta Vázquez",
+        "Iria del Río",
+        "Marta Poveda"
+      ],
+      "trailer_key": "vtB9zML-fbE",
+      "file_path": "D:/Movies/Apocalipse.Z.O.Principio.do.Fim.2024.1080p.WEB-DL.DUAL.5.1/Apocalipse.Z.O.Principio.do.Fim.2024.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T01:05:57.456518",
+      "last_updated": "2025-04-23T01:05:57.456525"
+    },
+    {
+      "id": 19,
+      "tmdb_id": 33542,
+      "title": "Arrebentando em Nova York",
+      "original_title": "紅番區",
+      "release_date": "1995-01-21",
+      "overview": "Keung é um perito em artes marciais de Hong Kong que viaja para o casamento do seu tio em Nova York. Durante sua estada no Bronx, ele compra briga com motoqueiros e mafiosos, causando um verdadeiro terremoto de pancadaria na cidade. Para piorar, os policiais não conseguem controlar a situação e o lutador vai ter que resolver a situação pelas próprias mãos.",
+      "local_poster_path": "assets/poster_images/33542.jpg",
+      "genres": [
+        "Crime",
+        "Ação",
+        "Comédia",
+        "Thriller"
+      ],
+      "runtime": 90,
+      "vote_average": 6.815,
+      "directors": [
+        "唐季禮"
+      ],
+      "cast": [
+        "Jackie Chan",
+        "梅艷芳",
+        "Françoise Yip",
+        "董驃",
+        "Marc Akerstream"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Arrebentando.em.Nova.York.1995.BluRay.1080p.DUAL.x264-SF/Arrebentando.em.Nova.York.1995.BluRay.1080p.DUAL.x264-SF.mkv",
+      "date_added": "2025-04-23T01:06:23.872543",
+      "last_updated": "2025-04-23T01:06:23.872550"
+    },
+    {
+      "id": 21,
+      "tmdb_id": 12153,
+      "title": "As Branquelas",
+      "original_title": "White Chicks",
+      "release_date": "2004-06-23",
+      "overview": "O que acontece quando dois atrapalhados agentes do FBI se disfarçam de princesas mega-ricas para se infiltrarem na alta sociedade? O resultado é situações extremamente engraçadas e diversão total ao ver estes dois irmãos azarados transformando-se em duas senhoritas refinadas e com estilo!",
+      "local_poster_path": "assets/poster_images/12153.jpg",
+      "genres": [
+        "Comédia",
+        "Crime"
+      ],
+      "runtime": 114,
+      "vote_average": 6.927,
+      "directors": [
+        "Keenen Ivory Wayans"
+      ],
+      "cast": [
+        "Shawn Wayans",
+        "Marlon Wayans",
+        "Frankie Faison",
+        "Terry Crews",
+        "Faune Chambers Watkins"
+      ],
+      "trailer_key": "DP8j8wxa3wM",
+      "file_path": "D:/Movies/As Branquelas 2004 SEM CORTES 5.1 (1080p) LAPUMiA/As.Branquelas.2004.Sem.Cortes.1080p.WEBRip.6CH.x264.DUAL-WwW.LAPUMiAFiLMES.COM.mkv",
+      "date_added": "2025-04-23T01:08:30.120965",
+      "last_updated": "2025-04-23T01:08:30.120973"
+    },
+    {
+      "id": 22,
+      "tmdb_id": 643537,
+      "title": "As Férias Assustadoras de Nelly Rapp",
+      "original_title": "Nelly Rapp - monsteragent",
+      "release_date": "2020-10-23",
+      "overview": "Nelly tem sua maneira especial de ver as coisas. Onde os outros estão assustados, ela permanece imperturbável. Monstros no porão? Mais um motivo para conferir o lugar! Sem amigos? Nelly vai lidar com isso. Bisbilhotando na mansão labiríntica do tio Hannibal, Nelly se depara com um segredo incrível: sua família tem mantido a paz entre humanos, zumbis, vampiros e outras criaturas horríveis por décadas, como membros de uma brigada internacional de agentes monstruosos. Nelly também quer caçar monstros e começa a levantar uma boa quantidade de poeira. Mas e se ela foi enganada sobre quem é realmente responsável pelo medo e pelo medo?",
+      "local_poster_path": "assets/poster_images/643537.jpg",
+      "genres": [
+        "Família",
+        "Fantasia",
+        "Aventura"
+      ],
+      "runtime": 93,
+      "vote_average": 5.1,
+      "directors": [
+        "Amanda Adolfsson"
+      ],
+      "cast": [
+        "Matilda Gross",
+        "Johan Rheborg",
+        "Marianne Mörck",
+        "Björn Gustafsson",
+        "Lily Wahlsteen"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/As.Ferias.Assustadoras.de.Nelly.Rapp.2020.1080p.WEB-DL.DUAL.5.1/As.Ferias.Assustadoras.de.Nelly.Rapp.2020.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T01:08:48.312879",
+      "last_updated": "2025-04-23T01:08:48.312886"
+    },
+    {
+      "id": 23,
+      "tmdb_id": 555235,
+      "title": "As Melhores Semanas da Minha Vida",
+      "original_title": "Sid Is Dead",
+      "release_date": "2023-04-28",
+      "overview": "Sid é um aluno do ensino médio que sempre fez de tudo para chamar o mínimo de atenção possível. Mas após fazer o valentão do colégio ser suspenso, ele percebe que possui apenas duas semanas para viver tudo o que perdeu em todos esses anos.",
+      "local_poster_path": "assets/poster_images/555235.jpg",
+      "genres": [
+        "Comédia"
+      ],
+      "runtime": 90,
+      "vote_average": 6.093,
+      "directors": [
+        "Eli Gonda"
+      ],
+      "cast": [
+        "Joey Bragg",
+        "Genevieve Hannelius",
+        "Tyler Alvarez",
+        "Mary Stuart Masterson",
+        "Jack Griffo"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/As.Melhores.Semanas.da.Minha.Vida.2023.1080p.WEB-DL.DUAL.2.0/As.Melhores.Semanas.da.Minha.Vida.2023.1080p.WEB-DL.DUAL.2.0.mkv",
+      "date_added": "2025-04-23T01:09:35.560940",
+      "last_updated": "2025-04-23T01:09:35.560948"
+    },
+    {
+      "id": 25,
+      "tmdb_id": 365177,
+      "title": "Borderlands: O Destino do Universo Está em Jogo",
+      "original_title": "Borderlands",
+      "release_date": "2024-08-07",
+      "overview": "Uma infame caçadora de recompensas retorna ao lugar onde cresceu, o caótico planeta Pandora, e forma uma aliança inesperada com uma equipe de desajustados para encontrar a filha desaparecida...",
+      "local_poster_path": "assets/poster_images/365177.jpg",
+      "genres": [
+        "Ação",
+        "Ficção científica",
+        "Comédia"
+      ],
+      "runtime": 101,
+      "vote_average": 5.703,
+      "directors": [
+        "Eli Roth"
+      ],
+      "cast": [
+        "Cate Blanchett",
+        "Kevin Hart",
+        "Edgar Ramírez",
+        "Jamie Lee Curtis",
+        "Ariana Greenblatt"
+      ],
+      "trailer_key": "IGSRbTpTwUQ",
+      "file_path": "D:/Movies/Borderlands.O.Destino.do.Universo.Esta.em.Jogo.2024.1080p.WEB-DL.EAC3.AAC.DUAL.5.1/Borderlands.O.Destino.do.Universo.Esta.em.Jogo.2024.1080p.WEB-DL.EAC3.AAC.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T02:07:32.228755",
+      "last_updated": "2025-04-23T02:07:32.228763"
+    },
+    {
+      "id": 44,
+      "tmdb_id": 28355,
+      "title": "Caso 39",
+      "original_title": "Case 39",
+      "release_date": "2009-08-13",
+      "overview": "Emily Jenkins (Renée Zellweger) é uma dedicada assistente social que está diante do caso 39, referente à garota Lilith Sullivan (Jodelle Ferland). Os pais de Lilith tentam feri-la, o que faz com que Emily intervenha. Encantada com a garota, Emily oferece que more com ela até que seja encontrada uma família adotiva. Só que há um mistério por trás da garota, já que todos que se aproximam dela aparentam enlouquecer.",
+      "local_poster_path": "assets/poster_images/28355.jpg",
+      "genres": [
+        "Terror",
+        "Mistério",
+        "Thriller"
+      ],
+      "runtime": 109,
+      "vote_average": 6.321,
+      "directors": [
+        "Christian Alvart"
+      ],
+      "cast": [
+        "Renée Zellweger",
+        "Jodelle Ferland",
+        "Ian McShane",
+        "Bradley Cooper",
+        "Adrian Lester"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Caso.39.2009.1080p.x264.BluRay.DUAL-SF.mkv",
+      "date_added": "2025-04-23T03:09:04.432392",
+      "last_updated": "2025-04-23T03:09:04.432399"
+    },
+    {
+      "id": 24,
+      "tmdb_id": 1030612,
+      "title": "Ciclo",
+      "original_title": "Ciclo",
+      "release_date": "2022-10-06",
+      "overview": "Ciclo é uma ficção científica que apresenta um futuro distópico, onde as coisas saíram ainda mais do controle e o que seria apenas uma quarentena virou o novo e bizarro normal.",
+      "local_poster_path": "assets/poster_images/1030612.jpg",
+      "genres": [
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 87,
+      "vote_average": 5.8,
+      "directors": [
+        "Ian SBF"
+      ],
+      "cast": [
+        "Felipe Abib",
+        "Daniel Furlan",
+        "Flávio Bauraqui",
+        "Dani Ornellas",
+        "Stephanie Lourenço"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Ciclo.2022.1080p.x264.WEB-DL.NACIONAL.2.0/Ciclo.2022.1080p.x264.WEB-DL.NACIONAL.2.0.mp4",
+      "date_added": "2025-04-23T02:06:01.924112",
+      "last_updated": "2025-04-23T02:06:01.924120"
+    },
+    {
+      "id": 26,
+      "tmdb_id": 752623,
+      "title": "Cidade Perdida",
+      "original_title": "The Lost City",
+      "release_date": "2022-03-24",
+      "overview": "Uma romancista reclusa acredita que nada seria pior que fazer a turnê do seu livro mais recente com o modelo que ilustra a capa. Tudo muda quando a autora e o modelo sofrem uma tentativa de sequestro, e, com isso, são levados para uma surpreendente aventura na selva.",
+      "local_poster_path": "assets/poster_images/752623.jpg",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Comédia"
+      ],
+      "runtime": 112,
+      "vote_average": 6.49,
+      "directors": [
+        "Aaron Nee",
+        "Adam Nee"
+      ],
+      "cast": [
+        "Sandra Bullock",
+        "Channing Tatum",
+        "Daniel Radcliffe",
+        "Da'Vine Joy Randolph",
+        "Brad Pitt"
+      ],
+      "trailer_key": "5aAy17pCKb4",
+      "file_path": "D:/Movies/Cidade Perdida 2022 WEB-DL 1080p DUAL 5.1/Cidade Perdida 2022 WEB-DL 1080p DUAL 5.1.mkv",
+      "date_added": "2025-04-23T02:08:05.252399",
+      "last_updated": "2025-04-23T02:08:05.252407"
+    },
+    {
+      "id": 27,
+      "tmdb_id": 1061990,
+      "title": "City Hunter",
+      "original_title": "シティーハンター",
+      "release_date": "2024-04-24",
+      "overview": "Atirador excepcional e playboy inveterado, o detetive particular Ryo Saeba forma uma aliança com a irmã de seu antigo parceiro para investigar a morte dele.",
+      "local_poster_path": "assets/poster_images/1061990.jpg",
+      "genres": [
+        "Ação"
+      ],
+      "runtime": 105,
+      "vote_average": 6.537,
+      "directors": [
+        "Yuichi Satoh"
+      ],
+      "cast": [
+        "鈴木亮平",
+        "Misato Morita",
+        "安藤政信",
+        "木村文乃",
+        "華村あすか"
+      ],
+      "trailer_key": "3BcfF9P2l9k",
+      "file_path": "D:/Movies/City Hunter 2024 WEB-DL 1080p x264 DUAL 5.1/City Hunter 2024 WEB-DL 1080p x264 DUAL 5.1.mkv",
+      "date_added": "2025-04-23T02:08:28.764484",
+      "last_updated": "2025-04-23T02:08:28.764492"
+    },
+    {
+      "id": 45,
+      "tmdb_id": 7191,
+      "title": "Cloverfield: Monstro",
+      "original_title": "Cloverfield",
+      "release_date": "2008-01-15",
+      "overview": "Rob Hawkins mora em Nova York e está prestes a se mudar para o Japão. Ele reúne os amigos em uma festa de despedida, na qual pretende revelar sentimentos mal-resolvidos. Entretanto um forte solavanco assusta os convidados. Todos buscam notícias sobre o ocorrido na TV, que diz que a cidade sofreu um terremoto. Ao chegar ao terraço para ver os estragos o grupo nota uma bola de fogo gigante, seguida pela queda de luz na cidade. O pânico toma conta de todos, o que aumenta ainda mais quando eles enfim conseguem chegar à rua.",
+      "local_poster_path": "assets/poster_images/7191.jpg",
+      "genres": [
+        "Ação",
+        "Thriller",
+        "Ficção científica"
+      ],
+      "runtime": 85,
+      "vote_average": 6.693,
+      "directors": [
+        "Matt Reeves"
+      ],
+      "cast": [
+        "Lizzy Caplan",
+        "Jessica Lucas",
+        "T.J. Miller",
+        "Michael Stahl-David",
+        "Mike Vogel"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Cloverfield Monstro.mp4",
+      "date_added": "2025-04-23T03:09:21.504044",
+      "last_updated": "2025-04-23T03:09:21.504051"
+    },
+    {
+      "id": 28,
+      "tmdb_id": 1064178,
+      "title": "Clube de Caça",
+      "original_title": "Hunt Club",
+      "release_date": "2023-04-06",
+      "overview": "Algumas mulheres são atraídas por um grupo de homens para participar de uma caçada em troca de dinheiro.",
+      "local_poster_path": "assets/poster_images/1064178.jpg",
+      "genres": [
+        "Ação",
+        "Thriller",
+        "Terror"
+      ],
+      "runtime": 87,
+      "vote_average": 4.5,
+      "directors": [
+        "Elizabeth Blake-Thomas"
+      ],
+      "cast": [
+        "Mena Suvari",
+        "Casper Van Dien",
+        "Maya Stojan",
+        "Will Peltz",
+        "Mickey Rourke"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Clube.de.Caca.2022.1080p.WEB-DL.x264.DUAL.2.0/Clube.de.Caca.2022.1080p.WEB-DL.x264.DUAL.2.0.mkv",
+      "date_added": "2025-04-23T02:08:46.572579",
+      "last_updated": "2025-04-23T02:08:46.572587"
+    },
+    {
+      "id": 29,
+      "tmdb_id": 1008409,
+      "title": "Clube dos Vândalos",
+      "original_title": "The Bikeriders",
+      "release_date": "2024-06-19",
+      "overview": "Kathy, uma membro obstinado dos Vândalos, casada com um motociclista selvagem e imprudente chamado Benny, conta a evolução dos Vândalos ao longo de uma década, começando como um clube local unido por bons momentos, motos a roncar e respeito pelo seu forte e firme líder, Johnny. A medida que a vida nos Vândalos se torna mais perigosa e o clube ameaça tornar-se uma gangue mais sinistra, Kathy, Benny e Johnny são forçados a fazer escolhas sobre sua lealdade.",
+      "local_poster_path": "assets/poster_images/1008409.jpg",
+      "genres": [
+        "Crime",
+        "Drama"
+      ],
+      "runtime": 116,
+      "vote_average": 6.704,
+      "directors": [
+        "Jeff Nichols"
+      ],
+      "cast": [
+        "Austin Butler",
+        "Jodie Comer",
+        "Tom Hardy",
+        "Michael Shannon",
+        "Mike Faist"
+      ],
+      "trailer_key": "jFuVut9-JLg",
+      "file_path": "D:/Movies/Clube.dos.Vândalos.2024.1080p.WEB-DL.DUAL.5.1/Clube.dos.Vândalos.2024.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T02:09:36.532626",
+      "last_updated": "2025-04-23T02:09:36.532635"
+    },
+    {
+      "id": 30,
+      "tmdb_id": 1161048,
+      "title": "Conferência Mortal",
+      "original_title": "Konferensen",
+      "release_date": "2023-10-13",
+      "overview": "Durante um evento que aparentava ser inofensivo, um grupo inusitado de funcionários precisa enfrentar não apenas suas diferenças como também um misterioso assassino.",
+      "local_poster_path": "assets/poster_images/1161048.jpg",
+      "genres": [
+        "Terror",
+        "Comédia",
+        "Thriller"
+      ],
+      "runtime": 100,
+      "vote_average": 5.492,
+      "directors": [
+        "Patrik Eklund"
+      ],
+      "cast": [
+        "Katia Winter",
+        "Adam Lundgren",
+        "Eva Melander",
+        "Bahar Pars",
+        "Amed Bozan"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Conferencia.Mortal.2023.1080p.WEB-DL.DUAL.5.1/Conferencia.Mortal.2023.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T02:10:03.172378",
+      "last_updated": "2025-04-23T02:10:03.172386"
+    },
+    {
+      "id": 31,
+      "tmdb_id": 1223272,
+      "title": "Contaminados Pelo Medo",
+      "original_title": "Contagion of Fear",
+      "release_date": "2023-05-16",
+      "overview": "Um acidente no metrô de Sidney faz com que um vírus se espalhe, provocando caos e medo entre a população.",
+      "local_poster_path": "assets/poster_images/1223272.jpg",
+      "genres": [
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 94,
+      "vote_average": 6.1,
+      "directors": [
+        "Enzo Tedeschi"
+      ],
+      "cast": [
+        "Paul Michael Ayre",
+        "Melissa Brattoni",
+        "Zoe Carides",
+        "Raelee Hill",
+        "Nicholas Hope"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Contaminados.Pelo.Medo.2024.1080p.WEB-DL.x264.DUAL.2.0/Contaminados.Pelo.Medo.2024.1080p.WEB-DL.x264.DUAL.2.0.mkv",
+      "date_added": "2025-04-23T02:10:17.156705",
+      "last_updated": "2025-04-23T02:10:17.156713"
+    },
+    {
+      "id": 32,
+      "tmdb_id": 1276035,
+      "title": "Criaturas do Farol",
+      "original_title": "Beacon",
+      "release_date": "2024-06-08",
+      "overview": "Uma tempestade faz com que uma jovem marinheira naufrague em uma ilha remota, onde ela é resgatada pelo único habitante, o faroleiro.",
+      "local_poster_path": "assets/poster_images/1276035.jpg",
+      "genres": [
+        "Thriller"
+      ],
+      "runtime": 96,
+      "vote_average": 6.641,
+      "directors": [
+        "Roxy Shih"
+      ],
+      "cast": [
+        "Demián Bichir",
+        "Julia Goldani Telles"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Criaturas do Farol 2025 WEB-DL 1080p x264 DUAL 2.0/Criaturas do Farol 2025 WEB-DL 1080p x264 DUAL 2.0.mkv",
+      "date_added": "2025-04-23T02:10:39.004636",
+      "last_updated": "2025-04-23T02:10:39.004643"
+    },
+    {
+      "id": 33,
+      "tmdb_id": 105,
+      "title": "De Volta para o Futuro",
+      "original_title": "Back to the Future",
+      "release_date": "1985-07-03",
+      "overview": "Marty McFly, um típico adolescente americano dos anos 80, acidentalmente é enviado de volta ao ano de 1955 em um carro modificado para ser uma máquino do tempo, inventada por um cientista louco. Durante sua fantástica e maluca viagem no tempo, McFly tem que fazer com que seus futuros pais se encontrem e se apaixonem, para que assim ele possa ir de volta para o futuro.",
+      "local_poster_path": "assets/poster_images/105.jpg",
+      "genres": [
+        "Aventura",
+        "Comédia",
+        "Ficção científica"
+      ],
+      "runtime": 115,
+      "vote_average": 8.318,
+      "directors": [
+        "Robert Zemeckis"
+      ],
+      "cast": [
+        "Michael J. Fox",
+        "Christopher Lloyd",
+        "Crispin Glover",
+        "Lea Thompson",
+        "Claudia Wells"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/De.Volta.Para.o.Futuro.Trilogia.Completa.DVDRip.XviD.[Dublagem.BKS].by.GmV/De.Volta.Para.o.Futuro.1.DVDRip.XviD.[Dublagem.BKS].Portugues.avi",
+      "date_added": "2025-04-23T02:12:17.164582",
+      "last_updated": "2025-04-23T02:12:17.164591"
+    },
+    {
+      "id": 34,
+      "tmdb_id": 165,
+      "title": "De Volta para o Futuro II",
+      "original_title": "Back to the Future Part II",
+      "release_date": "1989-11-22",
+      "overview": "Uma despretensiosa visita de McFly e Doc ao ano de 2015 revela alguns problemas com a futura família de McFly. Mas quando os dois voltam para casa, logo descobrem que alguém alterou a linha temporal e criou uma terrível Hill Valley em 1985. A única esperança é poder voltar de novo para o ano de 1995 e salvar o futuro.",
+      "local_poster_path": "assets/poster_images/165.jpg",
+      "genres": [
+        "Aventura",
+        "Comédia",
+        "Ficção científica"
+      ],
+      "runtime": 108,
+      "vote_average": 7.769,
+      "directors": [
+        "Robert Zemeckis"
+      ],
+      "cast": [
+        "Michael J. Fox",
+        "Christopher Lloyd",
+        "Lea Thompson",
+        "Thomas F. Wilson",
+        "Elisabeth Shue"
+      ],
+      "trailer_key": "o7GYCOOS1pc",
+      "file_path": "D:/Movies/De.Volta.Para.o.Futuro.Trilogia.Completa.DVDRip.XviD.[Dublagem.BKS].by.GmV/De.Volta.Para.o.Futuro.2.DVDRip.XviD.[Dublagem.BKS].Portugues.avi",
+      "date_added": "2025-04-23T02:12:43.860599",
+      "last_updated": "2025-04-23T02:12:43.860606"
+    },
+    {
+      "id": 35,
+      "tmdb_id": 196,
+      "title": "De Volta para o Futuro III",
+      "original_title": "Back to the Future Part III",
+      "release_date": "1990-05-25",
+      "overview": "Presos em 1955 depois de um estranho estouro de luz, McFly tem que viajar para o ano de 1885 para resgatar Doc Brown de uma morte prematura. Depois de sobreviver a um ataque de índios hostis e de moradores da cidade nada amigáveis, McFly encontra Doc Brown. Mas com Doc apaixonado pela charmosa Clara Clayton, está nas mãos de McFly conseguir tirá-los do velho oeste e voltar para o futuro.",
+      "local_poster_path": "assets/poster_images/196.jpg",
+      "genres": [
+        "Aventura",
+        "Comédia",
+        "Ficção científica"
+      ],
+      "runtime": 118,
+      "vote_average": 7.484,
+      "directors": [
+        "Robert Zemeckis"
+      ],
+      "cast": [
+        "Michael J. Fox",
+        "Christopher Lloyd",
+        "Mary Steenburgen",
+        "Thomas F. Wilson",
+        "Lea Thompson"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/De.Volta.Para.o.Futuro.Trilogia.Completa.DVDRip.XviD.[Dublagem.BKS].by.GmV/De.Volta.Para.o.Futuro.3.DVDRip.XviD.[Dublagem.BKS].Portugues.avi",
+      "date_added": "2025-04-23T02:13:00.364744",
+      "last_updated": "2025-04-23T02:13:00.364753"
+    },
+    {
+      "id": 36,
+      "tmdb_id": 533535,
+      "title": "Deadpool & Wolverine",
+      "original_title": "Deadpool & Wolverine",
+      "release_date": "2024-07-24",
+      "overview": "Um apático Wade Wilson trabalha duro na vida civil. Seus dias como mercenário moralmente flexível, Deadpool, ficaram para trás. Quando seu planeta enfrenta uma ameaça, Wade deve relutantemente vestir-se novamente com um ainda mais relutante... relutante? Mais relutante? Ele deve convencer um Wolverine relutante em... Porra. As sinopses são tão estúpidas.",
+      "local_poster_path": "assets/poster_images/533535.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Ficção científica"
+      ],
+      "runtime": 128,
+      "vote_average": 7.604,
+      "directors": [
+        "Shawn Levy"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Hugh Jackman",
+        "Emma Corrin",
+        "Matthew Macfadyen",
+        "Dafne Keen"
+      ],
+      "trailer_key": "K6lJSJXSdfI",
+      "file_path": "D:/Movies/Deadpool & Wolverine 2024 WEB-DL 1080p x264 DUAL 5.1/Deadpool & Wolverine 2024 WEB-DL 1080p x264 DUAL 5.1.mkv",
+      "date_added": "2025-04-23T02:13:34.212726",
+      "last_updated": "2025-04-23T02:13:34.212734"
+    },
+    {
+      "id": 46,
+      "tmdb_id": 2048,
+      "title": "Eu, Robô",
+      "original_title": "I, Robot",
+      "release_date": "2004-07-15",
+      "overview": "Em 2035, é comum robôs serem usados como empregados e assistentes dos humanos. Para manter a ordem , esses robôs possuem um código de programação que impede a violência contra humanos, a Lei dos Robóticos. Quando Dr. Miles aparece morto e o principal suspeito é justamente um robô, acredita-se na possibilidade de que os robôs tenham encontrado um meio de desativar a Lei dos Robóticos.",
+      "local_poster_path": "assets/poster_images/2048.jpg",
+      "genres": [
+        "Ação",
+        "Ficção científica"
+      ],
+      "runtime": 114,
+      "vote_average": 6.951,
+      "directors": [
+        "Alex Proyas"
+      ],
+      "cast": [
+        "Will Smith",
+        "Alan Tudyk",
+        "Bridget Moynahan",
+        "James Cromwell",
+        "Bruce Greenwood"
+      ],
+      "trailer_key": "A66MQRBMMU0",
+      "file_path": "D:/Movies/Eu, Robô (2004) 5.1 CH Dublado 720p (By-LuanHarper).mp4",
+      "date_added": "2025-04-23T03:10:00.232120",
+      "last_updated": "2025-04-23T03:10:00.232127"
+    },
+    {
+      "id": 47,
+      "tmdb_id": 1185719,
+      "title": "Farol da Ilusão",
+      "original_title": "من وراء الموج",
+      "release_date": "2024-12-07",
+      "overview": "Presa em uma ilha deserta, uma família enfrenta uma luta cruel pela sobrevivência. Mas o passado volta para assombrá-los, provocando momentos chocantes.",
+      "local_poster_path": "assets/poster_images/1185719.jpg",
+      "genres": [
+        "Thriller",
+        "Mistério",
+        "Drama",
+        "Fantasia"
+      ],
+      "runtime": 98,
+      "vote_average": 5.424,
+      "directors": [
+        "Matty Brown"
+      ],
+      "cast": [
+        "Nadine Labaki",
+        "Ziad Bakri",
+        "Zain Al Rafeea",
+        "Riman Al Rafeea"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Farol.da.Ilusao.2025.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T03:10:22.176204",
+      "last_updated": "2025-04-23T03:10:22.176212"
+    },
+    {
+      "id": 37,
+      "tmdb_id": 672,
+      "title": "Harry Potter e a Câmara Secreta",
+      "original_title": "Harry Potter and the Chamber of Secrets",
+      "release_date": "2002-11-13",
+      "overview": "Carros voadores, árvores que lutam e um misterioso elfo, com um aviso ainda mais misterioso. Harry Potter está pronto para dar início ao segundo ano de sua maravilhosa jornada no mundo da bruxaria. Em Hogwarts nesse ano, aranhas falam, cartas dão broncas e a habilidade de Harry para falar com cobras voltará contra ele. De clubes de duelo a jogadores de quadribol desonestos, esse será um ano de aventura e perigo para todos. Quando a mensagem sangrenta na parede anuncia que a Câmara Secreta foi aberta, Harry, Rony e Hermione percebem que para salvar Hogwarts será preciso muita mágica e coragem. Confira essa enfeitiçante adaptação do segundo livro da obra da escritora J.K. Rowling e prepare-se para ficar petrificado quando Harry Potter demonstrar que, mais que um bruxo, é um verdadeiro herói.",
+      "local_poster_path": "assets/poster_images/672.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 161,
+      "vote_average": 7.708,
+      "directors": [
+        "Chris Columbus"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Kenneth Branagh",
+        "Toby Jones"
+      ],
+      "trailer_key": "cf0rRYvDuys",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/Harry Potter e a Camara Secreta 2002) 1080p Dublado ramonTPB/Harry Potter e a Camara Secreta 1080p Dublado.mp4",
+      "date_added": "2025-04-23T02:59:47.919525",
+      "last_updated": "2025-04-23T02:59:47.919533"
+    },
+    {
+      "id": 38,
+      "tmdb_id": 671,
+      "title": "Harry Potter e a Pedra Filosofal",
+      "original_title": "Harry Potter and the Philosopher's Stone",
+      "release_date": "2001-11-16",
+      "overview": "Harry Potter é um garoto órfão que vive infeliz com seus tios, os Dursley. Em seu aniversário de 11 anos ele recebe uma carta que mudará sua vida: um convite para ingressar em Hogwarts.",
+      "local_poster_path": "assets/poster_images/671.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 152,
+      "vote_average": 7.902,
+      "directors": [
+        "Chris Columbus"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Richard Harris",
+        "Tom Felton"
+      ],
+      "trailer_key": "9fIObnIGMlI",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/Harry.Potter.e.a.Pedra.Filosofal.2001.1080p-WOLVERDONFILMES.COM/Harry.Potter.e.a.Pedra.Filosofal.2001.1080p-WOLVERDONFILMES.COM.mkv",
+      "date_added": "2025-04-23T03:00:06.495769",
+      "last_updated": "2025-04-23T03:00:06.495777"
+    },
+    {
+      "id": 42,
+      "tmdb_id": 12444,
+      "title": "Harry Potter e as Relíquias da Morte - Parte 1",
+      "original_title": "Harry Potter and the Deathly Hallows: Part 1",
+      "release_date": "2010-11-17",
+      "overview": "Harry, Ron e Hermione estão determinados em sua missão de descobrir e acabar com o segredo da imortalidade e do poder de destruição de Voldemort – os Horcruxes. Fugitivos e sozinhos, os três amigos devem apenas contar uns com os outros, agora mas do que nunca... Mas as Forças das Trevas no caminho ameaçam separá-los para sempre.",
+      "local_poster_path": "assets/poster_images/12444.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 146,
+      "vote_average": 7.742,
+      "directors": [
+        "David Yates"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Toby Jones",
+        "Helena Bonham Carter"
+      ],
+      "trailer_key": "-_GftUTRWHM",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/007 Harry Potter e as Relíquias da Morte - Parte 1 (2010)  Dublado 5.1 CH 720p (By-LuanHarper)/Harry Potter e as Relíquias da Morte - Parte 1 (2010)  Dublado 5.1 CH 1080p (By-LuanHarper).mp4",
+      "date_added": "2025-04-23T03:08:21.735953",
+      "last_updated": "2025-04-23T03:08:21.735960"
+    },
+    {
+      "id": 43,
+      "tmdb_id": 12445,
+      "title": "Harry Potter e as Relíquias da Morte - Parte 2",
+      "original_title": "Harry Potter and the Deathly Hallows: Part 2",
+      "release_date": "2011-07-12",
+      "overview": "No final épico, a batalha entre as forças do bem e do mal no mundo da bruxaria toma proporções de uma guerra mundial. As apostas nunca foram tão altas e ninguém está a salvo. Mas é harry que pode ser convocado para fazer um derradeiro sacrifício, à medida que ele se aproxima cada vez mais do confronto final com Lorde Voldemort. Tudo termina aqui.",
+      "local_poster_path": "assets/poster_images/12445.jpg",
+      "genres": [
+        "Fantasia",
+        "Aventura"
+      ],
+      "runtime": 130,
+      "vote_average": 8.087,
+      "directors": [
+        "David Yates"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Emma Watson",
+        "Rupert Grint",
+        "Ralph Fiennes",
+        "Alan Rickman"
+      ],
+      "trailer_key": "E79fa8bLfPA",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/007 Harry Potter e as Relíquias da Morte - Parte 2 (2010)  Dublado 5.1 CH 1080p (By-LuanHarper)/Harry Potter e as Relíquias da Morte - Parte 2 (2010)  Dublado 5.1 CH 1080p (By-LuanHarper).mp4",
+      "date_added": "2025-04-23T03:08:41.887975",
+      "last_updated": "2025-04-23T03:08:41.887984"
+    },
+    {
+      "id": 39,
+      "tmdb_id": 674,
+      "title": "Harry Potter e o Cálice de Fogo",
+      "original_title": "Harry Potter and the Goblet of Fire",
+      "release_date": "2005-11-16",
+      "overview": "Quando o nome de Harry Potter emerge do Cálice de Fogo, ele se transforma em um competidor em uma extenuante batalha de magia entre três escolas de feiticeiros – o Torneio Tribruxo. Mas se Harry não se inscreveu para o tal torneio, quem o fez? Agora, Harry precisa confrontar um mortal dragão, ferozes demônios da água e um labirinto encantado aonde se deparará com Aquele-Que-Não-Deve-Ser-Nomeado. Nesta quarta adaptação da série Harry Potter, criada por J.K. Rowling, tudo está modificado, a começar pelo próprio Harry e seus inseparáveis amigos, Ron e Hermione, que deixam a infância para sempre e partem para desafios maiores do que tudo aquilo que um dia eles já imaginaram.",
+      "local_poster_path": "assets/poster_images/674.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 157,
+      "vote_average": 7.802,
+      "directors": [
+        "Mike Newell"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Brendan Gleeson",
+        "Michael Gambon"
+      ],
+      "trailer_key": "RwJlOdtoHRE",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/Harry.Potter.e.o.Calice.de.Fogo.2005.1080p-WOLVERDONFILMES.COM/Harry.Potter.e.o.Calice.de.Fogo.2005.1080p-WOLVERDONFILMES.COM.mkv",
+      "date_added": "2025-04-23T03:00:30.607982",
+      "last_updated": "2025-04-23T03:00:30.607990"
+    },
+    {
+      "id": 41,
+      "tmdb_id": 767,
+      "title": "Harry Potter e o Enigma do Príncipe",
+      "original_title": "Harry Potter and the Half-Blood Prince",
+      "release_date": "2009-07-15",
+      "overview": "À medida que Lord Voldemort aumenta seu controle sobre o mundo Trouxa e bruxo, Hogwarts não é mais um local seguro. Harry suspeita que haja perigos dentro do castelo, mas Dumbledore está mais empenhado em prepará-lo para a batalha final que se aproxima rapidamente. Juntos, eles trabalham para encontrar a chave para desbloquear as defesas de Voldemort e, para esse fim, Dumbledore recruta seu velho amigo e colega Horácio Slughorn, que ele acredita possuir informações cruciais. Mesmo quando o confronto decisivo se aproxima, o romance floresce para Harry, Ron, Hermione e seus colegas de classe. O amor está no ar, mas o perigo está por vir e Hogwarts pode nunca mais ser a mesma.",
+      "local_poster_path": "assets/poster_images/767.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 153,
+      "vote_average": 7.685,
+      "directors": [
+        "David Yates"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Jim Broadbent",
+        "Michael Gambon"
+      ],
+      "trailer_key": "wgkHfUaG1nI",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/006 Harry Potter e o Enigma do Príncipe (2009) Dublado 5.1 CH 1080p (By-LuanHarper)/Harry Potter e o Enigma do Príncipe (2009) Dublado 5.1 CH 1080p (By-LuanHarper).mp4",
+      "date_added": "2025-04-23T03:01:39.735670",
+      "last_updated": "2025-04-23T03:01:39.735678"
+    },
+    {
+      "id": 40,
+      "tmdb_id": 673,
+      "title": "Harry Potter e o Prisioneiro de Azkaban",
+      "original_title": "Harry Potter and the Prisoner of Azkaban",
+      "release_date": "2004-05-31",
+      "overview": "Quando a desprezível Tia Guida voa pelo céu na noite, Harry parte para o que será seu terceiro ano em Hogwarts. Um passeio no Nôitibus o leva para o Beco Diagonal onde ele fica sabendo que um prisioneiro foragido, Sirius Black está atrás dele. Em Hogwarts, Harry e seus amigos aprendem a delicada arte de se aproximar de um Hipogrifo, como transformar monstros em risadas e até mesmo a voltar no tempo. Dementadores sugadores de almas pairam sobre Hogwarts, ameaçando Harry, enquanto um seguidor de Aquele-Que-Não-Se-Deve-Nomear espreita pela escola. E Harry será forçado a confrontar todos eles. Dirigido por Alfonso Cuarón e baseado no terceiro livro de J.K. Rowling, essa maravilhosa história traz risadas, suspense e surpresas de tirar o fôlego, a especialidade dos filmes de Harry Potter. Prepare-se!",
+      "local_poster_path": "assets/poster_images/673.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 142,
+      "vote_average": 8.012,
+      "directors": [
+        "Alfonso Cuarón"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Robbie Coltrane",
+        "Michael Gambon"
+      ],
+      "trailer_key": "Iy1SfOa7X3s",
+      "file_path": "D:/Movies/Harry Potter - Coleção Completa/Harry.Potter.e.o.Prisioneiro.de.Azkaban.2004.1080p-WOLVERDONFILMES.COM/Harry.Potter.e.o.Prisioneiro.de.Azkaban.2004.1080p-WOLVERDONFILMES.COM.mkv",
+      "date_added": "2025-04-23T03:00:48.519757",
+      "last_updated": "2025-04-23T03:00:48.519765"
+    },
+    {
+      "id": 48,
+      "tmdb_id": 343611,
+      "title": "Jack Reacher: Sem Retorno",
+      "original_title": "Jack Reacher: Never Go Back",
+      "release_date": "2016-10-19",
+      "overview": "Jack Reacher retorna para reafirmar sua ousada marca de justiça, em \"uma divertida aventura de ação\" baseada na série de best-sellers do autor Lee Child. Quando a major do Exército Susan Turner é incriminada por traição, Reacher descobre que ela foi alvo de uma tremenda conspiração governamental. Com a ajuda da própria Turner e de um misterioso novo aliado, Reacher arrisca tudo para derrubar a poderosa organização, que não vai se deter diante de nada para proteger seus segredos.",
+      "local_poster_path": "assets/poster_images/343611.jpg",
+      "genres": [
+        "Ação",
+        "Thriller"
+      ],
+      "runtime": 118,
+      "vote_average": 5.995,
+      "directors": [
+        "Edward Zwick"
+      ],
+      "cast": [
+        "Tom Cruise",
+        "Cobie Smulders",
+        "Danika Yarosh",
+        "Aldis Hodge",
+        "Patrick Heusinger"
+      ],
+      "trailer_key": "vQ4FYe9B7Qg",
+      "file_path": "D:/Movies/Jack.Reacher.Sem.Retorno.2017.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-04-23T03:10:35.688348",
+      "last_updated": "2025-04-23T03:10:35.688356"
+    },
+    {
+      "id": 49,
+      "tmdb_id": 1094138,
+      "title": "Jackpot: Loteria Mortal!",
+      "original_title": "Jackpot!",
+      "release_date": "2024-08-13",
+      "overview": "Jackpot: Loteria Mortal conta a história da vencedora da loteria criada recentemente na Califórnia, Katie Kim (Awkafina) e sua luta para sobrevir e reivindicar seu bilhete premiado com o apoio do Cassidy (John Cena), enquanto fogem do Louis Lewis (Simu Liu) e dos caçadores do prêmio.",
+      "local_poster_path": "assets/poster_images/1094138.jpg",
+      "genres": [
+        "Comédia",
+        "Ação"
+      ],
+      "runtime": 107,
+      "vote_average": 6.421,
+      "directors": [
+        "Paul Feig"
+      ],
+      "cast": [
+        "Awkwafina",
+        "John Cena",
+        "Simu Liu",
+        "Ayden Mayeri",
+        "Donald Watkins"
+      ],
+      "trailer_key": "eJ6UckduN1A",
+      "file_path": "D:/Movies/Jackpot.Loteria.Mortal.2024.1080p.WEB-DL.EAC3.AAC.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T03:10:47.912430",
+      "last_updated": "2025-04-23T03:10:47.912438"
+    },
+    {
+      "id": 50,
+      "tmdb_id": 539972,
+      "title": "Kraven: O Caçador",
+      "original_title": "Kraven the Hunter",
+      "release_date": "2024-12-11",
+      "overview": "Sergei Kravinoff é um grande caçador, que toma um soro mágico que lhe dá habilidades sobre-humanas e uma vida mais longa.",
+      "local_poster_path": "assets/poster_images/539972.jpg",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Thriller"
+      ],
+      "runtime": 127,
+      "vote_average": 6.604,
+      "directors": [
+        "J.C. Chandor"
+      ],
+      "cast": [
+        "Aaron Taylor-Johnson",
+        "Ariana DeBose",
+        "Fred Hechinger",
+        "Alessandro Nivola",
+        "Christopher Abbott"
+      ],
+      "trailer_key": "KHKvdPGQsTY",
+      "file_path": "D:/Movies/Kraven.O.Cacador.2024.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T03:10:59.672175",
+      "last_updated": "2025-04-23T03:10:59.672183"
+    },
+    {
+      "id": 51,
+      "tmdb_id": 648579,
+      "title": "O Peso do Talento",
+      "original_title": "The Unbearable Weight of Massive Talent",
+      "release_date": "2022-04-20",
+      "overview": "A versão fictícia de Nicolas Cage aceita uma oferta de US＄1 milhão para participar do aniversário de um super fã perigoso, Javi Gutierrez. As coisas tomam um rumo inesperado quando Nick Cage é recrutado por uma agente da CIA e forçado a viver de acordo com sua própria lenda, canalizando seus personagens mais icônicos e amados na tela para salvar a si mesmo e seus entes queridos.",
+      "local_poster_path": "assets/poster_images/648579.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Crime"
+      ],
+      "runtime": 107,
+      "vote_average": 6.799,
+      "directors": [
+        "Tom Gormican"
+      ],
+      "cast": [
+        "Nicolas Cage",
+        "Pedro Pascal",
+        "Sharon Horgan",
+        "Ike Barinholtz",
+        "Alessandra Mastronardi"
+      ],
+      "trailer_key": "Gq5B56S3OEc",
+      "file_path": "D:/Movies/O Peso do Talento 2022 WEB-DL 1080p DUAL 5.1.mkv",
+      "date_added": "2025-04-23T03:11:16.336263",
+      "last_updated": "2025-04-23T03:11:16.336271"
+    },
+    {
+      "id": 8,
+      "tmdb_id": 860623,
+      "title": "Pandemia: A Guerra Final",
+      "original_title": "Last Man Down",
+      "release_date": "2021-03-30",
+      "overview": "Depois que a civilização sucumbe a uma pandemia mortal e sua esposa é assassinada, um soldado das forças especiais abandona seu dever e se torna um eremita na selva nórdica. Anos depois, uma mulher ferida aparece em sua porta. Ela escapou de um laboratório e seus perseguidores acreditam que seu sangue é a chave para uma cura mundial. Ele hesita em se envolver, mas todas as dúvidas são deixadas de lado quando ele descobre que seu perseguidor não é outro senão o comandante Stone, o homem que assassinou sua esposa alguns anos atrás.",
+      "local_poster_path": "assets/poster_images/860623.jpg",
+      "genres": [
+        "Ação",
+        "Thriller",
+        "Mistério"
+      ],
+      "runtime": 87,
+      "vote_average": 6.195,
+      "directors": [
+        "Fansu Njie"
+      ],
+      "cast": [
+        "Daniel Stisen",
+        "Olga Kent",
+        "Daniel Nehme",
+        "Stanislav Yanevski",
+        "Madeleine Vall"
+      ],
+      "trailer_key": "OFkNeFF-LKE",
+      "file_path": "D:/Movies/A Guerra Final/A Guerra Final.mkv",
+      "date_added": "2025-04-22T23:39:47.291315",
+      "last_updated": "2025-04-22T23:39:47.291323"
+    },
+    {
+      "id": 52,
+      "tmdb_id": 1064758,
+      "title": "Planète B",
+      "original_title": "Planète B",
+      "release_date": "2024-12-25",
+      "overview": "",
+      "local_poster_path": "assets/poster_images/1064758.jpg",
+      "genres": [
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 118,
+      "vote_average": 4.8,
+      "directors": [
+        "Aude Léa Rapin"
+      ],
+      "cast": [
+        "Adèle Exarchopoulos",
+        "Souheila Yacoub",
+        "Eliane Umuhire",
+        "India Hair",
+        "Paul Beaurepaire"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Planet.B.2024.720p.CAMRip.Dublado.mkv",
+      "date_added": "2025-04-23T03:11:39.272367",
+      "last_updated": "2025-04-23T03:11:39.272375"
+    },
+    {
+      "id": 54,
+      "tmdb_id": 777443,
+      "title": "The Electric State",
+      "original_title": "The Electric State",
+      "release_date": "2025-03-07",
+      "overview": "Uma adolescente órfã pega a estrada com um robô misterioso em busca do irmão há muito tempo desaparecido, encontrando no caminho um contrabandista e seu ajudante hilário.",
+      "local_poster_path": "assets/poster_images/777443.jpg",
+      "genres": [
+        "Ficção científica",
+        "Aventura",
+        "Ação"
+      ],
+      "runtime": 125,
+      "vote_average": 6.597,
+      "directors": [
+        "Joe Russo",
+        "Anthony Russo"
+      ],
+      "cast": [
+        "Millie Bobby Brown",
+        "Chris Pratt",
+        "Ke Huy Quan",
+        "Jason Alexander",
+        "Woody Norman"
+      ],
+      "trailer_key": "MDrZuqcxkgA",
+      "file_path": "D:/Movies/The Electric State 2025 WEB-DL 1080p x264 DUAL 5.1.mkv",
+      "date_added": "2025-04-23T03:12:07.280436",
+      "last_updated": "2025-04-23T03:12:07.280443"
+    },
+    {
+      "id": 55,
+      "tmdb_id": 383498,
+      "title": "Deadpool 2",
+      "original_title": "Deadpool 2",
+      "release_date": "2018-05-15",
+      "overview": "Quando o super soldado Cable chega em uma missão para assassinar o jovem mutante Russel, o mercenário Deadpool precisa aprender o que é ser herói de verdade para salvá-lo. Para isso, ele recruta seu velho amigo Colossus e forma o novo grupo X-Force, sempre com o apoio do fiel escudeiro Dopinder.",
+      "local_poster_path": "assets/poster_images/383498.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Aventura"
+      ],
+      "runtime": 119,
+      "vote_average": 7.489,
+      "directors": [
+        "David Leitch"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Josh Brolin",
+        "Morena Baccarin",
+        "Julian Dennison",
+        "Zazie Beetz"
+      ],
+      "trailer_key": "fZWN2UBMK3Q",
+      "file_path": "D:/Movies/Deadpool 2 2018 (1080p) Acesse o ORIGINAL WWW.BLUDV.COM/Deadpool.2.2018.1080p.BluRay.6CH.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-04-23T13:27:52.594465",
+      "last_updated": "2025-04-23T13:27:52.594472"
+    },
+    {
+      "id": 56,
+      "tmdb_id": 293660,
+      "title": "Deadpool",
+      "original_title": "Deadpool",
+      "release_date": "2016-02-09",
+      "overview": "Baseado no anti-herói não convencional da Marvel Comics, Deadpool conta a história da origem do ex-agente das Forças Especiais que se tornou o mercenário Wade Wilson. Depois de ser submetido a um desonesto experimento que o deixa com poderes de cura acelerada, Wade adota o alter ego de Deadpool. Armado com suas novas habilidades e um senso de humor negro e distorcido, Deadpool persegue o homem que quase destruiu sua vida.",
+      "local_poster_path": "assets/poster_images/293660.jpg",
+      "genres": [
+        "Ação",
+        "Aventura",
+        "Comédia"
+      ],
+      "runtime": 107,
+      "vote_average": 7.622,
+      "directors": [
+        "Tim Miller"
+      ],
+      "cast": [
+        "Ryan Reynolds",
+        "Morena Baccarin",
+        "Ed Skrein",
+        "T.J. Miller",
+        "Gina Carano"
+      ],
+      "trailer_key": "rW-44KuoAdA",
+      "file_path": "D:/Movies/Deadpool 2016 [1080p] WWW.BLUDV.COM/Deadpool.2016.1080p.BluRay.5.1.X264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-04-23T14:42:07.270916",
+      "last_updated": "2025-04-23T14:42:07.270924"
+    },
+    {
+      "id": 57,
+      "tmdb_id": 1051896,
+      "title": "Depois do Apocalipse",
+      "original_title": "Arcadian",
+      "release_date": "2024-04-12",
+      "overview": "Em uma Terra dizimada, Paul e seus filhos gêmeos enfrentam o terror à noite, quando criaturas ferozes despertam. Quando Paul quase é morto, os meninos bolam um plano de sobrevivência, usando tudo o que o pai lhes ensinou para mantê-lo vivo.",
+      "local_poster_path": "assets/poster_images/1051896.jpg",
+      "genres": [
+        "Ação",
+        "Terror",
+        "Thriller",
+        "Ficção científica"
+      ],
+      "runtime": 92,
+      "vote_average": 6.156,
+      "directors": [
+        "Benjamin Brewer"
+      ],
+      "cast": [
+        "Nicolas Cage",
+        "Jaeden Martell",
+        "Maxwell Jenkins",
+        "Sadie Soverall",
+        "Samantha Coughlan"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Depois.do.Apocalipse.2024.1080p.WEB-DL.DUAL.5.1/Depois.do.Apocalipse.2024.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T15:36:09.746645",
+      "last_updated": "2025-04-23T15:36:09.746653"
+    },
+    {
+      "id": 58,
+      "tmdb_id": 1954,
+      "title": "Efeito Borboleta",
+      "original_title": "The Butterfly Effect",
+      "release_date": "2004-01-17",
+      "overview": "Evan é um jovem que luta para esquecer fatos de sua infância. Para isso, ele decide realizar uma regressão onde volta também fisicamente ao seu corpo de criança, tendo condições de alterar seu próprio passado. Porém, ao tentar consertar seus antigos problemas, ele acaba criando novos, já que toda mudança que realiza gera consequências em seu futuro.",
+      "local_poster_path": "assets/poster_images/1954.jpg",
+      "genres": [
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 119,
+      "vote_average": 7.577,
+      "directors": [
+        "Eric Bress",
+        "J. Mackye Gruber"
+      ],
+      "cast": [
+        "Ashton Kutcher",
+        "Amy Smart",
+        "Melora Walters",
+        "Elden Henson",
+        "William Lee Scott"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Efeito Borboleta - Trilogia/Efeito Borboleta (2004)/The.Butterfly.Effect.2004.DVDRip.XviD.Dual.Audio-jmsmarcelo.avi",
+      "date_added": "2025-04-23T15:38:51.346715",
+      "last_updated": "2025-04-23T15:38:51.346723"
+    },
+    {
+      "id": 59,
+      "tmdb_id": 14620,
+      "title": "Efeito Borboleta 2",
+      "original_title": "The Butterfly Effect 2",
+      "release_date": "2006-08-17",
+      "overview": "Nick Larson não poderia em melhor momento. Sua empresa está crescebdo e seu namoro com Julie parece perfeito. Mas tudo muda quando uma cadeia de eventos resulta na morte de três pessoas em um trágico acidente — incluindo sua jovem namorada. Um ano depois, Nick ainda tenta reunir os pedaços de sua vida, até que começa a ter surtos nos quais parece estar viajando no tempo. Agora, ele tem a oportunidade de mudar o passado. Mas a missão é difícil, jpa que qualquer detalhe modificado pode significar uma reviravolta no futuro. Será que ele está preparado para lidar com suas escolhas?",
+      "local_poster_path": "assets/poster_images/14620.jpg",
+      "genres": [
+        "Drama",
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 95,
+      "vote_average": 4.94,
+      "directors": [
+        "John R. Leonetti"
+      ],
+      "cast": [
+        "Eric Lively",
+        "Erica Durance",
+        "Dustin Milligan",
+        "Gina Holden",
+        "Susan Hogan"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Efeito Borboleta - Trilogia/Efeito Borboleta 2 (2006)/The.Butterfly.Effect.2.2006.DVDRip.XviD.Dual.Audio-jmsmarcelo.avi",
+      "date_added": "2025-04-23T15:39:09.170536",
+      "last_updated": "2025-04-23T15:39:09.170543"
+    },
+    {
+      "id": 60,
+      "tmdb_id": 16258,
+      "title": "Efeito Borboleta: Revelação",
+      "original_title": "The Butterfly Effect 3: Revelations",
+      "release_date": "2009-01-09",
+      "overview": "Sam Reed, que desde que sobreviveu a um incêndio quando era criança ganhou o poder de viajar no tempo. Ele usa seu talento para tentar impedir a morte de Rachel Miner, sua namorada do colegial que fora assassinada vivida pela atriz Rachel Miner. Mas, ao fazer isso, Sam sem querer acaba liberando um perigoso serial killer e terá que lidar com as conseqüências de seus atos.",
+      "local_poster_path": "assets/poster_images/16258.jpg",
+      "genres": [
+        "Ficção científica",
+        "Thriller",
+        "Drama",
+        "Crime"
+      ],
+      "runtime": 90,
+      "vote_average": 5.471,
+      "directors": [
+        "Seth Grossman"
+      ],
+      "cast": [
+        "Mia Serafino",
+        "Rachel Miner",
+        "Chris Carmack",
+        "Melissa Jones",
+        "Lynch R. Travis"
+      ],
+      "trailer_key": "vuMbYby9fvk",
+      "file_path": "D:/Movies/Efeito Borboleta - Trilogia/Efeito Borboleta - Revelação (2009)/The.Butterfly.Effect.3-Revelations.2009.DVDRip.XviD.Dual.Audio-jmsmarcelo.avi",
+      "date_added": "2025-04-23T15:39:28.810382",
+      "last_updated": "2025-04-23T15:39:28.810389"
+    },
+    {
+      "id": 61,
+      "tmdb_id": 900409,
+      "title": "Em Chamas",
+      "original_title": "On Fire",
+      "release_date": "2023-09-29",
+      "overview": "Neste drama baseado em eventos reais, um pai de família precisa proteger sua esposa grávida e seu filho em meio a incêndios florestais devastadores. Frente ao caos, cada segundo é crucial na batalha pela sobrevivência contra a força da natureza.",
+      "local_poster_path": "assets/poster_images/900409.jpg",
+      "genres": [
+        "Drama",
+        "Thriller",
+        "Ação",
+        "Aventura"
+      ],
+      "runtime": 80,
+      "vote_average": 6.276,
+      "directors": [
+        "Nick Lyon",
+        "Peter Facinelli"
+      ],
+      "cast": [
+        "Peter Facinelli",
+        "Fiona Dourif",
+        "Asher Angel",
+        "Lance Henriksen",
+        "Glenn Morshower"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Em Chamas 2023 BluRay 1080p x264 DUAL 2.0/Em Chamas 2023 BluRay 1080p x264 DUAL 2.0.mkv",
+      "date_added": "2025-04-23T18:05:50.531874",
+      "last_updated": "2025-04-23T18:05:50.531882"
+    },
+    {
+      "id": 62,
+      "tmdb_id": 950396,
+      "title": "Entre Montanhas",
+      "original_title": "The Gorge",
+      "release_date": "2025-02-13",
+      "overview": "Dois agentes altamente treinados se aproximam à distância após serem enviados para proteger lados opostos de um desfiladeiro misterioso. Quando um mal emerge, eles precisam trabalhar juntos para sobreviver ao que está lá dentro.",
+      "local_poster_path": "assets/poster_images/950396.jpg",
+      "genres": [
+        "Romance",
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 127,
+      "vote_average": 7.731,
+      "directors": [
+        "Scott Derrickson"
+      ],
+      "cast": [
+        "Miles Teller",
+        "Anya Taylor-Joy",
+        "Sigourney Weaver",
+        "Sope Dirisu",
+        "William Houston"
+      ],
+      "trailer_key": "XE_kERP1bHg",
+      "file_path": "D:/Movies/Entre.Montanhas.2025.1080p.WEB-DL.DUAL.5.1/Entre.Montanhas.2025.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T18:06:41.227786",
+      "last_updated": "2025-04-23T18:06:41.227794"
+    },
+    {
+      "id": 63,
+      "tmdb_id": 855433,
+      "title": "Escape Room - Sem Saída",
+      "original_title": "Escape Room: La pel·lícula",
+      "release_date": "2022-03-11",
+      "overview": "Quatro amigos decidem sair para se divertir em um Escape Room. Mas para solucionar os desafios do jogo, eles serão obrigados a revelar alguns segredos que colocarão a amizade deles em risco.",
+      "local_poster_path": "assets/poster_images/855433.jpg",
+      "genres": [
+        "Comédia",
+        "Thriller"
+      ],
+      "runtime": 93,
+      "vote_average": 6.157,
+      "directors": [
+        "Héctor Claramunt"
+      ],
+      "cast": [
+        "Joel Joan",
+        "Paula Vives",
+        "Ivan Massagué",
+        "Mònica Pérez",
+        "Ferran Carvajal"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Escape.Room.Sem.Saida.2022.1080p.WEB-DL.x264.DUAL.2.0/Escape.Room.Sem.Saida.2022.1080p.WEB-DL.x264.DUAL.2.0.mkv",
+      "date_added": "2025-04-23T18:07:09.699757",
+      "last_updated": "2025-04-23T18:07:09.699764"
+    },
+    {
+      "id": 64,
+      "tmdb_id": 170,
+      "title": "Extermínio",
+      "original_title": "28 Days Later",
+      "release_date": "2002-10-31",
+      "overview": "Um poderoso vírus está a solta. Transmitido em uma gota de sangue e com efeito devastador em alguns segundos, o vírus mantém os infectados em um estado permanente de descontrole assassino. Dentro de 28 dias, o país está tomado e um punhado de sobreviventes inicia esforços para garantir algum futuro à raça humana, mas o que não percebem é que o vírus mortal não é única coisa que os ameaça.",
+      "local_poster_path": "assets/poster_images/170.jpg",
+      "genres": [
+        "Terror",
+        "Thriller",
+        "Ficção científica"
+      ],
+      "runtime": 112,
+      "vote_average": 7.231,
+      "directors": [
+        "Danny Boyle"
+      ],
+      "cast": [
+        "Cillian Murphy",
+        "Naomie Harris",
+        "Brendan Gleeson",
+        "Megan Burns",
+        "Christopher Eccleston"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Extermínio 720p - The Pirate Filmes/Extermínio 720p - The Pirate Filmes.mp4",
+      "date_added": "2025-04-23T18:07:41.844031",
+      "last_updated": "2025-04-23T18:07:41.844039"
+    },
+    {
+      "id": 65,
+      "tmdb_id": 748167,
+      "title": "Feios",
+      "original_title": "Uglies",
+      "release_date": "2024-09-12",
+      "overview": "Em um futuro distópico que impõe rígidos padrões de beleza, uma adolescente aguardando sua cirurgia plástica obrigatória sai em busca da amiga desaparecida.",
+      "local_poster_path": "assets/poster_images/748167.jpg",
+      "genres": [
+        "Ficção científica",
+        "Aventura",
+        "Ação"
+      ],
+      "runtime": 102,
+      "vote_average": 5.829,
+      "directors": [
+        "McG"
+      ],
+      "cast": [
+        "Joey King",
+        "Brianne Tju",
+        "Keith Powers",
+        "Chase Stokes",
+        "Laverne Cox"
+      ],
+      "trailer_key": "EUL6v8rFrzE",
+      "file_path": "D:/Movies/Feios.2024.1080p.WEB-DL.EAC3.AAC.DUAL.5.1/Feios.2024.1080p.WEB-DL.EAC3.AAC.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T18:09:08.699872",
+      "last_updated": "2025-04-23T18:09:08.699879"
+    },
+    {
+      "id": 66,
+      "tmdb_id": 1061634,
+      "title": "Férias de Verão",
+      "original_title": "Vacaciones de verano",
+      "release_date": "2023-07-06",
+      "overview": "Ao perderem os empregos, dois amigos fazem bico como animadores infantis em um hotel de luxo e levam os filhos escondidos para aproveitar as férias de verão.",
+      "local_poster_path": "assets/poster_images/1061634.jpg",
+      "genres": [
+        "Comédia",
+        "Família"
+      ],
+      "runtime": 100,
+      "vote_average": 5.537,
+      "directors": [
+        "Santiago Segura"
+      ],
+      "cast": [
+        "Santiago Segura",
+        "Leo Harlem",
+        "Marta González de Vega",
+        "Sirena Segura",
+        "Javier García"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Ferias.de.Verao.2023.1080p.WEB-DL.DUAL.5.1/Ferias.de.Verao.2023.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T18:09:35.572112",
+      "last_updated": "2025-04-23T18:09:35.572120"
+    },
+    {
+      "id": 67,
+      "tmdb_id": 786892,
+      "title": "Furiosa: Uma Saga Mad Max",
+      "original_title": "Furiosa: A Mad Max Saga",
+      "release_date": "2024-05-22",
+      "overview": "Quando o mundo entra em colapso, a jovem Furiosa é sequestrada do Green Place das Muitas Mães e cai nas mãos da horda de motoqueiros liderada pelo Senhor da Guerra Dementus. Vagando pelo deserto condenado, eles encontram a Cidadela controlada por Immortan Joe. Enquanto os dois tiranos lutam por poder e controle, Furiosa terá que sobreviver a muitos desafios para encontrar e trilhar o caminho de volta para casa.",
+      "local_poster_path": "assets/poster_images/786892.jpg",
+      "genres": [
+        "Ação",
+        "Ficção científica",
+        "Aventura"
+      ],
+      "runtime": 148,
+      "vote_average": 7.481,
+      "directors": [
+        "George Miller"
+      ],
+      "cast": [
+        "Anya Taylor-Joy",
+        "Chris Hemsworth",
+        "Tom Burke",
+        "Alyla Browne",
+        "George Shevtsov"
+      ],
+      "trailer_key": "HQOQTNVdxb8",
+      "file_path": "D:/Movies/Furiosa - Uma Saga Mad Max 2024 WEB-DL 1080p x264 DUAL 5.1/Furiosa - Uma Saga Mad Max 2024 WEB-DL 1080p x264 DUAL 5.1.mkv",
+      "date_added": "2025-04-23T18:09:52.083870",
+      "last_updated": "2025-04-23T18:09:52.083877"
+    },
+    {
+      "id": 68,
+      "tmdb_id": 967847,
+      "title": "Ghostbusters: Apocalipse de Gelo",
+      "original_title": "Ghostbusters: Frozen Empire",
+      "release_date": "2024-03-20",
+      "overview": "Nesta sequência da franquia Ghostbusters, a família Spengler retorna para onde tudo começou: a famosa estação de bombeiros em Nova York. Eles pretendem se unir com os caça-fantasmas originais que desenvolveram um laboratório ultra secreto de pesquisa para levar a caça aos fantasmas a outro nível, mas quando a descoberta de um artefato antigo libera uma grande força do mal, os Ghostbusters das duas gerações precisam juntar as forças para proteger suas casas e salvar o mundo de uma segunda Era do Gelo.",
+      "local_poster_path": "assets/poster_images/967847.jpg",
+      "genres": [
+        "Fantasia",
+        "Aventura",
+        "Comédia"
+      ],
+      "runtime": 115,
+      "vote_average": 6.496,
+      "directors": [
+        "Gil Kenan"
+      ],
+      "cast": [
+        "Mckenna Grace",
+        "Paul Rudd",
+        "Carrie Coon",
+        "Finn Wolfhard",
+        "Dan Aykroyd"
+      ],
+      "trailer_key": "Ixti8zesxa0",
+      "file_path": "D:/Movies/Ghostbusters - Apocalipse de Gelo 2024 WEB-DL 1080p x265 DUAL 5.1/Ghostbusters - Apocalipse de Gelo 2024 WEB-DL 1080p x265 DUAL 5.1.mkv",
+      "date_added": "2025-04-23T18:11:12.148012",
+      "last_updated": "2025-04-23T18:11:12.148020"
+    },
+    {
+      "id": 69,
+      "tmdb_id": 926670,
+      "title": "Henry Danger: O Filme",
+      "original_title": "Henry Danger: The Movie",
+      "release_date": "2025-01-17",
+      "overview": "Henry Danger conhece uma superfã - ansiosa para combater o crime com Kid Danger - que possui um dispositivo que pode abrir realidades alternativas. Enfrentando uma viagem alucinante, Henry precisará de seu melhor amigo Jasper e de sua nova companheira superfã para encontrar a saída ou ficar preso em outra dimensão para sempre.",
+      "local_poster_path": "assets/poster_images/926670.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Família",
+        "Ficção científica"
+      ],
+      "runtime": 86,
+      "vote_average": 7.794,
+      "directors": [
+        "Joe Menendez"
+      ],
+      "cast": [
+        "Jace Norman",
+        "Sean Ryan Fox",
+        "Ella Anderson",
+        "Michael D. Cohen",
+        "Frankie Grande"
+      ],
+      "trailer_key": "K631Z18gtK0",
+      "file_path": "D:/Movies/Henry.Danger.O.Filme.2025.1080p.WEB-DL.DUAL.5.1/Henry.Danger.O.Filme.2025.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T18:12:20.467821",
+      "last_updated": "2025-04-23T18:12:20.467828"
+    },
+    {
+      "id": 70,
+      "tmdb_id": 790462,
+      "title": "Estação Espacial Internacional",
+      "original_title": "I.S.S.",
+      "release_date": "2024-01-19",
+      "overview": "Num futuro próximo, as tensões crescem a bordo da Estação Espacial Internacional quando um conflito eclode na Terra. Revoltados, os astronautas americanos e russos recebem a ordem: assumir o controle da estação por qualquer meio possível.",
+      "local_poster_path": "assets/poster_images/790462.jpg",
+      "genres": [
+        "Ficção científica",
+        "Thriller"
+      ],
+      "runtime": 95,
+      "vote_average": 5.796,
+      "directors": [
+        "Gabriela Cowperthwaite"
+      ],
+      "cast": [
+        "Ariana DeBose",
+        "Chris Messina",
+        "John Gallagher Jr.",
+        "Мария Машкова",
+        "Costa Ronin"
+      ],
+      "trailer_key": "tB5Iq0HJwiU",
+      "file_path": "D:/Movies/I.S.S..2023.1080p.BluRay.x264.DUAL.5.1/I.S.S..2023.1080p.BluRay.x264.DUAL.5.1.mkv",
+      "date_added": "2025-04-23T18:13:00.996199",
+      "last_updated": "2025-04-23T18:13:00.996207"
+    },
+    {
+      "id": 71,
+      "tmdb_id": 85,
+      "title": "Indiana Jones e os Caçadores da Arca Perdida",
+      "original_title": "Raiders of the Lost Ark",
+      "release_date": "1981-06-12",
+      "overview": "Em 1936, o professor e arqueólogo Indiana Jones é contratado pelo governo para encontrar a Arca da Aliança, que segundo as escrituras bíblicas conteria \"Os Dez Mandamentos\" que Deus revelou a Moisés no Monte Horeb. Mas como a lenda diz que o exército que a possuir será invencível, Indiana Jones terá um adversário de peso na busca pela arca perdida: o regime nazista de Adolf Hitler.",
+      "local_poster_path": "assets/poster_images/85.jpg",
+      "genres": [
+        "Aventura",
+        "Ação"
+      ],
+      "runtime": 115,
+      "vote_average": 7.921,
+      "directors": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Harrison Ford",
+        "Karen Allen",
+        "Paul Freeman",
+        "John Rhys-Davies",
+        "Ronald Lacey"
+      ],
+      "trailer_key": "JsxYJs4UyJI",
+      "file_path": "D:/Movies/Indiana Jones Coleção Completa 1981 a 2008 (1080p) DUBLADO/Indiana.Jones.1.E.Os.Caçadores.Da.Arca.Perdida.1981.1080p.BluRay.6CH.x264.DUBLADO-WWW.BLUDV.COM.mp4",
+      "date_added": "2025-04-23T18:13:53.004190",
+      "last_updated": "2025-04-23T18:13:53.004197"
+    },
+    {
+      "id": 72,
+      "tmdb_id": 89,
+      "title": "Indiana Jones e a Última Cruzada",
+      "original_title": "Indiana Jones and the Last Crusade",
+      "release_date": "1989-05-24",
+      "overview": "O arqueólogo Indiana Jones tem acesso à um misterioso envelope que contém informações sobre a localização do lendário Santo Graal, o cálice que Jesus Cristo teria utilizado na Última Ceia. Quando seu pai, o professor Henry Jones, é sequestrado pelos nazistas, o aventureiro irá embarcar numa missão perigosa para salvá-lo e impedir que a relíquia sagrada caia em mãos erradas.",
+      "local_poster_path": "assets/poster_images/89.jpg",
+      "genres": [
+        "Aventura",
+        "Ação"
+      ],
+      "runtime": 127,
+      "vote_average": 7.847,
+      "directors": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Harrison Ford",
+        "Sean Connery",
+        "Denholm Elliott",
+        "Alison Doody",
+        "John Rhys-Davies"
+      ],
+      "trailer_key": "96YggAgcbiA",
+      "file_path": "D:/Movies/Indiana Jones Coleção Completa 1981 a 2008 (1080p) DUBLADO/Indiana.Jones.3.E.A.Última.Cruzada.1989.1080p.BluRay.6CH.x264.DUBLADO-WWW.BLUDV.COM.mp4",
+      "date_added": "2025-04-23T18:14:10.843994",
+      "last_updated": "2025-04-23T18:14:10.844002"
+    },
+    {
+      "id": 73,
+      "tmdb_id": 217,
+      "title": "Indiana Jones e o Reino da Caveira de Cristal",
+      "original_title": "Indiana Jones and the Kingdom of the Crystal Skull",
+      "release_date": "2008-05-21",
+      "overview": "Durante a Guerra Fria, Indiana Jones e o jovem Mutt buscam a Caveira de Cristal, um objeto místico de grande valor, mas logo percebem que não estão sozinhos. Soviéticos liderados pela cruel Irina Spalko também querem o objeto para tentar dominar o mundo através dele.",
+      "local_poster_path": "assets/poster_images/217.jpg",
+      "genres": [
+        "Aventura",
+        "Ação"
+      ],
+      "runtime": 122,
+      "vote_average": 6.009,
+      "directors": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Harrison Ford",
+        "Cate Blanchett",
+        "Karen Allen",
+        "Shia LaBeouf",
+        "Ray Winstone"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Indiana Jones Coleção Completa 1981 a 2008 (1080p) DUBLADO/Indiana.Jones.4.E.O.Reino.Da.Caveira.De.Cristal.2008.1080p.BluRay.6CH.x264.DUBLADO-WWW.BLUDV.COM.mp4",
+      "date_added": "2025-04-23T18:14:29.172232",
+      "last_updated": "2025-04-23T18:14:29.172240"
+    },
+    {
+      "id": 74,
+      "tmdb_id": 87,
+      "title": "Indiana Jones e o Templo da Perdição",
+      "original_title": "Indiana Jones and the Temple of Doom",
+      "release_date": "1984-05-23",
+      "overview": "Em 1935, o professor, arqueólogo e aventureiro Indiana Jones tem uma nova missão: resgatar as pedras roubadas por um feiticeiro e libertar crianças escravizadas. Para tanto, enfrenta os poderes mágicos e o fanatismo de um culto que sacrifica seres humanos.",
+      "local_poster_path": "assets/poster_images/87.jpg",
+      "genres": [
+        "Aventura",
+        "Ação"
+      ],
+      "runtime": 118,
+      "vote_average": 7.295,
+      "directors": [
+        "Steven Spielberg"
+      ],
+      "cast": [
+        "Harrison Ford",
+        "Kate Capshaw",
+        "Ke Huy Quan",
+        "Amrish Puri",
+        "Roshan Seth"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Indiana Jones Coleção Completa 1981 a 2008 (1080p) DUBLADO/Indiana.Jones.e.o.Templo.da.Perdição.1984.1080p.BluRay.6CH.x264.DUBLADO-WWW.BLUDV.COM.mp4",
+      "date_added": "2025-04-23T18:14:44.956261",
+      "last_updated": "2025-04-23T18:14:44.956268"
+    },
+    {
+      "id": 75,
+      "tmdb_id": 207932,
+      "title": "Inferno",
+      "original_title": "Inferno",
+      "release_date": "2016-10-13",
+      "overview": "O renomado professor de simbologia de Harvard, Robert Langdon (Tom Hanks) visita a Itália e se envolve em mais uma aventura envolvendo símbolos ocultos e corporações secretas. Ele se vê em uma jornada em que procura desvendar os mistérios do clássico da literatura \"A Divina Comédia\", de Dante Alighieri.",
+      "local_poster_path": "assets/poster_images/207932.jpg",
+      "genres": [
+        "Mistério",
+        "Thriller",
+        "Ação"
+      ],
+      "runtime": 121,
+      "vote_average": 6.077,
+      "directors": [
+        "Ron Howard"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Felicity Jones",
+        "Omar Sy",
+        "Irrfan Khan",
+        "Sidse Babett Knudsen"
+      ],
+      "trailer_key": "8_MF60pD13c",
+      "file_path": "D:/Movies/Inferno.2016.1080p.BluRay.5.1.x264.DUAL-STARCKFILMES/Inferno.2016.1080p.BluRay.5.1.x264.DUAL-STARCKFILMES.mkv",
+      "date_added": "2025-04-23T18:15:17.628321",
+      "last_updated": "2025-04-23T18:15:17.628328"
+    },
+    {
+      "id": 76,
+      "tmdb_id": 1063879,
+      "title": "Infestação",
+      "original_title": "Vermines",
+      "release_date": "2023-12-27",
+      "overview": "Moradores de um prédio de apartamentos francês em ruínas lutam contra um exército de aranhas mortais e que se reproduzem rapidamente.",
+      "local_poster_path": "assets/poster_images/1063879.jpg",
+      "genres": [
+        "Terror",
+        "Thriller"
+      ],
+      "runtime": 106,
+      "vote_average": 6.632,
+      "directors": [
+        "Sébastien Vaniček"
+      ],
+      "cast": [
+        "Théo Christine",
+        "Sofia Lesaffre",
+        "Finnegan Oldfield",
+        "Jérôme Niel",
+        "Lisa Nyarko"
+      ],
+      "trailer_key": "Euo0FwYA2Kg",
+      "file_path": "D:/Movies/Infestação 2024 WEB-DL 1080p x264 DUAL 5.1/Infestação 2024 WEB-DL 1080p x264 DUAL 5.1.mkv",
+      "date_added": "2025-04-23T18:15:44.612138",
+      "last_updated": "2025-04-23T18:15:44.612146"
+    }
+  ]
+}

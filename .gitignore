@@ -1,0 +1,12 @@
+.vs/
+*.user
+*.suo
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+*.log
+*.sqlite3
+.DS_Store
