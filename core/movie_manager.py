@@ -10,13 +10,66 @@ class MovieManager:
     def __init__(self, catalog_path="data/catalog.json"):
         self.catalog_path = catalog_path
         self.catalog = self.load_catalog()
+
+    def validate_movie_files(self):
+        """
+        Verifica se os arquivos de todos os filmes do catálogo ainda existem.
+        Remove automaticamente os filmes cujos arquivos não são mais válidos.
         
+        Returns:
+            dict: Um dicionário com informações sobre a validação:
+                - 'valid_count': Número de filmes com arquivos válidos
+                - 'removed_count': Número de filmes removidos
+                - 'removed_movies': Lista com os títulos dos filmes removidos
+        """
+        movies = self.catalog.get("movies", [])
+        valid_movies = []
+        removed_movies = []
+        
+        for movie in movies:
+            file_path = movie.get("file_path")
+            
+            # Verifica se o caminho do arquivo existe e é um arquivo de vídeo válido
+            if file_path and os.path.exists(file_path) and self.is_video_file(file_path):
+                valid_movies.append(movie)
+            else:
+                removed_movies.append(movie)
+                
+                # Remover o poster se existir
+                if movie.get("local_poster_path") and os.path.exists(movie["local_poster_path"]):
+                    try:
+                        os.remove(movie["local_poster_path"])
+                    except:
+                        pass
+        
+        # Se algum filme foi removido, atualiza o catálogo
+        if len(removed_movies) > 0:
+            self.catalog["movies"] = valid_movies
+            self.save_catalog()
+        
+        return {
+            "valid_count": len(valid_movies),
+            "removed_count": len(removed_movies),
+            "removed_movies": [movie.get("title") for movie in removed_movies]
+        }
     def load_catalog(self):
-        """Carrega o catálogo de filmes do arquivo JSON."""
+        """Carrega o catálogo de filmes do arquivo JSON e valida os arquivos dos filmes."""
         if os.path.exists(self.catalog_path):
             try:
                 with open(self.catalog_path, 'r', encoding='utf-8') as f:
-                    return json.load(f)
+                    catalog = json.load(f)
+                    
+                    # Armazena o catálogo carregado
+                    self.catalog = catalog
+                    
+                    # Valida os arquivos dos filmes
+                    validation_result = self.validate_movie_files()
+                    
+                    # Log dos resultados da validação (opcional)
+                    if validation_result["removed_count"] > 0:
+                        print(f"Validação de filmes: {validation_result['removed_count']} filmes foram removidos porque os arquivos não existem mais.")
+                    
+                    return self.catalog
             except json.JSONDecodeError:
                 return {"movies": []}
         return {"movies": []}

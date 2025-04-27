@@ -14,6 +14,7 @@ from PyQt5.QtWidgets import (QCheckBox, QLineEdit, QToolButton, QSizePolicy,
 from PyQt5.QtSvg import QSvgWidget
 from ui.movie_card import MovieCard
 from ui.add_movie_dialog import AddMovieDialog
+from ui.delete_movie_dialog import DeleteMovieDialog
 
 class MainWindow(QMainWindow):
     """Janela principal do aplicativo."""
@@ -225,16 +226,38 @@ class MainWindow(QMainWindow):
         header_layout.addWidget(title_label)
         
         header_layout.addStretch()
+
         
-        # Botão para adicionar filme (menor e no canto direito)
-        self.add_button = QPushButton("+ Filme")
+        # Botão para adicionar filme
+        self.add_button = QPushButton("+ Filme ")
         self.add_button.setObjectName("addButton")
         self.add_button.setFixedSize(100, 36)
         self.add_button.clicked.connect(self.add_movie)
         header_layout.addWidget(self.add_button)
         
-        content_layout.addLayout(header_layout)
         
+        # Botão para remover filme
+        self.delete_button = QPushButton("- Filme")
+        self.delete_button.setObjectName("deleteButton")
+        self.delete_button.setFixedSize(100, 36)
+        self.delete_button.setStyleSheet("""
+            QPushButton#deleteButton {
+                background-color: #333;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton#deleteButton:hover {
+                background-color: #555;
+            }
+        """)
+        self.delete_button.clicked.connect(self.delete_movie)
+        header_layout.addWidget(self.delete_button)
+        
+        content_layout.addLayout(header_layout)
+
         # Área de rolagem para os filmes
         scroll_area = QScrollArea()
         scroll_area.setWidgetResizable(True)
@@ -320,7 +343,15 @@ class MainWindow(QMainWindow):
                 background: #1a1a1a;  /* Mesmo que o fundo da barra */
             }
         """)
-
+    def delete_movie(self):
+        """Abre o diálogo para deletar filmes do catálogo."""
+        dialog = DeleteMovieDialog(self.movie_manager, self)
+        
+        # Conecta o sinal emitido quando um filme é deletado
+        dialog.movie_deleted.connect(self.load_movies)
+        
+        # Exibe o diálogo
+        dialog.exec_()
     def init_sidebar(self):
         """Inicializa a barra lateral com um visual moderno."""
         # Estilização moderna para o sidebar
