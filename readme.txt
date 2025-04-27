@@ -1,3 +1,4 @@
+
 netflix app 
 add funcionalidades
 
@@ -16,3 +17,5 @@ add funcionalidades
 - historico de filmes assistidos, aparecerá na primeira fileira e se extenderá para fora da tela a direta, para ver o historico completo é só ir pressionando e arrastando o mouse para a esquerda.
 
 - otimizar o codigo para evitar travamentos 
+=======
+Programa para organização de filmes localmente, com interface UI
