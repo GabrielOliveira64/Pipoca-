@@ -2,6 +2,8 @@
 netflix app 
 add funcionalidades
 
+- log de quais filmes não foram encontrados
+
 - melhorar o reconhecimento de filme, antes de remover o ano do filme do titulo, armazena em cache o nome do filme e a data que estava no titulo, depois na parte api de busca compara o nome + a data salva em cache com os resultados, e seleciona o resulto com o titulo e a data exata ou mais proxima. 
 
 - dividir uma lista de filmes, series e animes.  

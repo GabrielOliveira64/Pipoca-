@@ -1357,34 +1357,6 @@
       "last_updated": "2025-04-27T14:31:27.168378"
     },
     {
-      "id": 143,
-      "tmdb_id": 265330,
-      "title": "Bad Boys",
-      "original_title": "Bad Boys",
-      "release_date": "2014-04-17",
-      "overview": "Poucos times na história dos esportes profissionais provocam uma gama tão ampla de emoções como o Detroit Pistons do final dos anos 1980 e início dos anos 1990.",
-      "local_poster_path": "assets/poster_images/265330.jpg",
-      "genres": [
-        "Documentário"
-      ],
-      "runtime": 100,
-      "vote_average": 7.722,
-      "directors": [
-        "Zak Levitt"
-      ],
-      "cast": [
-        "Isiah Thomas",
-        "Dennis Rodman",
-        "John Salley",
-        "Joe Dumars",
-        "Bill Laimbeer"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\TRILOGIA.Bad.Boys.1080p.BluRay.H264.DUAL-RICKSZ\\Bad.Boys.1995.1080p.BluRay.H264.AC3.AAC.DUAL-RICKSZ.mkv",
-      "date_added": "2025-04-27T14:31:25.364574",
-      "last_updated": "2025-04-27T14:31:25.364582"
-    },
-    {
       "id": 142,
       "tmdb_id": 41154,
       "title": "MIB - Homens de Preto III",
@@ -1772,32 +1744,6 @@
       "last_updated": "2025-04-27T14:30:42.278269"
     },
     {
-      "id": 129,
-      "tmdb_id": 1286890,
-      "title": "Passageiros",
-      "original_title": "Passageiros",
-      "release_date": "1987-04-28",
-      "overview": "Um assaltante típico. Um típico motorista de táxi. Um trajeto típico pela noite de Porto Alegre, da estação rodoviária até uma rua deserta. Mas, na hora do assalto, o motorista não reage como deveria. Enquanto isso, na TV, o ministro da justiça discursa contra a violência.",
-      "local_poster_path": "assets/poster_images/1286890.jpg",
-      "genres": [
-        "Drama"
-      ],
-      "runtime": 9,
-      "vote_average": 0.0,
-      "directors": [
-        "Glênio Póvoas",
-        "Carlos Gerbase"
-      ],
-      "cast": [
-        "Zé Adão Barbosa",
-        "Marcos Carbonell"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Passageiros\\Passageiros.2017.1080p.BluRay.DD5.1.x264.DUAL-TDF.mkv",
-      "date_added": "2025-04-27T14:30:40.382115",
-      "last_updated": "2025-04-27T14:30:40.382124"
-    },
-    {
       "id": 128,
       "tmdb_id": 917496,
       "title": "Os Fantasmas Ainda se Divertem: Beetlejuice Beetlejuice",
@@ -2153,35 +2099,6 @@
       "last_updated": "2025-04-27T14:29:58.681684"
     },
     {
-      "id": 119,
-      "tmdb_id": 675,
-      "title": "Harry Potter e a Ordem da Fênix",
-      "original_title": "Harry Potter and the Order of the Phoenix",
-      "release_date": "2007-07-08",
-      "overview": "Lord Voldemort está de volta, mas o Ministério da Magia está fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso – incluindo indicar a oficial do Ministério, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts. Quando Umbridge se recusa a ensinar a prática de mágica defensiva, Rony e Hermione convencem Harry a secretamente treinar um grupo de estudantes para a guerra de magia que está prestes a estourar.",
-      "local_poster_path": "assets/poster_images/675.jpg",
-      "genres": [
-        "Aventura",
-        "Fantasia"
-      ],
-      "runtime": 138,
-      "vote_average": 7.7,
-      "directors": [
-        "David Yates"
-      ],
-      "cast": [
-        "Daniel Radcliffe",
-        "Rupert Grint",
-        "Emma Watson",
-        "Imelda Staunton",
-        "Helena Bonham Carter"
-      ],
-      "trailer_key": "Tbv2Al6LGW8",
-      "file_path": "D:/Movies\\Harry Potter - Coleção Completa\\005 Harry Potter e a Ordem da Fênix (2007) Dublado 5.1 CH 1080p (By-LuanHarper)\\Harry Potter e a Ordem da Fênix (2007) Dublado 5.1 CH 1080p (By-LuanHarper).mp4",
-      "date_added": "2025-04-27T14:29:56.838077",
-      "last_updated": "2025-04-27T14:29:56.838087"
-    },
-    {
       "id": 68,
       "tmdb_id": 967847,
       "title": "Ghostbusters: Apocalipse de Gelo",
@@ -2300,33 +2217,6 @@
       "file_path": "D:/Movies\\Extermínio 720p - The Pirate Filmes\\Extermínio 720p - The Pirate Filmes.mp4",
       "date_added": "2025-04-27T14:29:49.124201",
       "last_updated": "2025-04-27T14:29:49.124210"
-    },
-    {
-      "id": 117,
-      "tmdb_id": 1095082,
-      "title": "Butterfly Effect",
-      "original_title": "Butterfly Effect",
-      "release_date": "2023-02-26",
-      "overview": "",
-      "local_poster_path": "assets/poster_images/1095082.jpg",
-      "genres": [
-        "Thriller",
-        "Mistério"
-      ],
-      "runtime": 20,
-      "vote_average": 10.0,
-      "directors": [
-        "yoaspire"
-      ],
-      "cast": [
-        "Jhetta Tionne Anderson",
-        "Eric D Phillips Jr.",
-        "Trevor Gardler"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Efeito Borboleta - Trilogia\\Efeito Borboleta (2004)\\The.Butterfly.Effect.2004.DVDRip.XviD.Dual.Audio-jmsmarcelo.avi",
-      "date_added": "2025-04-27T14:29:45.742063",
-      "last_updated": "2025-04-27T14:29:45.742072"
     },
     {
       "id": 36,
@@ -2938,34 +2828,6 @@
       "last_updated": "2025-04-27T14:14:50.399756"
     },
     {
-      "id": 106,
-      "tmdb_id": 682697,
-      "title": "Paint",
-      "original_title": "Paint",
-      "release_date": "2020-12-15",
-      "overview": "",
-      "local_poster_path": "assets/poster_images/682697.jpg",
-      "genres": [
-        "Comédia"
-      ],
-      "runtime": 94,
-      "vote_average": 4.7,
-      "directors": [
-        "Michael Walker"
-      ],
-      "cast": [
-        "Amy Hargreaves",
-        "Josh Caras",
-        "Olivia Luccardi",
-        "Austin Pendleton",
-        "Daniel Bellomy"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Paint 2023 BluRay 1080p x264 DUAL 5.1\\Paint 2023 BluRay 1080p x264 DUAL 5.1.mkv",
-      "date_added": "2025-04-27T14:14:48.536359",
-      "last_updated": "2025-04-27T14:14:48.536368"
-    },
-    {
       "id": 105,
       "tmdb_id": 472715,
       "title": "O Último Refúgio",
@@ -3322,39 +3184,6 @@
       "last_updated": "2025-04-27T14:14:16.395749"
     },
     {
-      "id": 93,
-      "tmdb_id": 1362,
-      "title": "O Hobbit",
-      "original_title": "The Hobbit",
-      "release_date": "1977-11-27",
-      "overview": "O Hobbit é um 1977 de animação musical especial de televisão criada por Rankin / Bass , um estúdio conhecido por seus especiais de férias, e animado por Topcraft , um precursor do Studio Ghibli , com letras adaptadas do livro. O filme é uma adaptação do 1937 o livro de mesmo nome de JRR Tolkien e foi transmitido pela primeira vez na NBC no Estados Unidos no domingo, 27 de novembro, 1977. O Lugar é a Terra-Média. Bilbo Bolseiro é o herói e um hobbit pacato que sai em uma perigosa aventura. A aventura mais emocionante que nenhum outro hobbit jamais pensou em ir. Nesta adaptação animada do primeiro livro do grande clássico de J.R.R. Tolkien, Bilbo é chamado para ajudar no resgate de um grande tesouro que fora roubado dos anões por Smaug, o dragão. Eles devem mostrar toda sua bravura na Floresta das Trevas, nas Montanhas Sombrias, enfrentando orcs, aranhas gigantes, trolls comedores de hobbits e muito mais.",
-      "local_poster_path": "assets/poster_images/1362.jpg",
-      "genres": [
-        "Família",
-        "Fantasia",
-        "Animação",
-        "Aventura",
-        "Cinema TV"
-      ],
-      "runtime": 77,
-      "vote_average": 6.6,
-      "directors": [
-        "Jules Bass",
-        "Arthur Rankin, Jr."
-      ],
-      "cast": [
-        "Orson Bean",
-        "John Huston",
-        "Hans Conried",
-        "Richard Boone",
-        "Theodore Gottlieb"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\O hobbit - Coleção completa\\O hobbit 1.mp4",
-      "date_added": "2025-04-27T14:14:13.382549",
-      "last_updated": "2025-04-27T14:14:13.382558"
-    },
-    {
       "id": 92,
       "tmdb_id": 296,
       "title": "O Exterminador do Futuro 3: A Rebelião das Máquinas",
@@ -3467,36 +3296,6 @@
       "file_path": "D:/Movies\\Misterio.no.Artico.2023.1080p.WEB-DL.DUAL.5.1\\Misterio.no.Artico.2023.1080p.WEB-DL.DUAL.5.1.mkv",
       "date_added": "2025-04-27T14:14:01.664568",
       "last_updated": "2025-04-27T14:14:01.664577"
-    },
-    {
-      "id": 88,
-      "tmdb_id": 109933,
-      "title": "Minha Namorada Favorita",
-      "original_title": "My Gal Sal",
-      "release_date": "1942-04-30",
-      "overview": "Conta o início da vida do compositor da década de 1890, Paul Dresser, quando ele supera seu trabalho como artista de carnaval e se muda para a sociedade de Nova York, escrevendo uma música de sucesso após a outra. Apesar de seu comportamento egoísta, ele consegue conquistar Sally Elliott, uma das cantoras mais populares da época. (e 10 - Estimado 10 Anos)",
-      "local_poster_path": "assets/poster_images/109933.jpg",
-      "genres": [
-        "Comédia",
-        "Música",
-        "Romance"
-      ],
-      "runtime": 103,
-      "vote_average": 5.8,
-      "directors": [
-        "Irving Cummings"
-      ],
-      "cast": [
-        "Rita Hayworth",
-        "Victor Mature",
-        "John Sutton",
-        "Carole Landis",
-        "James Gleason"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Minha.Namorada.Favorita.2022.1080p.WEB-DL.DUAL.2.0\\Minha.Namorada.Favorita.2022.1080p.WEB-DL.DUAL.2.0.mkv",
-      "date_added": "2025-04-27T14:13:59.746338",
-      "last_updated": "2025-04-27T14:13:59.746347"
     },
     {
       "id": 86,
@@ -4685,36 +4484,6 @@
       "last_updated": "2025-04-27T14:11:43.874205"
     },
     {
-      "id": 77,
-      "tmdb_id": 762441,
-      "title": "Um Lugar Silencioso: Dia Um",
-      "original_title": "A Quiet Place: Day One",
-      "release_date": "2024-06-26",
-      "overview": "Quando Samira retorna para Nova York, sua viagem se transforma em um pesadelo angustiante quando as misteriosas criaturas que caçam pelo som atacam. Acompanhada de seu gato Frodo e de um aliado inesperado, Samira deve embarcar em uma perigosa jornada pela cidade que de repente ficou silenciosa, na qual a única regra é permanecer quieta para continuar\r viva.",
-      "local_poster_path": "assets/poster_images/762441.jpg",
-      "genres": [
-        "Terror",
-        "Ficção científica",
-        "Thriller"
-      ],
-      "runtime": 100,
-      "vote_average": 6.726,
-      "directors": [
-        "Michael Sarnoski"
-      ],
-      "cast": [
-        "Lupita Nyong'o",
-        "Joseph Quinn",
-        "Alex Wolff",
-        "Djimon Hounsou",
-        "Eliane Umuhire"
-      ],
-      "trailer_key": "ENocUCWoGHA",
-      "file_path": "D:/filme test\\Um Lugar Silencioso [BluRay] [1080p] [DUAL]\\Um.Lugar.Silencioso.2018.1080p.BluRay.x264-DUAL.mkv",
-      "date_added": "2025-04-27T13:39:56.332085",
-      "last_updated": "2025-04-27T13:39:56.332094"
-    },
-    {
       "id": 76,
       "tmdb_id": 1063879,
       "title": "Infestação",
@@ -5132,6 +4901,65 @@
       "file_path": "D:/Movies/Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM/Anjos da Noite 2003 [1080p] WWW.BLUDV.COM/Anjos.da.Noite.2003.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
       "date_added": "2025-04-27T15:58:21.316224",
       "last_updated": "2025-04-27T15:58:21.316233"
+    },
+    {
+      "id": 167,
+      "tmdb_id": 675,
+      "title": "Harry Potter e a Ordem da Fênix",
+      "original_title": "Harry Potter and the Order of the Phoenix",
+      "release_date": "2007-07-08",
+      "overview": "Lord Voldemort está de volta, mas o Ministério da Magia está fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso – incluindo indicar a oficial do Ministério, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts. Quando Umbridge se recusa a ensinar a prática de mágica defensiva, Rony e Hermione convencem Harry a secretamente treinar um grupo de estudantes para a guerra de magia que está prestes a estourar.",
+      "local_poster_path": "assets/poster_images/675.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia"
+      ],
+      "runtime": 138,
+      "vote_average": 7.674,
+      "directors": [
+        "David Yates"
+      ],
+      "cast": [
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Imelda Staunton",
+        "Helena Bonham Carter"
+      ],
+      "trailer_key": "Tbv2Al6LGW8",
+      "file_path": "D:/Movies/Harry.Potter.e.a.Ordem.da.Fênix.2007.1080p-WOLVERDONFILMES.COM/Harry.Potter.e.a.Ordem.da.Fênix.2007.1080p-WOLVERDONFILMES.COM.mkv",
+      "date_added": "2025-04-28T15:52:40.807695",
+      "last_updated": "2025-04-28T15:52:40.807703"
+    },
+    {
+      "id": 168,
+      "tmdb_id": 696506,
+      "title": "Mickey 17",
+      "original_title": "Mickey 17",
+      "release_date": "2025-02-28",
+      "overview": "Mickey faz parte de um programa espacial de colonização e sempre é enviado para missões perigosas, quase suicidas. Se morrer, ele é clonado e boa parte de suas memórias são recuperadas. Mas, após seis mortes, ele começa a entender o porquê de seu cargo nunca ter sido ocupado antes.",
+      "local_poster_path": "assets/poster_images/696506.jpg",
+      "genres": [
+        "Ficção científica",
+        "Comédia",
+        "Aventura"
+      ],
+      "runtime": 136,
+      "vote_average": 6.916,
+      "directors": [
+        "Bong Joon-Ho"
+      ],
+      "cast": [
+        "Robert Pattinson",
+        "Naomi Ackie",
+        "Steven Yeun",
+        "Mark Ruffalo",
+        "Toni Collette"
+      ],
+      "trailer_key": "Z9RzVGcoFRw",
+      "file_path": "D:/Movies/Mickey.17.2025.REPACK.1080p.WEB-DL.DUAL.5.1/Mickey.17.2025.REPACK.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-04-28T15:55:52.175915",
+      "last_updated": "2025-04-28T15:55:52.175925"
     }
   ]
 }
