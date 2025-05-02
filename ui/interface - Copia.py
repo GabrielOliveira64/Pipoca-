@@ -16,18 +16,6 @@ from ui.movie_card import MovieCard
 from ui.add_movie_dialog import AddMovieDialog
 from ui.delete_movie_dialog import DeleteMovieDialog
 from ui.splash_screen import SplashScreen
-import json
-
-def get_version():
-    try:
-        version_path = os.path.join("./", "version.json")
-        if os.path.exists(version_path):
-            with open(version_path, 'r') as f:
-                version_data = json.load(f)
-                return version_data.get("version", "Desconhecida")
-        return "Desconhecida"
-    except Exception:
-        return "Desconhecida"
 
 class MainWindow(QMainWindow):
     """Janela principal do aplicativo."""
@@ -114,10 +102,6 @@ class MainWindow(QMainWindow):
         sort_by_year = QAction("Ano de Lançamento", self)
         sort_by_year.triggered.connect(lambda: self.sort_movies("release_date"))
         sort_menu.addAction(sort_by_year)
-        about_menu = menubar.addMenu("Sobre")
-        app_info_action = QAction("Informações do App", self)
-        app_info_action.triggered.connect(self.show_about_info)
-        about_menu.addAction(app_info_action)
         self.sidebar = QFrame()
         self.sidebar.setObjectName("sidebar")
         self.sidebar.setFixedWidth(0)
@@ -649,15 +633,6 @@ class MainWindow(QMainWindow):
     def exit_fullscreen(self):
         if self.isFullScreen():
             self.showNormal()
-            
-    def show_about_info(self):
-        version = get_version()
-        QMessageBox.about(self, 
-                        "Sobre Pipoca+", 
-                        f"<h2>Pipoca+</h2>"
-                        f"<p>Versão: {version}</p>"
-                        f"<p>Desenvolvido por: GabrielOliveira64</p>"
-                        f"<p>Um gerenciador de filmes para sua coleção pessoal.</p>")
     
     def resizeEvent(self, event):
         super().resizeEvent(event)
