@@ -2,12 +2,14 @@ import os
 import json
 import shutil
 import zipfile
+import fnmatch
 import requests
 import subprocess
+import sys
 from packaging import version
 
 class AutoUpdater:
-    def __init__(self, repo_owner, repo_name, current_version, app_directory=None):
+    def __init__(self, repo_owner, repo_name, current_version, app_directory=None, ignore_patterns=None):
         """
         Inicializa o atualizador automático.
         
@@ -15,6 +17,7 @@ class AutoUpdater:
         :param repo_name: Nome do repositório no GitHub
         :param current_version: Versão atual do software (ex: "1.0.0")
         :param app_directory: Diretório da aplicação (padrão: diretório atual)
+        :param ignore_patterns: Lista de padrões de arquivos/pastas a serem ignorados durante a atualização
         """
         self.repo_owner = repo_owner
         self.repo_name = repo_name
@@ -22,6 +25,7 @@ class AutoUpdater:
         self.app_directory = app_directory or os.getcwd()
         self.api_url = f"https://api.github.com/repos/{repo_owner}/{repo_name}/releases/latest"
         self.update_dir = os.path.join(self.app_directory, "update_temp")
+        self.ignore_patterns = ignore_patterns or []
         
     def check_for_updates(self):
         """Verifica se há atualizações disponíveis."""
@@ -86,9 +90,28 @@ class AutoUpdater:
             print(f"Erro ao baixar atualização: {e}")
             return None
     
+    def should_ignore_file(self, file_path):
+        """
+        Verifica se um arquivo deve ser ignorado durante a atualização.
+        
+        :param file_path: Caminho do arquivo relativo ao diretório da aplicação
+        :return: True se o arquivo deve ser ignorado, False caso contrário
+        """
+        # Normaliza o caminho para usar separadores consistentes
+        normalized_path = file_path.replace('\\', '/')
+        
+        # Verifica se o arquivo corresponde a algum dos padrões de ignorar
+        for pattern in self.ignore_patterns:
+            # Converte padrões glob para padrões fnmatch
+            if fnmatch.fnmatch(normalized_path, pattern):
+                print(f"Ignorando arquivo: {normalized_path} (corresponde ao padrão {pattern})")
+                return True
+                
+        return False
+    
     def install_update(self, zip_path):
         """
-        Instala a atualização baixada.
+        Instala a atualização baixada, preservando arquivos específicos.
         
         :param zip_path: Caminho do arquivo .zip baixado
         :return: True se a atualização foi instalada com sucesso, False caso contrário
@@ -107,29 +130,87 @@ class AutoUpdater:
             with zipfile.ZipFile(zip_path, 'r') as zip_ref:
                 zip_ref.extractall(extract_dir)
             
-            # Atualiza os arquivos (exemplo simples - você pode precisar personalizar esta parte)
+            # Cria um backup de segurança
+            backup_dir = os.path.join(self.app_directory, "backup_before_update")
+            if os.path.exists(backup_dir):
+                shutil.rmtree(backup_dir)
+            os.makedirs(backup_dir)
+            
+            # Faz backup dos arquivos importantes antes da atualização
+            for root, dirs, files in os.walk(self.app_directory):
+                # Pula os diretórios temporários e de backup
+                if "update_temp" in root or "backup_before_update" in root:
+                    continue
+                
+                # Caminho relativo dentro do diretório da aplicação
+                rel_path = os.path.relpath(root, self.app_directory)
+                if rel_path == ".":
+                    rel_path = ""
+                
+                # Cria a estrutura de diretórios no backup
+                if rel_path:
+                    os.makedirs(os.path.join(backup_dir, rel_path), exist_ok=True)
+                
+                # Copia os arquivos importantes para o backup
+                for file in files:
+                    src_file = os.path.join(root, file)
+                    rel_file_path = os.path.join(rel_path, file) if rel_path else file
+                    
+                    # Se for um arquivo que deve ser preservado, faz backup
+                    if self.should_ignore_file(rel_file_path):
+                        dst_file = os.path.join(backup_dir, rel_file_path)
+                        shutil.copy2(src_file, dst_file)
+            
             print("Instalando atualização...")
             
-            # Opção 1: Copia os arquivos extraídos para o diretório da aplicação
-            # (exclui alguns diretórios/arquivos especiais que não devem ser substituídos)
-            for item in os.listdir(extract_dir):
-                src_path = os.path.join(extract_dir, item)
-                dst_path = os.path.join(self.app_directory, item)
+            # Atualiza os arquivos da aplicação
+            for root, dirs, files in os.walk(extract_dir):
+                # Caminho relativo dentro do diretório extraído
+                rel_path = os.path.relpath(root, extract_dir)
+                if rel_path == ".":
+                    rel_path = ""
                 
-                if os.path.isdir(src_path):
-                    if os.path.exists(dst_path):
-                        shutil.rmtree(dst_path)
-                    shutil.copytree(src_path, dst_path)
-                else:
-                    if os.path.exists(dst_path):
-                        os.remove(dst_path)
-                    shutil.copy2(src_path, dst_path)
+                # Diretório de destino na aplicação
+                dst_dir = os.path.join(self.app_directory, rel_path) if rel_path else self.app_directory
+                os.makedirs(dst_dir, exist_ok=True)
+                
+                # Copia os arquivos da atualização para a aplicação
+                for file in files:
+                    src_file = os.path.join(root, file)
+                    rel_file_path = os.path.join(rel_path, file) if rel_path else file
+                    dst_file = os.path.join(dst_dir, file)
+                    
+                    # Não sobrescreve arquivos que devem ser preservados
+                    if not self.should_ignore_file(rel_file_path):
+                        if os.path.exists(dst_file):
+                            os.remove(dst_file)
+                        shutil.copy2(src_file, dst_file)
             
-            # Atualiza o arquivo de versão
+            # Restaura os arquivos preservados do backup
+            for root, dirs, files in os.walk(backup_dir):
+                rel_path = os.path.relpath(root, backup_dir)
+                if rel_path == ".":
+                    rel_path = ""
+                
+                dst_dir = os.path.join(self.app_directory, rel_path) if rel_path else self.app_directory
+                
+                for file in files:
+                    src_file = os.path.join(root, file)
+                    rel_file_path = os.path.join(rel_path, file) if rel_path else file
+                    
+                    # Se for um arquivo que deve ser preservado, restaura do backup
+                    if self.should_ignore_file(rel_file_path):
+                        dst_file = os.path.join(dst_dir, file)
+                        if os.path.exists(dst_file):
+                            os.remove(dst_file)
+                        shutil.copy2(src_file, dst_file)
+            
+            # Atualiza o arquivo de versão com a nova versão
+            new_version = release['tag_name'].lstrip('v')
             with open(os.path.join(self.app_directory, "version.json"), "w") as f:
-                json.dump({"version": release['tag_name'].lstrip('v')}, f)
+                json.dump({"version": new_version}, f)
             
-            print("Atualização instalada com sucesso!")
+            print(f"Atualização para a versão {new_version} instalada com sucesso!")
             
             # Limpa os arquivos temporários
             self.cleanup()
@@ -160,28 +241,3 @@ class AutoUpdater:
             return False
         
         return self.install_update(zip_path)
-
-# Exemplo de uso
-if __name__ == "__main__":
-    # Obtém a versão atual do arquivo version.json
-    try:
-        with open("version.json", "r") as f:
-            current_version = json.load(f)["version"]
-    except (FileNotFoundError, json.JSONDecodeError, KeyError):
-        current_version = "0.0.1"  # Versão padrão caso não exista arquivo
-    
-    # Configuração do atualizador
-    updater = AutoUpdater(
-        repo_owner="gabrieloliveira64",
-        repo_name="PipocaApp",
-        current_version=current_version
-    )
-    
-    # Executa a atualização
-    if updater.update():
-        print("Programa atualizado. Reiniciando...")
-        # Reinicia o programa (opcional)
-        python = sys.executable
-        os.execl(python, python, *sys.argv)
-    else:
-        print("Nenhuma atualização foi instalada.")

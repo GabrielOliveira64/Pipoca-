@@ -105,13 +105,13 @@ class BatchScanThread(QThread):
         patterns = [
             r'\b\d{4}\b',  # Anos (ex: 2022)
             r'\b(1080p|720p|480p|4K|UHD|HD|FHD)\b',  # Resoluções
-            r'\b(BluRay|BRRip|WEBRip|HDTV|DVDRip|WEB-DL|HDRIP|WEB |DL |SF|Acesse|ORIGINAL|Dublagem|BKS|by|GmV|Pirate|Filmes|The|LAPUMiaAFiLMES|COM|By|jmsmarcelo|COMANDO LA|LA|LapumiaFilmes|TorrentDosFilmes|SE|NET|)\b',  # Fontes
+            r'\b(BluRay|BRRip|WEBRip|HDTV|DVDRip|WEB-DL|HDRIP|WEB |DL|REPACK|-|JefePsb|CAMPRip|SF|Acesse|ORIGINAL|Dublagem|BKS|by|GmV|Pirate|Filmes|The|LAPUMiaAFiLMES|COM|By|jmsmarcelo|COMANDO LA|LA|LapumiaFilmes|TorrentDosFilmes|SE|NET|)\b',  # Fontes
             r'\b(x264|x265|HEVC|XviD|h264|h265)\b',  # Codecs de vídeo
             r'\b(AAC|AC3|DTS|MP3|FLAC|DDP5.1|DDP|DD5.1|ÁUDIO|AUDIO|EAC3|6CH|CH|TDF|DL)\b',  # Codecs de áudio
             r'\b(DUAL|DUBLADO|LEGENDADO|DUB|PT-BR|PT|BR|EN|ENG|PTBR)\b',  # Idiomas
             r'\b(5.1|7.1|2.0)\b',  # Canais de áudio
             r'\bwww\.[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b',  # URLs
-            r'\b(EXTENDED|DIRECTORS.CUT|UNRATED|REMASTERED|REMUX |SF|BLUDV|BY|LUAHARP|LuaHarper|JefPsB|LAPUMiA|CAMPRip|THEPIRATEFILMES|RICKSZ|COMANDOTORRENTS|WOLVERDONFILMES|NACIONAL|VERSAO|ESTENDIDA|STARCKFILMES|remasterizado|CAMPRip|VERSÃO|ToTTI9|jeffpsb|portugues|WWW|-)\b',  # Versões
+            r'\b(EXTENDED|DIRECTORS.CUT|UNRATED|CAMPRip|Sem Cortes|JefePsb|REPACK|-|D4V1|D4VI|199991|REMASTERED|REMUX |SF|BLUDV|BY|LUAHARP|LuaHarper|JefPsB|LAPUMiA|CAMPRip|THEPIRATEFILMES|RICKSZ|COMANDOTORRENTS|WOLVERDONFILMES|NACIONAL|VERSAO|ESTENDIDA|STARCKFILMES|remasterizado|CAMPRip|VERSÃO|ToTTI9|jeffpsb|portugues|WWW|-)\b',  # Versões
             r'\[.*?\]|\(.*?\)',  # Qualquer coisa entre colchetes ou parênteses
         ]
         
@@ -580,9 +580,10 @@ class AddMovieDialog(QDialog):
             # Extrair o nome do arquivo (sem extensão) para usar como termo de busca
             filename = os.path.basename(file_path)
             basename = os.path.splitext(filename)[0]
-            
-            # Limpar o nome
-            clean_title = self.clean_movie_title(basename)
+
+            # Criar uma instância da classe BatchScanThread apenas para usar o método clean_movie_title
+            scan_thread = BatchScanThread("", self.movie_manager)
+            clean_title = scan_thread.clean_movie_title(basename)
             
             # Preencher o campo de busca com o nome limpo
             self.search_edit.setText(clean_title.strip())

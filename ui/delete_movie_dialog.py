@@ -239,6 +239,7 @@ class DeleteMovieDialog(QDialog):
         search_text = self.search_input.text().lower()
         self.movies_list.clear()
         
+        # Recarrega os filmes atuais do catálogo para ter certeza de ter a lista mais recente
         movies = self.movie_manager.get_all_movies()
         filtered_movies = []
         
@@ -267,26 +268,37 @@ class DeleteMovieDialog(QDialog):
         
         movie = current_item.data(Qt.UserRole)
         title = movie.get('title', 'Sem título')
+        movie_id = movie.get('id')
+        
+        # Verificação adicional para garantir que temos o ID correto
+        if movie_id is None:
+            QMessageBox.warning(
+                self, 
+                "Erro ao Deletar", 
+                f'Não foi possível identificar o ID do filme "{title}".'
+            )
+            return
         
         # Mensagem de confirmação
         reply = QMessageBox.question(
             self, 
             'Confirmar Exclusão',
-            f'Tem certeza que deseja deletar o filme "{title}" do catálogo?',
+            f'Tem certeza que deseja deletar o filme "{title}" (ID: {movie_id}) do catálogo?',
             QMessageBox.Yes | QMessageBox.No,
             QMessageBox.No
         )
         
         if reply == QMessageBox.Yes:
             # Tenta deletar o filme
-            movie_id = movie.get('id')
+            success = self.movie_manager.delete_movie(movie_id)
             
-            if self.movie_manager.delete_movie(movie_id):
+            if success:
                 self.deleted_count += 1
                 self.movie_deleted.emit()  # Emite o sinal para atualizar a lista principal
                 
                 # Remove o item da lista
-                self.movies_list.takeItem(self.movies_list.row(current_item))
+                row = self.movies_list.row(current_item)
+                self.movies_list.takeItem(row)
                 
                 # Atualiza o status
                 remaining = self.movies_list.count()
@@ -299,11 +311,19 @@ class DeleteMovieDialog(QDialog):
                 QMessageBox.information(
                     self, 
                     "Filme Deletado", 
-                    f'O filme "{title}" foi removido do catálogo.'
+                    f'O filme "{title}" (ID: {movie_id}) foi removido do catálogo.'
                 )
+                
+                # Recarrega a lista para garantir que esteja atualizada
+                # Isso garante que a lista reflita o estado atual do catálogo
+                self.load_movies()
+                
+                # Reaplica o filtro se houver texto de pesquisa
+                if self.search_input.text():
+                    self.filter_movies()
             else:
                 QMessageBox.warning(
                     self, 
                     "Erro ao Deletar", 
-                    f'Não foi possível deletar o filme "{title}".'
+                    f'Não foi possível deletar o filme "{title}" (ID: {movie_id}).'
                 )

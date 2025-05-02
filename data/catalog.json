@@ -1,663 +1,6 @@
 {
   "movies": [
     {
-      "id": 177,
-      "tmdb_id": 11127,
-      "title": "Tropas Estelares 3",
-      "original_title": "Starship Troopers 3: Marauder",
-      "release_date": "2008-07-19",
-      "overview": "Uma nave espacial da Federação cai no distante planeta alienígena OM-1 e acaba ficando encalhada com o líder Sky Marechal Anoke, a piloto Lola Beck e vários outros no local. Agora cabe ao Coronel Johnny Rico, herói relutante da invasão de insetos no Planeta P, liderar uma equipe de soldados em uma ousada missão de resgate.",
-      "local_poster_path": "assets/poster_images/11127.jpg",
-      "genres": [
-        "Aventura",
-        "Ficção científica",
-        "Ação"
-      ],
-      "runtime": 105,
-      "vote_average": 4.866,
-      "directors": [
-        "Edward Neumeier"
-      ],
-      "cast": [
-        "Casper Van Dien",
-        "Jolene Blalock",
-        "Stephen Hogan",
-        "Boris Kodjoe",
-        "Amanda Donohoe"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Tropas Estelares - Trilogia 1997-2008 (1080p) LAPUMiA\\Tropas Estelares 3 2008 5.1 (1080p) LAPUMiA\\Tropas.Estelares.3.2008.1080p.BluRay.6CH.x264.DUAL-WwW.LAPUMiA.NET.mkv",
-      "date_added": "2025-04-27T14:42:41.158139",
-      "last_updated": "2025-04-27T14:42:41.158148"
-    },
-    {
-      "id": 176,
-      "tmdb_id": 10304,
-      "title": "Tropas Estelares 2",
-      "original_title": "Starship Troopers 2: Hero of the Federation",
-      "release_date": "2004-05-19",
-      "overview": "Um esquadrão de soldados, está detido em um planeta infestado por insetos gigantes que estão indo para uma região remota. Quando eles chegam, encontram um sobrevivente solitário o qual está trancado por ter matado seu comandante. Os problemas do esquadrão aumentam quando são ameaçados por insetos saqueadores e um novo grupo de estranhos.",
-      "local_poster_path": "assets/poster_images/10304.jpg",
-      "genres": [
-        "Aventura",
-        "Terror",
-        "Ação",
-        "Ficção científica"
-      ],
-      "runtime": 92,
-      "vote_average": 4.473,
-      "directors": [
-        "Phil Tippett"
-      ],
-      "cast": [
-        "Colleen Porch",
-        "Richard Burgi",
-        "Lawrence Monoson",
-        "Brenda Strong",
-        "Ed Lauter"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Tropas Estelares - Trilogia 1997-2008 (1080p) LAPUMiA\\Tropas Estelares 2 2004 5.1 (1080p) LAPUMiA\\Tropas.Estelares.2.2004.1080p.BluRay.6CH.x264.DUAL-WwW.LAPUMiA.NET.mkv",
-      "date_added": "2025-04-27T14:42:38.823054",
-      "last_updated": "2025-04-27T14:42:38.823063"
-    },
-    {
-      "id": 175,
-      "tmdb_id": 563,
-      "title": "Tropas Estelares",
-      "original_title": "Starship Troopers",
-      "release_date": "1997-11-07",
-      "overview": "Em um futuro distante, a Terra está em guerra contra uma raça de insetos gigantes alienígenas. Pouco se sabe sobre eles, exceto que têm a intenção de eliminar toda forma de vida humana. Mas houve um tempo, antes da guerra, em que a Infantaria Móvel viajava para planetas distantes a fim de combater os insetos, inimigos implacáveis, com apenas uma missão: garantir a sobrevivência de sua espécie a qualquer custo.",
-      "local_poster_path": "assets/poster_images/563.jpg",
-      "genres": [
-        "Aventura",
-        "Ação",
-        "Thriller",
-        "Ficção científica"
-      ],
-      "runtime": 135,
-      "vote_average": 7.1,
-      "directors": [
-        "Paul Verhoeven"
-      ],
-      "cast": [
-        "Casper Van Dien",
-        "Dina Meyer",
-        "Denise Richards",
-        "Jake Busey",
-        "Neil Patrick Harris"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Tropas Estelares - Trilogia 1997-2008 (1080p) LAPUMiA\\Tropas Estelares 1 1997 5.1 (1080p) LAPUMiA\\Tropas.Estelares.1997.1080p.BluRay.6CH.x264.DUAL-WwW.LAPUMiA.NET.mkv",
-      "date_added": "2025-04-27T14:42:36.403846",
-      "last_updated": "2025-04-27T14:42:36.403855"
-    },
-    {
-      "id": 174,
-      "tmdb_id": 109439,
-      "title": "Se Beber, Não Case! Parte III",
-      "original_title": "The Hangover Part III",
-      "release_date": "2013-05-23",
-      "overview": "Faz dois anos desde que o quarteto, conhecido como Wolfpack, quase escapou de um desastre em Bangkok. Agora, Phil, Stu e Doug vivem felizes em casa, mas Alan não. Ainda sem rumo na vida, Alan não tem tomado seus remédios e está vivendo sob impulsos naturais. Está nas mãos dos amigos ajudá-lo com sua crise pessoal, embarcando em uma viagem para o lugar onde tudo começou: Las Vegas.",
-      "local_poster_path": "assets/poster_images/109439.jpg",
-      "genres": [
-        "Comédia"
-      ],
-      "runtime": 100,
-      "vote_average": 6.21,
-      "directors": [
-        "Todd Phillips"
-      ],
-      "cast": [
-        "Bradley Cooper",
-        "Ed Helms",
-        "Zach Galifianakis",
-        "Justin Bartha",
-        "Ken Jeong"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Trilogia - Se Beber, Não Case! (2009-2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! III (2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! III (2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper.mp4",
-      "date_added": "2025-04-27T14:42:33.476959",
-      "last_updated": "2025-04-27T14:42:33.476968"
-    },
-    {
-      "id": 173,
-      "tmdb_id": 45243,
-      "title": "Se Beber, Não Case! Parte II",
-      "original_title": "The Hangover Part II",
-      "release_date": "2011-05-25",
-      "overview": "Phil, Stu, Alan e Doug viajam à exótica Tailândia para o casamento de Stu. O que poderia dar errado? Dois anos depois da desastrosa despedida de solteiro de Doug em Las Vegas, agora é a vez de Stu. Ele decide se casar na Tailândia, país de sua futura mulher. Com medo de que os incidentes da despedida de solteiro em Las Vegas se repitam, Stu organiza muito bem a comemoração, mas nada sai como o esperado, e as confusões prometem ser inimagináveis.",
-      "local_poster_path": "assets/poster_images/45243.jpg",
-      "genres": [
-        "Comédia"
-      ],
-      "runtime": 101,
-      "vote_average": 6.487,
-      "directors": [
-        "Todd Phillips"
-      ],
-      "cast": [
-        "Bradley Cooper",
-        "Ed Helms",
-        "Zach Galifianakis",
-        "Justin Bartha",
-        "Ken Jeong"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Trilogia - Se Beber, Não Case! (2009-2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! II (2011) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! II (2011) 5.1 BluRay Dual Áudio 1080p By-LuaHarper.mp4",
-      "date_added": "2025-04-27T14:42:31.679557",
-      "last_updated": "2025-04-27T14:42:31.679566"
-    },
-    {
-      "id": 172,
-      "tmdb_id": 18785,
-      "title": "Se Beber, Não Case!",
-      "original_title": "The Hangover",
-      "release_date": "2009-06-02",
-      "overview": "Dois dias antes de seu casamento, Doug e três amigos vão de carro até Las Vegas para uma louca e memorável despedida de solteiro. Quando os três padrinhos acordam na manhã seguinte, eles não conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam levá-lo de volta a Los Angeles a tempo de chegar ao altar.",
-      "local_poster_path": "assets/poster_images/18785.jpg",
-      "genres": [
-        "Comédia"
-      ],
-      "runtime": 99,
-      "vote_average": 7.3,
-      "directors": [
-        "Todd Phillips"
-      ],
-      "cast": [
-        "Bradley Cooper",
-        "Ed Helms",
-        "Zach Galifianakis",
-        "Justin Bartha",
-        "Heather Graham"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Trilogia - Se Beber, Não Case! (2009-2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! (2009) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! (2009) 5.1 BluRay Dual Áudio 1080p By-LuaHarper.mp4",
-      "date_added": "2025-04-27T14:42:29.809498",
-      "last_updated": "2025-04-27T14:42:29.809507"
-    },
-    {
-      "id": 170,
-      "tmdb_id": 605,
-      "title": "Matrix Revolutions",
-      "original_title": "The Matrix Revolutions",
-      "release_date": "2003-11-05",
-      "overview": "Após enfrentar os sentinelas no mundo real, Neo tem sua mente presa em um local que fica entre a Matrix e a realidade, do qual apenas poderá sair com a ajuda de Trainman. Após perceberem que as ondas cerebrais de Neo são idênticas as de uma pessoa conectada à Matrix, Trinity e Morpheus buscam a ajuda da Oráculo e Seraph. Trinity, Morpheus e Seraph vão em busca de Merovingian, que possui controle sobre Trainman e pode libertar Neo. Após obterem sucesso no resgate, o trio se divide em duas missões: Enquanto Morpheus e a tripulação de duas naves parte rumo a Zion, na tentativa de ajudar no combate contra as máquinas, Neo e Trinity se dirigem à Cidadela das Máquinas.",
-      "local_poster_path": "assets/poster_images/605.jpg",
-      "genres": [
-        "Aventura",
-        "Ação",
-        "Thriller",
-        "Ficção científica"
-      ],
-      "runtime": 129,
-      "vote_average": 6.733,
-      "directors": [
-        "Lilly Wachowski",
-        "Lana Wachowski"
-      ],
-      "cast": [
-        "Keanu Reeves",
-        "Laurence Fishburne",
-        "Carrie-Anne Moss",
-        "Hugo Weaving",
-        "Jada Pinkett Smith"
-      ],
-      "trailer_key": "Ou8KTnfKuO8",
-      "file_path": "D:/Movies\\Trilogia Matrix 1999 - 2003 [1080p] WWW.BLUDV.COM\\Matrix Revolutions 2003 [1080p] WWW.BLUDV.COM\\Matrix.Revolutions.2003.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:39:19.110850",
-      "last_updated": "2025-04-27T14:39:19.110859"
-    },
-    {
-      "id": 169,
-      "tmdb_id": 604,
-      "title": "Matrix Reloaded",
-      "original_title": "The Matrix Reloaded",
-      "release_date": "2003-05-15",
-      "overview": "Após derrotar as máquinas em seu combate inicial, Neo ainda vive na Nabucodonosor ao lado de Morpheus, Trinity e Link, o novo tripulante da nave. As máquinas estão realizando uma grande ofensiva contra Zion, onde 250 mil delas escavam rumo à cidade e podem alcançá-la em poucos dias. A Nabucodonosor é convocada para retornar a Zion e participar da reunião que definirá o contra-ataque para salvar a humanidade da extinção. Entretanto, um recado enviado pelo Oráculo faz com que Neo retorne à Matrix.",
-      "local_poster_path": "assets/poster_images/604.jpg",
-      "genres": [
-        "Aventura",
-        "Ação",
-        "Thriller",
-        "Ficção científica"
-      ],
-      "runtime": 138,
-      "vote_average": 7.056,
-      "directors": [
-        "Lana Wachowski",
-        "Lilly Wachowski"
-      ],
-      "cast": [
-        "Keanu Reeves",
-        "Laurence Fishburne",
-        "Carrie-Anne Moss",
-        "Hugo Weaving",
-        "Jada Pinkett Smith"
-      ],
-      "trailer_key": "dEGsoVtIg7g",
-      "file_path": "D:/Movies\\Trilogia Matrix 1999 - 2003 [1080p] WWW.BLUDV.COM\\Matrix Reloaded 2003 [1080p] WWW.BLUDV.COM\\Matrix.Reloaded.2003.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:39:17.242993",
-      "last_updated": "2025-04-27T14:39:17.243002"
-    },
-    {
-      "id": 168,
-      "tmdb_id": 5174,
-      "title": "A Hora do Rush 3",
-      "original_title": "Rush Hour 3",
-      "release_date": "2007-08-08",
-      "overview": "O leste encontra o oeste novamente. Depois de um atentado contra o Embaixador Han, Lee e Carter vão para Paris para proteger uma francesa que sabe demais sobre os secretos líderes do Triad. Enquanto isso, eles também precisam lutar contra a máfia chinesa de Paris e um amigo de infância de Lee conforme eles procuram por um envelope que contem a identidade de um poderoso chefão do crime.",
-      "local_poster_path": "assets/poster_images/5174.jpg",
-      "genres": [
-        "Ação",
-        "Comédia",
-        "Crime"
-      ],
-      "runtime": 90,
-      "vote_average": 6.478,
-      "directors": [
-        "Brett Ratner"
-      ],
-      "cast": [
-        "Jackie Chan",
-        "Chris Tucker",
-        "Hiroyuki Sanada",
-        "Max von Sydow",
-        "Yvan Attal"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Trilogia A Hora do Rush (1998 - 2001 - 2007) 720p Bluray Dublado - WWW.THEPIRATEFILMES.COM\\A Hora do Rush 3 (2007) - WWW.THEPIRATEFILMES.COM.mp4",
-      "date_added": "2025-04-27T14:39:15.236725",
-      "last_updated": "2025-04-27T14:39:15.236734"
-    },
-    {
-      "id": 167,
-      "tmdb_id": 5175,
-      "title": "A Hora do Rush 2",
-      "original_title": "Rush Hour 2",
-      "release_date": "2001-08-03",
-      "overview": "Depois que um atentado a bomba na Embaixada dos Estados Unidos em Hong Kong mata dois agentes que investigavam contrabando de dinheiro, os inspetores Lee e James Carter caçam o autor intelectual do ataque. Mas o criminoso Ricky Tan quer assegurar que os dois não resolvam o caso.",
-      "local_poster_path": "assets/poster_images/5175.jpg",
-      "genres": [
-        "Ação",
-        "Comédia",
-        "Crime"
-      ],
-      "runtime": 90,
-      "vote_average": 6.744,
-      "directors": [
-        "Brett Ratner"
-      ],
-      "cast": [
-        "Jackie Chan",
-        "Chris Tucker",
-        "John Lone",
-        "Ziyi Zhang",
-        "Roselyn Sánchez"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Trilogia A Hora do Rush (1998 - 2001 - 2007) 720p Bluray Dublado - WWW.THEPIRATEFILMES.COM\\A Hora do Rush 2 (2001) - WWW.THEPIRATEFILMES.COM.mp4",
-      "date_added": "2025-04-27T14:39:13.451114",
-      "last_updated": "2025-04-27T14:39:13.451123"
-    },
-    {
-      "id": 166,
-      "tmdb_id": 2109,
-      "title": "A Hora do Rush",
-      "original_title": "Rush Hour",
-      "release_date": "1998-09-18",
-      "overview": "Quando a filha de um diplomata chinês é sequestrada em Los Angeles, o cônsul chama o inspector Lee em Hong Kong para ajudar o FBI com o caso. O FBI não se importa com Lee e o deixa de lado no Departamento de Polícia de Los Angeles, pedindo ao detetive James Carter que o vigie. Apesar de Lee e Carter não se suportarem, eles resolvem trabalhar juntos para resolver o caso por conta própria ao descobrirem que foram abandonados tanto pelo FBI quanto pela polícia.",
-      "local_poster_path": "assets/poster_images/2109.jpg",
-      "genres": [
-        "Ação",
-        "Comédia",
-        "Crime"
-      ],
-      "runtime": 97,
-      "vote_average": 7.044,
-      "directors": [
-        "Brett Ratner"
-      ],
-      "cast": [
-        "Jackie Chan",
-        "Chris Tucker",
-        "Tom Wilkinson",
-        "Philip Baker Hall",
-        "Elizabeth Peña"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Trilogia A Hora do Rush (1998 - 2001 - 2007) 720p Bluray Dublado - WWW.THEPIRATEFILMES.COM\\A Hora do Rush (1998) - WWW.THEPIRATEFILMES.COM.mp4",
-      "date_added": "2025-04-27T14:39:11.555285",
-      "last_updated": "2025-04-27T14:39:11.555294"
-    },
-    {
-      "id": 165,
-      "tmdb_id": 11918,
-      "title": "Super-Herói: O Filme",
-      "original_title": "Superhero Movie",
-      "release_date": "2008-03-28",
-      "overview": "Rick Riker é um estudante comum do colegial. Porém, ao ser mordido por uma libélula geneticamente modificada ganha superpoderes. Agora sua missão é proteger a cidade das mãos do malvado Hourglass, que suga a vida de suas vítimas.",
-      "local_poster_path": "assets/poster_images/11918.jpg",
-      "genres": [
-        "Comédia",
-        "Ação",
-        "Ficção científica"
-      ],
-      "runtime": 82,
-      "vote_average": 5.264,
-      "directors": [
-        "Craig Mazin"
-      ],
-      "cast": [
-        "Drake Bell",
-        "Sara Paxton",
-        "Christopher McDonald",
-        "Leslie Nielsen",
-        "Kevin Hart"
-      ],
-      "trailer_key": "CjwQD25cBs8",
-      "file_path": "D:/Movies\\Super-Herói O Filme 2008 WWW.BLUDV.COM\\Super.Herói.O.Filme.2008.720p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:39:07.539510",
-      "last_updated": "2025-04-27T14:39:07.539519"
-    },
-    {
-      "id": 164,
-      "tmdb_id": 10201,
-      "title": "Sim Senhor",
-      "original_title": "Yes Man",
-      "release_date": "2008-12-09",
-      "overview": "A vida de Carl Allen tem sido um tropeço só – um divórcio melancólico e um trabalho sem grandes perspectivas. Só que agora ele resolveu viver a vida e dizer \"Sim\" para tudo. Pular de bung-jump? Sim. Aceitar todas as promoções que aparecem na TV? Sim. Aprender coreano? Sim. Pegar um avião sem destino programado? Sim. Rir em alto e bom tom, sem razão aparente? Sim!",
-      "local_poster_path": "assets/poster_images/10201.jpg",
-      "genres": [
-        "Comédia",
-        "Romance"
-      ],
-      "runtime": 104,
-      "vote_average": 6.678,
-      "directors": [
-        "Peyton Reed"
-      ],
-      "cast": [
-        "Jim Carrey",
-        "Zooey Deschanel",
-        "Bradley Cooper",
-        "John Michael Higgins",
-        "Rhys Darby"
-      ],
-      "trailer_key": "20q61tjlZZ8",
-      "file_path": "D:/Movies\\Sim Senhor 2008 [1080p] WWW.BLUDV.COM\\Sim.Senhor.2008.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:39:05.343383",
-      "last_updated": "2025-04-27T14:39:05.343392"
-    },
-    {
-      "id": 163,
-      "tmdb_id": 49524,
-      "title": "R.I.P.D.: Agentes do Além",
-      "original_title": "R.I.P.D.",
-      "release_date": "2013-07-18",
-      "overview": "O sarcástico xerife Roy Pulsifer é um veterano do Departamento. Ele recrutou Nick Walker, um brilhante detetive em ascensão, morto no auge de sua existência. Esses improváveis parceiros descobrem um plano que pode acabar com a vida como conhecemos e têm que trabalhar juntos, antes que o planeta seja dominado pelas almas enfurecidas que evitam encarar a justiça.",
-      "local_poster_path": "assets/poster_images/49524.jpg",
-      "genres": [
-        "Fantasia",
-        "Ação",
-        "Comédia"
-      ],
-      "runtime": 96,
-      "vote_average": 5.842,
-      "directors": [
-        "Robert Schwentke"
-      ],
-      "cast": [
-        "Jeff Bridges",
-        "Ryan Reynolds",
-        "Kevin Bacon",
-        "Mary-Louise Parker",
-        "Stephanie Szostak"
-      ],
-      "trailer_key": "NliUQ_Kdg0o",
-      "file_path": "D:/Movies\\R.I.P.D. - Agentes do Além (2013) 1080p 5.1Ch Dublado - The Pirate Filmes\\R.I.P.D.  Agentes do Além - ToTTi9.mp4",
-      "date_added": "2025-04-27T14:39:03.421509",
-      "last_updated": "2025-04-27T14:39:03.421518"
-    },
-    {
-      "id": 162,
-      "tmdb_id": 41446,
-      "title": "Pânico 4",
-      "original_title": "Scream 4",
-      "release_date": "2011-04-13",
-      "overview": "Faz muitos anos que o assassino Ghostface deixou um rastro mortal pela cidade de Woodsboro. A fim de superar o trauma desses terríveis acontecimentos, Sidney Prescott escreveu um livro de auto-ajuda. Ela retorna à Woodsboro para lançar seu livro e reencontra os velhos amigos Gale Weathers e o Xerife Dewey. No entanto, a chegada de Sidney também provoca o retorno de Ghostface, colocando Sidney e todos que ama em perigo.",
-      "local_poster_path": "assets/poster_images/41446.jpg",
-      "genres": [
-        "Terror",
-        "Mistério"
-      ],
-      "runtime": 111,
-      "vote_average": 6.46,
-      "directors": [
-        "Wes Craven"
-      ],
-      "cast": [
-        "David Arquette",
-        "Neve Campbell",
-        "Courteney Cox",
-        "Emma Roberts",
-        "Hayden Panettiere"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Quadrilogia Pânico [720p] DUBLADO - LAPUMiAFiLMES.COM\\Pânico.4.2011.720p.BluRay.x264.DUBLADO-LAPUMiAFiLMES.COM.mp4",
-      "date_added": "2025-04-27T14:39:01.339568",
-      "last_updated": "2025-04-27T14:39:01.339577"
-    },
-    {
-      "id": 161,
-      "tmdb_id": 4234,
-      "title": "Pânico 3",
-      "original_title": "Scream 3",
-      "release_date": "2000-02-04",
-      "overview": "Assassinatos levam uma jovem, um repórter e um ex-policial ao set de um filme de horror inspirado por acontecimentos aterrorizantes aos quais eles sobreviveram.",
-      "local_poster_path": "assets/poster_images/4234.jpg",
-      "genres": [
-        "Terror",
-        "Mistério"
-      ],
-      "runtime": 116,
-      "vote_average": 5.986,
-      "directors": [
-        "Wes Craven"
-      ],
-      "cast": [
-        "David Arquette",
-        "Neve Campbell",
-        "Courteney Cox",
-        "Patrick Dempsey",
-        "Scott Foley"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Quadrilogia Pânico [720p] DUBLADO - LAPUMiAFiLMES.COM\\Pânico.3.2000.720p.BluRay.x264.DUBLADO-LAPUMiAFiLMES.COM.mp4",
-      "date_added": "2025-04-27T14:38:59.483285",
-      "last_updated": "2025-04-27T14:38:59.483294"
-    },
-    {
-      "id": 160,
-      "tmdb_id": 4233,
-      "title": "Pânico 2",
-      "original_title": "Scream 2",
-      "release_date": "1997-12-12",
-      "overview": "Dois anos após o massacre em Woodsboro, Sidney Prescott e Randy Meeks estão tentando refazer suas vidas em uma nova cidade. Estudando no colégio de Windsor, eles vão lidar com uma nova onda de assassinatos quando o terrível psicopata retorna para assombrá-los nas vésperas do lançamento do filme baseado nos seus crimes.",
-      "local_poster_path": "assets/poster_images/4233.jpg",
-      "genres": [
-        "Terror",
-        "Mistério"
-      ],
-      "runtime": 120,
-      "vote_average": 6.495,
-      "directors": [
-        "Wes Craven"
-      ],
-      "cast": [
-        "Neve Campbell",
-        "Courteney Cox",
-        "David Arquette",
-        "Jerry O'Connell",
-        "Timothy Olyphant"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Quadrilogia Pânico [720p] DUBLADO - LAPUMiAFiLMES.COM\\Pânico.2.1997.720p.BluRay.x264.DUBLADO-LAPUMiAFiLMES.COM.mp4",
-      "date_added": "2025-04-27T14:38:57.533033",
-      "last_updated": "2025-04-27T14:38:57.533042"
-    },
-    {
-      "id": 159,
-      "tmdb_id": 52520,
-      "title": "Anjos da Noite: O Despertar",
-      "original_title": "Underworld: Awakening",
-      "release_date": "2012-01-19",
-      "overview": "Após ser mantida em estado de coma por quinze anos, a vampira Selene descobre que ela possui uma filha de quatorze anos, híbrida de vampiro e lobisomem. Com a ajuda dela, Selene deve impedir a empresa BioCom de criar super lobisomens que possam matar todos os vampiros",
-      "local_poster_path": "assets/poster_images/52520.jpg",
-      "genres": [
-        "Fantasia",
-        "Ação",
-        "Terror"
-      ],
-      "runtime": 88,
-      "vote_average": 6.327,
-      "directors": [
-        "Måns Mårlind",
-        "Björn Stein"
-      ],
-      "cast": [
-        "Kate Beckinsale",
-        "Stephen Rea",
-        "Michael Ealy",
-        "Theo James",
-        "India Eisley"
-      ],
-      "trailer_key": "2f1L7a6NdAw",
-      "file_path": "D:/Movies\\Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM\\Anjos da Noite O Despertar 2012 [1080p] WWW.BLUDV.COM\\Anjos.da.Noite.O.Despertar.2012.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:38:54.559648",
-      "last_updated": "2025-04-27T14:38:54.559657"
-    },
-    {
-      "id": 158,
-      "tmdb_id": 834,
-      "title": "Anjos da Noite: A Evolução",
-      "original_title": "Underworld: Evolution",
-      "release_date": "2006-01-12",
-      "overview": "Após o final do primeiro filme, a união de Selene a vampira e seu namorado Michael o vampiro-lobisomen terá de ser mais forte que o amor. Os dois terão de enfrentar uma legião de vampiros e lobisomen, e a evolução das espécies. Além disso, o centenário vampiro Marcus desperta de seu sono, pronto para matá-los.",
-      "local_poster_path": "assets/poster_images/834.jpg",
-      "genres": [
-        "Fantasia",
-        "Ação",
-        "Thriller"
-      ],
-      "runtime": 106,
-      "vote_average": 6.588,
-      "directors": [
-        "Len Wiseman"
-      ],
-      "cast": [
-        "Kate Beckinsale",
-        "Scott Speedman",
-        "Tony Curran",
-        "Shane Brolly",
-        "Derek Jacobi"
-      ],
-      "trailer_key": "G8rztf4VZg0",
-      "file_path": "D:/Movies\\Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM\\Anjos da Noite A Evolução 2006 [1080p] WWW.BLUDV.COM\\Anjos.da.Noite.A.Evolução.2006.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:38:52.587429",
-      "last_updated": "2025-04-27T14:38:52.587438"
-    },
-    {
-      "id": 157,
-      "tmdb_id": 12437,
-      "title": "Anjos da Noite: A Rebelião",
-      "original_title": "Underworld: Rise of the Lycans",
-      "release_date": "2009-01-22",
-      "overview": "Viktor, o cruel rei dos vampiros, tem perseguido e escravizado os lycans, uma linhagem de lobisomens nascidos humanos, por séculos. Este tirano ancião exige prata dos nobres, com o propósito de manter o controle dos seus escravos bestiais. Enquanto cresce, o jovem Lucian se apaixona pela filha de Viktor, Sonja, uma vampira insubordinada e imprudente. Juntos, Sonja e Lucian orquestram uma batalha épica, que marca o início de uma longa guerra entre vampiros e lobisomens.",
-      "local_poster_path": "assets/poster_images/12437.jpg",
-      "genres": [
-        "Fantasia",
-        "Ação",
-        "Thriller"
-      ],
-      "runtime": 92,
-      "vote_average": 6.534,
-      "directors": [
-        "Patrick Tatopoulos"
-      ],
-      "cast": [
-        "Rhona Mitra",
-        "Bill Nighy",
-        "Michael Sheen",
-        "Shane Brolly",
-        "Steven Mackintosh"
-      ],
-      "trailer_key": "IhCXwwJKOzE",
-      "file_path": "D:/Movies\\Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM\\Anjos da Noite 3 A Rebelião 2009 [1080p] WWW.BLUDV.COM\\Anjos.da.Noite.3.A.Rebelião.2009.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:38:50.432762",
-      "last_updated": "2025-04-27T14:38:50.432770"
-    },
-    {
-      "id": 155,
-      "tmdb_id": 70981,
-      "title": "Prometheus",
-      "original_title": "Prometheus",
-      "release_date": "2012-05-30",
-      "overview": "Uma equipe de cientistas embarca em uma jornada espacial para descobrir a verdade sobre a origem da raça humana. No planeta de destino, eles encontram criaturas poderosas e revelações assustadoras.",
-      "local_poster_path": "assets/poster_images/70981.jpg",
-      "genres": [
-        "Ficção científica",
-        "Aventura",
-        "Mistério"
-      ],
-      "runtime": 124,
-      "vote_average": 6.574,
-      "directors": [
-        "Ridley Scott"
-      ],
-      "cast": [
-        "Noomi Rapace",
-        "Michael Fassbender",
-        "Charlize Theron",
-        "Idris Elba",
-        "Guy Pearce"
-      ],
-      "trailer_key": "kNrhAUWI02I",
-      "file_path": "D:/Movies\\Prometheus 2012 [1080p] WWW.BLUDV.COM\\Prometheus.2012.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:38:46.591401",
-      "last_updated": "2025-04-27T14:38:46.591409"
-    },
-    {
-      "id": 154,
-      "tmdb_id": 121437,
-      "title": "Assassino Oficial",
-      "original_title": "An Officer and a Murderer",
-      "release_date": "2012-07-21",
-      "overview": "O oficial da Força Aérea Canadense, Coronel Williams, e sua esposa eram considerados um dos casais mais respeitados e poderosos da alta sociedade. Mas em fevereiro de 2010, o coronel foi preso sob a acusação de invadir várias casas e roubar roupas íntimas femininas e fotos privadas. Apesar de ter tido o cuidado de não deixar nenhum rastro, um detetive da polícia local e um agente do FBI conseguem desmascará-lo e pôr um ponto final em um dos casos mais perturbadores da história do Canadá.",
-      "local_poster_path": "assets/poster_images/121437.jpg",
-      "genres": [
-        "Crime",
-        "Drama",
-        "Cinema TV"
-      ],
-      "runtime": 85,
-      "vote_average": 5.4,
-      "directors": [
-        "Norma Bailey"
-      ],
-      "cast": [
-        "Gary Cole",
-        "Laura Harris",
-        "Rossif Sutherland",
-        "Tom Barnett",
-        "Emma Campbell"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Projeto Extração 2023 1080p WEB-DL DUAL 5.1\\ACESSE O OFICIAL - TorrentDosFilmes.SE.mp4",
-      "date_added": "2025-04-27T14:38:44.711559",
-      "last_updated": "2025-04-27T14:38:44.711567"
-    },
-    {
       "id": 153,
       "tmdb_id": 840430,
       "title": "Os Rejeitados",
@@ -1534,36 +877,6 @@
       "last_updated": "2025-04-27T14:31:05.781225"
     },
     {
-      "id": 136,
-      "tmdb_id": 123,
-      "title": "O Senhor dos Anéis",
-      "original_title": "The Lord of the Rings",
-      "release_date": "1978-11-15",
-      "overview": "Na terra pacífica do Condado, um Hobbit chamado Frodo Bolseiro recebe do seu tio um Anel mágico, capaz de decidir o futuro da Terra-Média. Assim Frodo terá de embarcar numa jornada épica para destruir o Anel, antes que o senhor do escuro Sauron possa recuperar-la.",
-      "local_poster_path": "assets/poster_images/123.jpg",
-      "genres": [
-        "Aventura",
-        "Animação",
-        "Fantasia"
-      ],
-      "runtime": 132,
-      "vote_average": 6.609,
-      "directors": [
-        "Ralph Bakshi"
-      ],
-      "cast": [
-        "Christopher Guard",
-        "William Squire",
-        "Michael Scholes",
-        "John Hurt",
-        "Simon Chandler"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Senhor dos aneis - Coleção completa\\senhor dos aneis 2 - versao estendida.mp4",
-      "date_added": "2025-04-27T14:31:03.830089",
-      "last_updated": "2025-04-27T14:31:03.830098"
-    },
-    {
       "id": 135,
       "tmdb_id": 120,
       "title": "O Senhor dos Anéis: A Sociedade do Anel",
@@ -1980,36 +1293,6 @@
       "file_path": "D:/Movies\\Infestação 2024 WEB-DL 1080p x264 DUAL 5.1\\Infestação 2024 WEB-DL 1080p x264 DUAL 5.1.mkv",
       "date_added": "2025-04-27T14:30:14.299453",
       "last_updated": "2025-04-27T14:30:14.299463"
-    },
-    {
-      "id": 120,
-      "tmdb_id": 37198,
-      "title": "Inferno",
-      "original_title": "Inferno",
-      "release_date": "1953-08-12",
-      "overview": "",
-      "local_poster_path": "assets/poster_images/37198.jpg",
-      "genres": [
-        "Aventura",
-        "Thriller",
-        "Drama"
-      ],
-      "runtime": 83,
-      "vote_average": 6.2,
-      "directors": [
-        "Roy Ward Baker"
-      ],
-      "cast": [
-        "Robert Ryan",
-        "Rhonda Fleming",
-        "William Lundigan",
-        "Larry Keating",
-        "Henry Hull"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Inferno.2016.1080p.BluRay.5.1.x264.DUAL-STARCKFILMES\\Inferno.2016.1080p.BluRay.5.1.x264.DUAL-STARCKFILMES.mkv",
-      "date_added": "2025-04-27T14:30:12.387589",
-      "last_updated": "2025-04-27T14:30:12.387598"
     },
     {
       "id": 43,
@@ -2685,29 +1968,6 @@
       "last_updated": "2025-04-27T14:15:21.029454"
     },
     {
-      "id": 111,
-      "tmdb_id": 1178928,
-      "title": "Tempo",
-      "original_title": "Tempo",
-      "release_date": "2023-09-15",
-      "overview": "",
-      "local_poster_path": "assets/poster_images/1178928.jpg",
-      "genres": [
-        "Comédia",
-        "Música"
-      ],
-      "runtime": 3,
-      "vote_average": 1.0,
-      "directors": [
-        "João Pedro Rodrigues"
-      ],
-      "cast": [],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Tempo 2021 BluRay 1080p DUAL 5.1\\Tempo 2021 BluRay 1080p DUAL 5.1.mkv",
-      "date_added": "2025-04-27T14:15:19.093116",
-      "last_updated": "2025-04-27T14:15:19.093125"
-    },
-    {
       "id": 110,
       "tmdb_id": 1013860,
       "title": "R.I.P.D. 2: Rise of the Damned",
@@ -3325,37 +2585,6 @@
       "file_path": "D:/Movies\\M3GAN 2022 1080p WEB-DL DUAL 5.1\\M3GAN 2022 1080p WEB-DL DUAL 5.1.mkv",
       "date_added": "2025-04-27T14:13:56.163057",
       "last_updated": "2025-04-27T14:13:56.163067"
-    },
-    {
-      "id": 85,
-      "tmdb_id": 794960,
-      "title": "Lua de Sangue",
-      "original_title": "Blood Moon",
-      "release_date": "2021-03-26",
-      "overview": "Esme e seu filho de dez anos se mudam para um pequeno povoado desértico para começarem uma nova vida. Sem querer, atraem a atenção dos nativos, que começam a investigá-los.",
-      "local_poster_path": "assets/poster_images/794960.jpg",
-      "genres": [
-        "Fantasia",
-        "Terror",
-        "Thriller",
-        "Cinema TV"
-      ],
-      "runtime": 82,
-      "vote_average": 6.0,
-      "directors": [
-        "Emma Tammi"
-      ],
-      "cast": [
-        "Megalyn Echikunwoke",
-        "Yonas Kibreab",
-        "Joshua Dov",
-        "Marco Rodríguez",
-        "Gareth Williams"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Lua.De.Sangue.2023.1080p.WEB-DL.DUAL.2.0\\Lua.De.Sangue.2023.1080p.WEB-DL.DUAL.2.0.mkv",
-      "date_added": "2025-04-27T14:13:54.387325",
-      "last_updated": "2025-04-27T14:13:54.387335"
     },
     {
       "id": 84,
@@ -4665,36 +3894,6 @@
       "last_updated": "2025-04-23T15:39:09.170543"
     },
     {
-      "id": 58,
-      "tmdb_id": 1954,
-      "title": "Efeito Borboleta",
-      "original_title": "The Butterfly Effect",
-      "release_date": "2004-01-17",
-      "overview": "Evan é um jovem que luta para esquecer fatos de sua infância. Para isso, ele decide realizar uma regressão onde volta também fisicamente ao seu corpo de criança, tendo condições de alterar seu próprio passado. Porém, ao tentar consertar seus antigos problemas, ele acaba criando novos, já que toda mudança que realiza gera consequências em seu futuro.",
-      "local_poster_path": "assets/poster_images/1954.jpg",
-      "genres": [
-        "Ficção científica",
-        "Thriller"
-      ],
-      "runtime": 119,
-      "vote_average": 7.577,
-      "directors": [
-        "Eric Bress",
-        "J. Mackye Gruber"
-      ],
-      "cast": [
-        "Ashton Kutcher",
-        "Amy Smart",
-        "Melora Walters",
-        "Elden Henson",
-        "William Lee Scott"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies/Efeito Borboleta - Trilogia/Efeito Borboleta (2004)/The.Butterfly.Effect.2004.DVDRip.XviD.Dual.Audio-jmsmarcelo.avi",
-      "date_added": "2025-04-23T15:38:51.346715",
-      "last_updated": "2025-04-23T15:38:51.346723"
-    },
-    {
       "id": 57,
       "tmdb_id": 1051896,
       "title": "Depois do Apocalipse",
@@ -4767,7 +3966,7 @@
         "Crime"
       ],
       "runtime": 114,
-      "vote_average": 6.927,
+      "vote_average": 6.926,
       "directors": [
         "Keenen Ivory Wayans"
       ],
@@ -4779,9 +3978,9 @@
         "Faune Chambers Watkins"
       ],
       "trailer_key": "DP8j8wxa3wM",
-      "file_path": "D:/Movies/As Branquelas 2004 SEM CORTES 5.1 (1080p) LAPUMiA/As.Branquelas.2004.Sem.Cortes.1080p.WEBRip.6CH.x264.DUAL-WwW.LAPUMiAFiLMES.COM.mkv",
-      "date_added": "2025-04-23T01:08:30.120965",
-      "last_updated": "2025-04-23T01:08:30.120973"
+      "file_path": "D:/Movies\\As Branquelas 2004 SEM CORTES 5.1 (1080p) LAPUMiA\\As.Branquelas.2004.Sem.Cortes.1080p.WEBRip.6CH.x264.DUAL-WwW.LAPUMiAFiLMES.COM.mkv",
+      "date_added": "2025-05-01T22:32:14.792690",
+      "last_updated": "2025-05-01T22:32:14.792700"
     },
     {
       "id": 20,
@@ -4843,19 +4042,167 @@
       "last_updated": "2025-04-22T23:35:00.650837"
     },
     {
-      "id": 174,
-      "tmdb_id": 603,
-      "title": "Matrix",
-      "original_title": "The Matrix",
-      "release_date": "1999-03-31",
-      "overview": "Thomas Anderson, um jovem programador de computador que mora em um cubículo escuro, é atormentado por estranhos pesadelos nos quais encontra-se conectado por cabos e contra sua vontade, em um imenso sistema de computadores do futuro. Em todas essas ocasiões, acorda gritando no exato momento em que os eletrodos estão para penetrar em seu cérebro. À medida que o sonho se repete, Anderson começa a ter dúvidas sobre a realidade. Por meio do encontro com os misteriosos Morpheus e Trinity, Thomas descobre que é, assim como outras pessoas, vítima da Matrix, um sistema inteligente e artificial que manipula a mente das pessoas, criando a ilusão de um mundo real enquanto usa os cérebros e corpos dos indivíduos para produzir energia. Morpheus, entretanto, está convencido de que Thomas é Neo, o aguardado messias capaz de enfrentar a Matrix e conduzir as pessoas de volta à realidade e à liberdade.",
-      "local_poster_path": "assets/poster_images/603.jpg",
+      "id": 166,
+      "tmdb_id": 11918,
+      "title": "Super-Herói: O Filme",
+      "original_title": "Superhero Movie",
+      "release_date": "2008-03-28",
+      "overview": "Rick Riker é um estudante comum do colegial. Porém, ao ser mordido por uma libélula geneticamente modificada ganha superpoderes. Agora sua missão é proteger a cidade das mãos do malvado Hourglass, que suga a vida de suas vítimas.",
+      "local_poster_path": "assets/poster_images/11918.jpg",
       "genres": [
+        "Comédia",
         "Ação",
         "Ficção científica"
       ],
-      "runtime": 136,
-      "vote_average": 8.224,
+      "runtime": 82,
+      "vote_average": 5.268,
+      "directors": [
+        "Craig Mazin"
+      ],
+      "cast": [
+        "Drake Bell",
+        "Sara Paxton",
+        "Christopher McDonald",
+        "Leslie Nielsen",
+        "Kevin Hart"
+      ],
+      "trailer_key": "CjwQD25cBs8",
+      "file_path": "D:/Movies\\Super-Herói O Filme 2008 WWW.BLUDV.COM\\Super.Herói.O.Filme.2008.720p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-01T21:51:18.690680",
+      "last_updated": "2025-05-01T21:51:18.690690"
+    },
+    {
+      "id": 168,
+      "tmdb_id": 45243,
+      "title": "Se Beber, Não Case! Parte II",
+      "original_title": "The Hangover Part II",
+      "release_date": "2011-05-25",
+      "overview": "Phil, Stu, Alan e Doug viajam à exótica Tailândia para o casamento de Stu. O que poderia dar errado? Dois anos depois da desastrosa despedida de solteiro de Doug em Las Vegas, agora é a vez de Stu. Ele decide se casar na Tailândia, país de sua futura mulher. Com medo de que os incidentes da despedida de solteiro em Las Vegas se repitam, Stu organiza muito bem a comemoração, mas nada sai como o esperado, e as confusões prometem ser inimagináveis.",
+      "local_poster_path": "assets/poster_images/45243.jpg",
+      "genres": [
+        "Comédia"
+      ],
+      "runtime": 101,
+      "vote_average": 6.487,
+      "directors": [
+        "Todd Phillips"
+      ],
+      "cast": [
+        "Bradley Cooper",
+        "Ed Helms",
+        "Zach Galifianakis",
+        "Justin Bartha",
+        "Ken Jeong"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Trilogia - Se Beber, Não Case! (2009-2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! II (2011) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! II (2011) 5.1 BluRay Dual Áudio 1080p By-LuaHarper.mp4",
+      "date_added": "2025-05-01T21:51:25.666938",
+      "last_updated": "2025-05-01T21:51:25.666947"
+    },
+    {
+      "id": 169,
+      "tmdb_id": 109439,
+      "title": "Se Beber, Não Case! Parte III",
+      "original_title": "The Hangover Part III",
+      "release_date": "2013-05-23",
+      "overview": "Faz dois anos desde que o quarteto, conhecido como Wolfpack, quase escapou de um desastre em Bangkok. Agora, Phil, Stu e Doug vivem felizes em casa, mas Alan não. Ainda sem rumo na vida, Alan não tem tomado seus remédios e está vivendo sob impulsos naturais. Está nas mãos dos amigos ajudá-lo com sua crise pessoal, embarcando em uma viagem para o lugar onde tudo começou: Las Vegas.",
+      "local_poster_path": "assets/poster_images/109439.jpg",
+      "genres": [
+        "Comédia"
+      ],
+      "runtime": 100,
+      "vote_average": 6.21,
+      "directors": [
+        "Todd Phillips"
+      ],
+      "cast": [
+        "Bradley Cooper",
+        "Ed Helms",
+        "Zach Galifianakis",
+        "Justin Bartha",
+        "Ken Jeong"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Trilogia - Se Beber, Não Case! (2009-2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! III (2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper\\Se Beber, Não Case! III (2013) 5.1 BluRay Dual Áudio 1080p By-LuaHarper.mp4",
+      "date_added": "2025-05-01T21:51:28.395305",
+      "last_updated": "2025-05-01T21:51:28.395314"
+    },
+    {
+      "id": 170,
+      "tmdb_id": 2109,
+      "title": "A Hora do Rush",
+      "original_title": "Rush Hour",
+      "release_date": "1998-09-18",
+      "overview": "Quando a filha de um diplomata chinês é sequestrada em Los Angeles, o cônsul chama o inspector Lee em Hong Kong para ajudar o FBI com o caso. O FBI não se importa com Lee e o deixa de lado no Departamento de Polícia de Los Angeles, pedindo ao detetive James Carter que o vigie. Apesar de Lee e Carter não se suportarem, eles resolvem trabalhar juntos para resolver o caso por conta própria ao descobrirem que foram abandonados tanto pelo FBI quanto pela polícia.",
+      "local_poster_path": "assets/poster_images/2109.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Crime"
+      ],
+      "runtime": 97,
+      "vote_average": 7.045,
+      "directors": [
+        "Brett Ratner"
+      ],
+      "cast": [
+        "Jackie Chan",
+        "Chris Tucker",
+        "Tom Wilkinson",
+        "Philip Baker Hall",
+        "Elizabeth Peña"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Trilogia A Hora do Rush (1998 - 2001 - 2007) 720p Bluray Dublado - WWW.THEPIRATEFILMES.COM\\A Hora do Rush (1998) - WWW.THEPIRATEFILMES.COM.mp4",
+      "date_added": "2025-05-01T21:51:31.104986",
+      "last_updated": "2025-05-01T21:51:31.104994"
+    },
+    {
+      "id": 171,
+      "tmdb_id": 5174,
+      "title": "A Hora do Rush 3",
+      "original_title": "Rush Hour 3",
+      "release_date": "2007-08-08",
+      "overview": "O leste encontra o oeste novamente. Depois de um atentado contra o Embaixador Han, Lee e Carter vão para Paris para proteger uma francesa que sabe demais sobre os secretos líderes do Triad. Enquanto isso, eles também precisam lutar contra a máfia chinesa de Paris e um amigo de infância de Lee conforme eles procuram por um envelope que contem a identidade de um poderoso chefão do crime.",
+      "local_poster_path": "assets/poster_images/5174.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Crime"
+      ],
+      "runtime": 90,
+      "vote_average": 6.48,
+      "directors": [
+        "Brett Ratner"
+      ],
+      "cast": [
+        "Jackie Chan",
+        "Chris Tucker",
+        "Hiroyuki Sanada",
+        "Max von Sydow",
+        "Yvan Attal"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Trilogia A Hora do Rush (1998 - 2001 - 2007) 720p Bluray Dublado - WWW.THEPIRATEFILMES.COM\\A Hora do Rush 3 (2007) - WWW.THEPIRATEFILMES.COM.mp4",
+      "date_added": "2025-05-01T21:51:33.817808",
+      "last_updated": "2025-05-01T21:51:33.817817"
+    },
+    {
+      "id": 172,
+      "tmdb_id": 604,
+      "title": "Matrix Reloaded",
+      "original_title": "The Matrix Reloaded",
+      "release_date": "2003-05-15",
+      "overview": "Após derrotar as máquinas em seu combate inicial, Neo ainda vive na Nabucodonosor ao lado de Morpheus, Trinity e Link, o novo tripulante da nave. As máquinas estão realizando uma grande ofensiva contra Zion, onde 250 mil delas escavam rumo à cidade e podem alcançá-la em poucos dias. A Nabucodonosor é convocada para retornar a Zion e participar da reunião que definirá o contra-ataque para salvar a humanidade da extinção. Entretanto, um recado enviado pelo Oráculo faz com que Neo retorne à Matrix.",
+      "local_poster_path": "assets/poster_images/604.jpg",
+      "genres": [
+        "Aventura",
+        "Ação",
+        "Thriller",
+        "Ficção científica"
+      ],
+      "runtime": 138,
+      "vote_average": 7.057,
       "directors": [
         "Lana Wachowski",
         "Lilly Wachowski"
@@ -4865,101 +4212,463 @@
         "Laurence Fishburne",
         "Carrie-Anne Moss",
         "Hugo Weaving",
-        "Gloria Foster"
+        "Jada Pinkett Smith"
       ],
-      "trailer_key": "mPYfd6PCmYY",
-      "file_path": "D:/Movies/Matrix - Coleção Completa/Matrix 1999.mp4",
-      "date_added": "2025-04-27T15:53:42.387854",
-      "last_updated": "2025-04-27T15:53:42.387862"
+      "trailer_key": "dEGsoVtIg7g",
+      "file_path": "D:/Movies\\Trilogia Matrix 1999 - 2003 [1080p] WWW.BLUDV.COM\\Matrix Reloaded 2003 [1080p] WWW.BLUDV.COM\\Matrix.Reloaded.2003.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-01T21:51:36.673415",
+      "last_updated": "2025-05-01T21:51:36.673424"
     },
     {
-      "id": 174,
-      "tmdb_id": 277,
-      "title": "Anjos da Noite: Underworld",
-      "original_title": "Underworld",
-      "release_date": "2003-09-19",
-      "overview": "Na calada da noite, vampiros se envolvem em uma batalha antiga com seus inimigos, os Lycans, um grupo de lobisomens violentos. Selene, uma vampira que é órfã por conta de um ataque dos Lycan, trabalha para o clã dos vampiros como uma matadora treinada. Quando os Lycan se interessam misteriosamente por Michael Corvin, um doutor mortal excepcional, Selene luta para livrá-lo de Lucian, um cruel Lycan.",
-      "local_poster_path": "assets/poster_images/277.jpg",
+      "id": 173,
+      "tmdb_id": 605,
+      "title": "Matrix Revolutions",
+      "original_title": "The Matrix Revolutions",
+      "release_date": "2003-11-05",
+      "overview": "Após enfrentar os sentinelas no mundo real, Neo tem sua mente presa em um local que fica entre a Matrix e a realidade, do qual apenas poderá sair com a ajuda de Trainman. Após perceberem que as ondas cerebrais de Neo são idênticas as de uma pessoa conectada à Matrix, Trinity e Morpheus buscam a ajuda da Oráculo e Seraph. Trinity, Morpheus e Seraph vão em busca de Merovingian, que possui controle sobre Trainman e pode libertar Neo. Após obterem sucesso no resgate, o trio se divide em duas missões: Enquanto Morpheus e a tripulação de duas naves parte rumo a Zion, na tentativa de ajudar no combate contra as máquinas, Neo e Trinity se dirigem à Cidadela das Máquinas.",
+      "local_poster_path": "assets/poster_images/605.jpg",
+      "genres": [
+        "Aventura",
+        "Ação",
+        "Thriller",
+        "Ficção científica"
+      ],
+      "runtime": 129,
+      "vote_average": 6.734,
+      "directors": [
+        "Lilly Wachowski",
+        "Lana Wachowski"
+      ],
+      "cast": [
+        "Keanu Reeves",
+        "Laurence Fishburne",
+        "Carrie-Anne Moss",
+        "Hugo Weaving",
+        "Jada Pinkett Smith"
+      ],
+      "trailer_key": "Ou8KTnfKuO8",
+      "file_path": "D:/Movies\\Trilogia Matrix 1999 - 2003 [1080p] WWW.BLUDV.COM\\Matrix Revolutions 2003 [1080p] WWW.BLUDV.COM\\Matrix.Revolutions.2003.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-01T21:51:39.364160",
+      "last_updated": "2025-05-01T21:51:39.364169"
+    },
+    {
+      "id": 156,
+      "tmdb_id": 931349,
+      "title": "Ash: Planeta Parasita",
+      "original_title": "Ash",
+      "release_date": "2025-03-20",
+      "overview": "No misterioso planeta de Ash, Riya acorda e encontra sua tripulação massacrada. Quando um homem chamado Brion chega para resgatá-la, inicia-se uma provação de terror psicológico e físico, enquanto Riya e Brion precisam decidir se podem confiar um no outro para sobreviver.",
+      "local_poster_path": "assets/poster_images/931349.jpg",
+      "genres": [
+        "Ficção científica",
+        "Terror",
+        "Thriller"
+      ],
+      "runtime": 95,
+      "vote_average": 5.4,
+      "directors": [
+        "Flying Lotus"
+      ],
+      "cast": [
+        "Eiza González",
+        "Aaron Paul",
+        "Iko Uwais",
+        "Kate Elliott",
+        "Beulah Koale"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Ash.Planeta.Parasita.2025.1080p.WEB-DL.DUAL.5.1\\Ash.Planeta.Parasita.2025.1080p.WEB-DL.DUAL.5.1.mkv",
+      "date_added": "2025-05-01T22:32:17.535355",
+      "last_updated": "2025-05-01T22:32:17.535365"
+    },
+    {
+      "id": 162,
+      "tmdb_id": 218,
+      "title": "O Exterminador do Futuro",
+      "original_title": "The Terminator",
+      "release_date": "1984-10-26",
+      "overview": "Em um futuro próximo, a guerra entre humanos e máquinas foi iniciada. Com a tecnologia a seu dispor, um plano inusitado é arquitetado pelas máquinas ao enviar para o passado um andróide com a missão de matar a mãe daquele que viria a se transformar num líder e seu pior inimigo. Contudo, os humanos também conseguem enviar seu representante para proteger a mulher e tentar garantir o futuro da humanidade.",
+      "local_poster_path": "assets/poster_images/218.jpg",
+      "genres": [
+        "Ação",
+        "Thriller",
+        "Ficção científica"
+      ],
+      "runtime": 107,
+      "vote_average": 7.664,
+      "directors": [
+        "James Cameron"
+      ],
+      "cast": [
+        "Arnold Schwarzenegger",
+        "Michael Biehn",
+        "Linda Hamilton",
+        "Paul Winfield",
+        "Lance Henriksen"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\O Exterminador Do Futuro - Coleção completa\\O Exterminador do Futuro (1984) BDRip 1080p Dual Audio - WWW.WOLVERDONFILMES.COM\\O Exterminador do Futuro -By JefePsb - WOLVERDONFILMES.COM.mkv",
+      "date_added": "2025-05-01T22:32:35.987043",
+      "last_updated": "2025-05-01T22:32:35.987052"
+    },
+    {
+      "id": 166,
+      "tmdb_id": 70981,
+      "title": "Prometheus",
+      "original_title": "Prometheus",
+      "release_date": "2012-05-30",
+      "overview": "Uma equipe de cientistas embarca em uma jornada espacial para descobrir a verdade sobre a origem da raça humana. No planeta de destino, eles encontram criaturas poderosas e revelações assustadoras.",
+      "local_poster_path": "assets/poster_images/70981.jpg",
+      "genres": [
+        "Ficção científica",
+        "Aventura",
+        "Mistério"
+      ],
+      "runtime": 124,
+      "vote_average": 6.575,
+      "directors": [
+        "Ridley Scott"
+      ],
+      "cast": [
+        "Noomi Rapace",
+        "Michael Fassbender",
+        "Charlize Theron",
+        "Idris Elba",
+        "Guy Pearce"
+      ],
+      "trailer_key": "kNrhAUWI02I",
+      "file_path": "D:/Movies\\Prometheus 2012 [1080p] WWW.BLUDV.COM\\Prometheus.2012.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-01T22:32:52.962837",
+      "last_updated": "2025-05-01T22:32:52.962846"
+    },
+    {
+      "id": 168,
+      "tmdb_id": 12437,
+      "title": "Anjos da Noite: A Rebelião",
+      "original_title": "Underworld: Rise of the Lycans",
+      "release_date": "2009-01-22",
+      "overview": "Viktor, o cruel rei dos vampiros, tem perseguido e escravizado os lycans, uma linhagem de lobisomens nascidos humanos, por séculos. Este tirano ancião exige prata dos nobres, com o propósito de manter o controle dos seus escravos bestiais. Enquanto cresce, o jovem Lucian se apaixona pela filha de Viktor, Sonja, uma vampira insubordinada e imprudente. Juntos, Sonja e Lucian orquestram uma batalha épica, que marca o início de uma longa guerra entre vampiros e lobisomens.",
+      "local_poster_path": "assets/poster_images/12437.jpg",
       "genres": [
         "Fantasia",
         "Ação",
         "Thriller"
       ],
-      "runtime": 122,
-      "vote_average": 6.833,
+      "runtime": 92,
+      "vote_average": 6.5,
       "directors": [
-        "Len Wiseman"
+        "Patrick Tatopoulos"
+      ],
+      "cast": [
+        "Rhona Mitra",
+        "Bill Nighy",
+        "Michael Sheen",
+        "Shane Brolly",
+        "Steven Mackintosh"
+      ],
+      "trailer_key": "IhCXwwJKOzE",
+      "file_path": "D:/Movies\\Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM\\Anjos da Noite 3 A Rebelião 2009 [1080p] WWW.BLUDV.COM\\Anjos.da.Noite.3.A.Rebelião.2009.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-01T22:32:59.163059",
+      "last_updated": "2025-05-01T22:32:59.163069"
+    },
+    {
+      "id": 169,
+      "tmdb_id": 52520,
+      "title": "Anjos da Noite: O Despertar",
+      "original_title": "Underworld: Awakening",
+      "release_date": "2012-01-19",
+      "overview": "Após ser mantida em estado de coma por quinze anos, a vampira Selene descobre que ela possui uma filha de quatorze anos, híbrida de vampiro e lobisomem. Com a ajuda dela, Selene deve impedir a empresa BioCom de criar super lobisomens que possam matar todos os vampiros",
+      "local_poster_path": "assets/poster_images/52520.jpg",
+      "genres": [
+        "Fantasia",
+        "Ação",
+        "Terror"
+      ],
+      "runtime": 88,
+      "vote_average": 6.327,
+      "directors": [
+        "Måns Mårlind",
+        "Björn Stein"
       ],
       "cast": [
         "Kate Beckinsale",
-        "Scott Speedman",
-        "Michael Sheen",
-        "Shane Brolly",
-        "Bill Nighy"
+        "Stephen Rea",
+        "Michael Ealy",
+        "Theo James",
+        "India Eisley"
+      ],
+      "trailer_key": "2f1L7a6NdAw",
+      "file_path": "D:/Movies\\Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM\\Anjos da Noite O Despertar 2012 [1080p] WWW.BLUDV.COM\\Anjos.da.Noite.O.Despertar.2012.1080p.BluRay.5.1.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-01T22:33:02.678339",
+      "last_updated": "2025-05-01T22:33:02.678347"
+    },
+    {
+      "id": 170,
+      "tmdb_id": 4233,
+      "title": "Pânico 2",
+      "original_title": "Scream 2",
+      "release_date": "1997-12-12",
+      "overview": "Dois anos após o massacre em Woodsboro, Sidney Prescott e Randy Meeks estão tentando refazer suas vidas em uma nova cidade. Estudando no colégio de Windsor, eles vão lidar com uma nova onda de assassinatos quando o terrível psicopata retorna para assombrá-los nas vésperas do lançamento do filme baseado nos seus crimes.",
+      "local_poster_path": "assets/poster_images/4233.jpg",
+      "genres": [
+        "Terror",
+        "Mistério"
+      ],
+      "runtime": 120,
+      "vote_average": 6.494,
+      "directors": [
+        "Wes Craven"
+      ],
+      "cast": [
+        "Neve Campbell",
+        "Courteney Cox",
+        "David Arquette",
+        "Jerry O'Connell",
+        "Timothy Olyphant"
       ],
       "trailer_key": null,
-      "file_path": "D:/Movies/Quadrilogia Anjos da Noite 2003 - 2012 [1080p] WWW.BLUDV.COM/Anjos da Noite 2003 [1080p] WWW.BLUDV.COM/Anjos.da.Noite.2003.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T15:58:21.316224",
-      "last_updated": "2025-04-27T15:58:21.316233"
+      "file_path": "D:/Movies\\Quadrilogia Pânico [720p] DUBLADO - LAPUMiAFiLMES.COM\\Pânico.2.1997.720p.BluRay.x264.DUBLADO-LAPUMiAFiLMES.COM.mp4",
+      "date_added": "2025-05-01T22:33:07.363713",
+      "last_updated": "2025-05-01T22:33:07.363722"
     },
     {
-      "id": 167,
-      "tmdb_id": 675,
-      "title": "Harry Potter e a Ordem da Fênix",
-      "original_title": "Harry Potter and the Order of the Phoenix",
-      "release_date": "2007-07-08",
-      "overview": "Lord Voldemort está de volta, mas o Ministério da Magia está fazendo tudo a seu alcance para impedir que a comunidade mundial de bruxos descubra isso – incluindo indicar a oficial do Ministério, Dolores Umbridge, como a nova professora de Defesa Contra as Artes das Trevas de Hogwarts. Quando Umbridge se recusa a ensinar a prática de mágica defensiva, Rony e Hermione convencem Harry a secretamente treinar um grupo de estudantes para a guerra de magia que está prestes a estourar.",
-      "local_poster_path": "assets/poster_images/675.jpg",
+      "id": 171,
+      "tmdb_id": 4234,
+      "title": "Pânico 3",
+      "original_title": "Scream 3",
+      "release_date": "2000-02-04",
+      "overview": "Assassinatos levam uma jovem, um repórter e um ex-policial ao set de um filme de horror inspirado por acontecimentos aterrorizantes aos quais eles sobreviveram.",
+      "local_poster_path": "assets/poster_images/4234.jpg",
       "genres": [
-        "Aventura",
-        "Fantasia"
+        "Terror",
+        "Mistério"
       ],
-      "runtime": 138,
-      "vote_average": 7.674,
+      "runtime": 116,
+      "vote_average": 6.0,
       "directors": [
-        "David Yates"
+        "Wes Craven"
       ],
       "cast": [
-        "Daniel Radcliffe",
-        "Rupert Grint",
-        "Emma Watson",
-        "Imelda Staunton",
-        "Helena Bonham Carter"
+        "David Arquette",
+        "Neve Campbell",
+        "Courteney Cox",
+        "Patrick Dempsey",
+        "Scott Foley"
       ],
-      "trailer_key": "Tbv2Al6LGW8",
-      "file_path": "D:/Movies/Harry.Potter.e.a.Ordem.da.Fênix.2007.1080p-WOLVERDONFILMES.COM/Harry.Potter.e.a.Ordem.da.Fênix.2007.1080p-WOLVERDONFILMES.COM.mkv",
-      "date_added": "2025-04-28T15:52:40.807695",
-      "last_updated": "2025-04-28T15:52:40.807703"
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Quadrilogia Pânico [720p] DUBLADO - LAPUMiAFiLMES.COM\\Pânico.3.2000.720p.BluRay.x264.DUBLADO-LAPUMiAFiLMES.COM.mp4",
+      "date_added": "2025-05-01T22:33:10.241263",
+      "last_updated": "2025-05-01T22:33:10.241273"
     },
     {
-      "id": 168,
-      "tmdb_id": 696506,
-      "title": "Mickey 17",
-      "original_title": "Mickey 17",
-      "release_date": "2025-02-28",
-      "overview": "Mickey faz parte de um programa espacial de colonização e sempre é enviado para missões perigosas, quase suicidas. Se morrer, ele é clonado e boa parte de suas memórias são recuperadas. Mas, após seis mortes, ele começa a entender o porquê de seu cargo nunca ter sido ocupado antes.",
-      "local_poster_path": "assets/poster_images/696506.jpg",
+      "id": 172,
+      "tmdb_id": 41446,
+      "title": "Pânico 4",
+      "original_title": "Scream 4",
+      "release_date": "2011-04-13",
+      "overview": "Faz muitos anos que o assassino Ghostface deixou um rastro mortal pela cidade de Woodsboro. A fim de superar o trauma desses terríveis acontecimentos, Sidney Prescott escreveu um livro de auto-ajuda. Ela retorna à Woodsboro para lançar seu livro e reencontra os velhos amigos Gale Weathers e o Xerife Dewey. No entanto, a chegada de Sidney também provoca o retorno de Ghostface, colocando Sidney e todos que ama em perigo.",
+      "local_poster_path": "assets/poster_images/41446.jpg",
+      "genres": [
+        "Terror",
+        "Mistério"
+      ],
+      "runtime": 111,
+      "vote_average": 6.46,
+      "directors": [
+        "Wes Craven"
+      ],
+      "cast": [
+        "David Arquette",
+        "Neve Campbell",
+        "Courteney Cox",
+        "Emma Roberts",
+        "Hayden Panettiere"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies\\Quadrilogia Pânico [720p] DUBLADO - LAPUMiAFiLMES.COM\\Pânico.4.2011.720p.BluRay.x264.DUBLADO-LAPUMiAFiLMES.COM.mp4",
+      "date_added": "2025-05-01T22:33:13.240028",
+      "last_updated": "2025-05-01T22:33:13.240037"
+    },
+    {
+      "id": 173,
+      "tmdb_id": 49524,
+      "title": "R.I.P.D.: Agentes do Além",
+      "original_title": "R.I.P.D.",
+      "release_date": "2013-07-18",
+      "overview": "O sarcástico xerife Roy Pulsifer é um veterano do Departamento. Ele recrutou Nick Walker, um brilhante detetive em ascensão, morto no auge de sua existência. Esses improváveis parceiros descobrem um plano que pode acabar com a vida como conhecemos e têm que trabalhar juntos, antes que o planeta seja dominado pelas almas enfurecidas que evitam encarar a justiça.",
+      "local_poster_path": "assets/poster_images/49524.jpg",
+      "genres": [
+        "Fantasia",
+        "Ação",
+        "Comédia"
+      ],
+      "runtime": 96,
+      "vote_average": 5.842,
+      "directors": [
+        "Robert Schwentke"
+      ],
+      "cast": [
+        "Jeff Bridges",
+        "Ryan Reynolds",
+        "Kevin Bacon",
+        "Mary-Louise Parker",
+        "Stephanie Szostak"
+      ],
+      "trailer_key": "NliUQ_Kdg0o",
+      "file_path": "D:/Movies\\R.I.P.D. - Agentes do Além (2013) 1080p 5.1Ch Dublado - The Pirate Filmes\\R.I.P.D.  Agentes do Além - ToTTi9.mp4",
+      "date_added": "2025-05-01T22:33:16.438027",
+      "last_updated": "2025-05-01T22:33:16.438036"
+    },
+    {
+      "id": 166,
+      "tmdb_id": 1954,
+      "title": "Efeito Borboleta",
+      "original_title": "The Butterfly Effect",
+      "release_date": "2004-01-17",
+      "overview": "Evan é um jovem que luta para esquecer fatos de sua infância. Para isso, ele decide realizar uma regressão onde volta também fisicamente ao seu corpo de criança, tendo condições de alterar seu próprio passado. Porém, ao tentar consertar seus antigos problemas, ele acaba criando novos, já que toda mudança que realiza gera consequências em seu futuro.",
+      "local_poster_path": "assets/poster_images/1954.jpg",
       "genres": [
         "Ficção científica",
-        "Comédia",
-        "Aventura"
+        "Thriller"
       ],
-      "runtime": 136,
-      "vote_average": 6.916,
+      "runtime": 119,
+      "vote_average": 7.577,
       "directors": [
-        "Bong Joon-Ho"
+        "J. Mackye Gruber",
+        "Eric Bress"
       ],
       "cast": [
-        "Robert Pattinson",
-        "Naomi Ackie",
-        "Steven Yeun",
-        "Mark Ruffalo",
-        "Toni Collette"
+        "Ashton Kutcher",
+        "Amy Smart",
+        "Melora Walters",
+        "Elden Henson",
+        "William Lee Scott"
       ],
-      "trailer_key": "Z9RzVGcoFRw",
-      "file_path": "D:/Movies/Mickey.17.2025.REPACK.1080p.WEB-DL.DUAL.5.1/Mickey.17.2025.REPACK.1080p.WEB-DL.DUAL.5.1.mkv",
-      "date_added": "2025-04-28T15:55:52.175915",
-      "last_updated": "2025-04-28T15:55:52.175925"
+      "trailer_key": null,
+      "file_path": "D:/Movies/Efeito Borboleta - Trilogia/Efeito Borboleta (2004)/The.Butterfly.Effect.2004.DVDRip.XviD.Dual.Audio-jmsmarcelo.avi",
+      "date_added": "2025-05-01T22:49:46.106482",
+      "last_updated": "2025-05-01T22:49:46.106489"
+    },
+    {
+      "id": 165,
+      "tmdb_id": 821890,
+      "title": "O Pintor",
+      "original_title": "Paint",
+      "release_date": "2023-04-06",
+      "overview": "Carl Nargle, o pintor da televisão pública n.º 1 de Vermont, está convencido de que tem tudo, uma van personalizada e seguidores pendurados em todas as suas fotos até que um artista mais jovem e melhor rouba tudo o que Carl ama.",
+      "local_poster_path": "assets/poster_images/821890.jpg",
+      "genres": [
+        "Comédia",
+        "Drama",
+        "Romance"
+      ],
+      "runtime": 96,
+      "vote_average": 5.5,
+      "directors": [
+        "Brit McAdams"
+      ],
+      "cast": [
+        "Owen Wilson",
+        "Michaela Watkins",
+        "Wendi McLendon-Covey",
+        "Ciara Renée",
+        "Lusia Strus"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Paint 2023 BluRay 1080p x264 DUAL 5.1/Paint 2023 BluRay 1080p x264 DUAL 5.1.mkv",
+      "date_added": "2025-05-01T22:53:51.650539",
+      "last_updated": "2025-05-01T22:53:51.650547"
+    },
+    {
+      "id": 158,
+      "tmdb_id": 9737,
+      "title": "Os Bad Boys",
+      "original_title": "Bad Boys",
+      "release_date": "1995-04-07",
+      "overview": "Um carregamento de heroína confiscada avaliada em um milhão de dólares foi simplesmente roubado do depósito da polícia. O sumiço das dorgas pode destruir as carreiras dos detetives Mike Lawrey e Marcus Burnett e acabar com a divisão de narcóticos do Departamento de Polícia de Miami. Quando as investigações ameaçam os traficantes e eles raptam a única testemunha do caso – uma bela informante da polícia que se torna amiga dos Bad Boys – as coisas se tornam pessoais!",
+      "local_poster_path": "assets/poster_images/9737.jpg",
+      "genres": [
+        "Ação",
+        "Comédia",
+        "Crime",
+        "Thriller"
+      ],
+      "runtime": 119,
+      "vote_average": 6.819,
+      "directors": [
+        "Michael Bay"
+      ],
+      "cast": [
+        "Will Smith",
+        "Martin Lawrence",
+        "Téa Leoni",
+        "Tchéky Karyo",
+        "Joe Pantoliano"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/TRILOGIA.Bad.Boys.1080p.BluRay.H264.DUAL-RICKSZ/Bad.Boys.1995.1080p.BluRay.H264.AC3.AAC.DUAL-RICKSZ.mkv",
+      "date_added": "2025-05-01T23:13:14.714747",
+      "last_updated": "2025-05-01T23:13:14.714755"
+    },
+    {
+      "id": 158,
+      "tmdb_id": 1056237,
+      "title": "Lua de Sangue",
+      "original_title": "Zatmění",
+      "release_date": "2023-03-02",
+      "overview": "Durante um eclipse lunar, em uma estrada no meio de uma floresta, três desconhecidos se envolvem em um acidente de trânsito. Mas com muito mais a esconder do que apenas algumas gotas de álcool no sangue, nenhum deles parece disposto a ligar para a polícia.",
+      "local_poster_path": "assets/poster_images/1056237.jpg",
+      "genres": [
+        "Comédia",
+        "Thriller",
+        "Ação"
+      ],
+      "runtime": 86,
+      "vote_average": 6.7,
+      "directors": [
+        "Petr Kubík"
+      ],
+      "cast": [
+        "Jakub Štáfek",
+        "Jan Zadražil",
+        "Ján Jackuliak",
+        "Tereza Švejdová",
+        "Josef Carda"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Lua.De.Sangue.2023.1080p.WEB-DL.DUAL.2.0/Lua.De.Sangue.2023.1080p.WEB-DL.DUAL.2.0.mkv",
+      "date_added": "2025-05-01T23:14:33.858205",
+      "last_updated": "2025-05-01T23:14:33.858213"
+    },
+    {
+      "id": 159,
+      "tmdb_id": 121,
+      "title": "O Senhor dos Anéis: As Duas Torres",
+      "original_title": "The Lord of the Rings: The Two Towers",
+      "release_date": "2002-12-18",
+      "overview": "Após a captura de Merry e Pippy pelos orcs, a Sociedade do Anel é dissolvida. Frodo e Sam seguem sua jornada rumo à Montanha da Perdição para destruir o anel e descobrem que estão sendo perseguidos pelo misterioso Gollum. Enquanto isso, Aragorn, o elfo e arqueiro Legolas e o anão Gimli partem para resgatar os hobbits sequestrados e chegam ao reino de Rohan, onde o rei Theoden foi vítima de uma maldição mortal de Saruman.",
+      "local_poster_path": "assets/poster_images/121.jpg",
+      "genres": [
+        "Aventura",
+        "Fantasia",
+        "Ação"
+      ],
+      "runtime": 180,
+      "vote_average": 8.404,
+      "directors": [
+        "Peter Jackson"
+      ],
+      "cast": [
+        "Elijah Wood",
+        "Ian McKellen",
+        "Viggo Mortensen",
+        "Sean Astin",
+        "Andy Serkis"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Senhor dos aneis - Coleção completa/senhor dos aneis 2 - versao estendida.mp4",
+      "date_added": "2025-05-01T23:17:07.066322",
+      "last_updated": "2025-05-01T23:17:07.066330"
     }
   ]
 }
