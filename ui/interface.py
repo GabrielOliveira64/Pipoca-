@@ -406,11 +406,11 @@ class MainWindow(QMainWindow):
         if self.menu_open:
             self.menu_open = False
             self.sidebar.setFixedWidth(0)
-            self.menu_svg = QSvgWidget(resource_path("ui/icons/menu_bars_close.svg"))
+            self.menu_svg.load(resource_path("ui/icons/menu_bars_close.svg"))
         else:
             self.menu_open = True
             self.sidebar.setFixedWidth(self.menu_width)
-            self.menu_svg = QSvgWidget(resource_path("ui/icons/menu_bars_open.svg"))
+            self.menu_svg.load(resource_path("ui/icons/menu_bars_open.svg"))
         QTimer.singleShot(50, self.force_layout_update)
     
     def populate_genres(self, movies):
@@ -567,11 +567,11 @@ class MainWindow(QMainWindow):
         if self.menu_open:
             self.menu_open = False
             self.sidebar.setFixedWidth(0)
-            self.menu_svg.load("ui/icons/menu_bars_close.svg")
+            self.menu_svg.load(resource_path("ui/icons/menu_bars_close.svg"))
         else:
             self.menu_open = True
             self.sidebar.setFixedWidth(self.menu_width)
-            self.menu_svg.load("ui/icons/menu_bars_open.svg")
+            self.menu_svg.load(resource_path("ui/icons/menu_bars_open.svg"))
         QTimer.singleShot(100, self.load_movies)
     
     def filter_movies(self):
@@ -595,7 +595,7 @@ class MainWindow(QMainWindow):
         if should_keep_menu_open and not self.menu_open:
             self.menu_open = True
             self.sidebar.setFixedWidth(self.menu_width)
-            self.menu_svg.load("ui/icons/menu_bars_open.svg")
+            self.menu_svg.load(resource_path("ui/icons/menu_bars_open.svg"))
     
     def apply_filters(self, movies):
         filtered_movies = []
