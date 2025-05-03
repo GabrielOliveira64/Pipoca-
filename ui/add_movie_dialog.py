@@ -111,7 +111,7 @@ class BatchScanThread(QThread):
             r'\b(DUAL|DUBLADO|LEGENDADO|DUB|PT-BR|PT|BR|EN|ENG|PTBR)\b',  # Idiomas
             r'\b(5.1|7.1|2.0)\b',  # Canais de áudio
             r'\bwww\.[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}\b',  # URLs
-            r'\b(EXTENDED|DIRECTORS.CUT|UNRATED|CAMPRip|Sem Cortes|JefePsb|REPACK|-|D4V1|D4VI|199991|REMASTERED|REMUX |SF|BLUDV|BY|LUAHARP|LuaHarper|JefPsB|LAPUMiA|CAMPRip|THEPIRATEFILMES|RICKSZ|COMANDOTORRENTS|WOLVERDONFILMES|NACIONAL|VERSAO|ESTENDIDA|STARCKFILMES|remasterizado|CAMPRip|VERSÃO|ToTTI9|jeffpsb|portugues|WWW|-)\b',  # Versões
+            r'\b(EXTENDED|DIRECTORS.CUT|UNRATED|CAMPRip|Sem Cortes|JefePsb|REPACK|D4V1|D4VI|199991|REMASTERED|REMUX |SF|BLUDV|BY|LUAHARP|LuaHarper|JefPsB|LAPUMiA|CAMPRip|THEPIRATEFILMES|RICKSZ|COMANDOTORRENTS|WOLVERDONFILMES|NACIONAL|VERSAO|ESTENDIDA|STARCKFILMES|remasterizado|CAMPRip|VERSÃO|ToTTI9|jeffpsb|portugues|WWW|-)\b',  # Versões
             r'\[.*?\]|\(.*?\)',  # Qualquer coisa entre colchetes ou parênteses
         ]
         

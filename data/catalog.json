@@ -30,37 +30,6 @@
       "last_updated": "2025-04-27T14:38:42.736687"
     },
     {
-      "id": 152,
-      "tmdb_id": 8922,
-      "title": "Olhos Famintos",
-      "original_title": "Jeepers Creepers",
-      "release_date": "2001-07-01",
-      "overview": "Ao voltarem para casa por uma estrada sem movimento, os irmãos Trish e Darry veem um vulto atirando o que parece ser um corpo embrulhado. Parando para investigar, eles descobrem centenas de corpos mutilados, pendurados embaixo de uma antiga igreja.",
-      "local_poster_path": "assets/poster_images/8922.jpg",
-      "genres": [
-        "Terror",
-        "Thriller",
-        "Mistério",
-        "Drama"
-      ],
-      "runtime": 91,
-      "vote_average": 6.467,
-      "directors": [
-        "Victor Salva"
-      ],
-      "cast": [
-        "Gina Philips",
-        "Justin Long",
-        "Jonathan Breck",
-        "Patricia Belcher",
-        "Eileen Brennan"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies\\Olhos Famintos 2001 REMASTERIZADO (1080p) WWW.BLUDV.COM\\Olhos.Famintos.2001.REMASTERIZADO.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
-      "date_added": "2025-04-27T14:38:40.872186",
-      "last_updated": "2025-04-27T14:38:40.872196"
-    },
-    {
       "id": 151,
       "tmdb_id": 591,
       "title": "O Código Da Vinci",
@@ -1055,36 +1024,6 @@
       "file_path": "D:/Movies\\Perdido em Marte 2015 [1080p] BLUDV\\Perdido.em.Marte.2015.1080p.BluRay.x264.AC3.5.1.Dual-BLUDV.mkv",
       "date_added": "2025-04-27T14:30:42.278260",
       "last_updated": "2025-04-27T14:30:42.278269"
-    },
-    {
-      "id": 128,
-      "tmdb_id": 917496,
-      "title": "Os Fantasmas Ainda se Divertem: Beetlejuice Beetlejuice",
-      "original_title": "Beetlejuice Beetlejuice",
-      "release_date": "2024-09-04",
-      "overview": "Depois de uma tragédia familiar inesperada, três gerações da família Deetz voltam para casa em Winter River. Ainda assombrada por Beetlejuice, a vida de Lydia vira de cabeça para baixo quando sua filha adolescente rebelde, Astrid, descobre a misteriosa maquete da cidade no sótão, e o portal para a vida após a morte é acidentalmente aberto. Com problemas em ambos os reinos, é apenas uma questão de tempo até que alguém diga o nome de Beetlejuice três vezes, e o demônio travesso volte para levar ao mundo seu próprio estilo de caos.",
-      "local_poster_path": "assets/poster_images/917496.jpg",
-      "genres": [
-        "Terror",
-        "Comédia",
-        "Fantasia"
-      ],
-      "runtime": 105,
-      "vote_average": 7.029,
-      "directors": [
-        "Tim Burton"
-      ],
-      "cast": [
-        "Michael Keaton",
-        "Winona Ryder",
-        "Catherine O'Hara",
-        "Jenna Ortega",
-        "Justin Theroux"
-      ],
-      "trailer_key": "0LwUksasjrQ",
-      "file_path": "D:/Movies\\Os Fantasmas Ainda se Divertem - Beetlejuice Beetlejuice 2024 WEB-DL 1080p x264 DUAL 5.1\\Os Fantasmas Ainda se Divertem - Beetlejuice Beetlejuice 2024 WEB-DL 1080p x264 DUAL 5.1.mkv",
-      "date_added": "2025-04-27T14:30:37.513303",
-      "last_updated": "2025-04-27T14:30:37.513312"
     },
     {
       "id": 127,
@@ -4550,97 +4489,6 @@
       "last_updated": "2025-05-01T22:49:46.106489"
     },
     {
-      "id": 165,
-      "tmdb_id": 821890,
-      "title": "O Pintor",
-      "original_title": "Paint",
-      "release_date": "2023-04-06",
-      "overview": "Carl Nargle, o pintor da televisão pública n.º 1 de Vermont, está convencido de que tem tudo, uma van personalizada e seguidores pendurados em todas as suas fotos até que um artista mais jovem e melhor rouba tudo o que Carl ama.",
-      "local_poster_path": "assets/poster_images/821890.jpg",
-      "genres": [
-        "Comédia",
-        "Drama",
-        "Romance"
-      ],
-      "runtime": 96,
-      "vote_average": 5.5,
-      "directors": [
-        "Brit McAdams"
-      ],
-      "cast": [
-        "Owen Wilson",
-        "Michaela Watkins",
-        "Wendi McLendon-Covey",
-        "Ciara Renée",
-        "Lusia Strus"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies/Paint 2023 BluRay 1080p x264 DUAL 5.1/Paint 2023 BluRay 1080p x264 DUAL 5.1.mkv",
-      "date_added": "2025-05-01T22:53:51.650539",
-      "last_updated": "2025-05-01T22:53:51.650547"
-    },
-    {
-      "id": 158,
-      "tmdb_id": 9737,
-      "title": "Os Bad Boys",
-      "original_title": "Bad Boys",
-      "release_date": "1995-04-07",
-      "overview": "Um carregamento de heroína confiscada avaliada em um milhão de dólares foi simplesmente roubado do depósito da polícia. O sumiço das dorgas pode destruir as carreiras dos detetives Mike Lawrey e Marcus Burnett e acabar com a divisão de narcóticos do Departamento de Polícia de Miami. Quando as investigações ameaçam os traficantes e eles raptam a única testemunha do caso – uma bela informante da polícia que se torna amiga dos Bad Boys – as coisas se tornam pessoais!",
-      "local_poster_path": "assets/poster_images/9737.jpg",
-      "genres": [
-        "Ação",
-        "Comédia",
-        "Crime",
-        "Thriller"
-      ],
-      "runtime": 119,
-      "vote_average": 6.819,
-      "directors": [
-        "Michael Bay"
-      ],
-      "cast": [
-        "Will Smith",
-        "Martin Lawrence",
-        "Téa Leoni",
-        "Tchéky Karyo",
-        "Joe Pantoliano"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies/TRILOGIA.Bad.Boys.1080p.BluRay.H264.DUAL-RICKSZ/Bad.Boys.1995.1080p.BluRay.H264.AC3.AAC.DUAL-RICKSZ.mkv",
-      "date_added": "2025-05-01T23:13:14.714747",
-      "last_updated": "2025-05-01T23:13:14.714755"
-    },
-    {
-      "id": 158,
-      "tmdb_id": 1056237,
-      "title": "Lua de Sangue",
-      "original_title": "Zatmění",
-      "release_date": "2023-03-02",
-      "overview": "Durante um eclipse lunar, em uma estrada no meio de uma floresta, três desconhecidos se envolvem em um acidente de trânsito. Mas com muito mais a esconder do que apenas algumas gotas de álcool no sangue, nenhum deles parece disposto a ligar para a polícia.",
-      "local_poster_path": "assets/poster_images/1056237.jpg",
-      "genres": [
-        "Comédia",
-        "Thriller",
-        "Ação"
-      ],
-      "runtime": 86,
-      "vote_average": 6.7,
-      "directors": [
-        "Petr Kubík"
-      ],
-      "cast": [
-        "Jakub Štáfek",
-        "Jan Zadražil",
-        "Ján Jackuliak",
-        "Tereza Švejdová",
-        "Josef Carda"
-      ],
-      "trailer_key": null,
-      "file_path": "D:/Movies/Lua.De.Sangue.2023.1080p.WEB-DL.DUAL.2.0/Lua.De.Sangue.2023.1080p.WEB-DL.DUAL.2.0.mkv",
-      "date_added": "2025-05-01T23:14:33.858205",
-      "last_updated": "2025-05-01T23:14:33.858213"
-    },
-    {
       "id": 159,
       "tmdb_id": 121,
       "title": "O Senhor dos Anéis: As Duas Torres",
@@ -4669,6 +4517,37 @@
       "file_path": "D:/Movies/Senhor dos aneis - Coleção completa/senhor dos aneis 2 - versao estendida.mp4",
       "date_added": "2025-05-01T23:17:07.066322",
       "last_updated": "2025-05-01T23:17:07.066330"
+    },
+    {
+      "id": 154,
+      "tmdb_id": 8922,
+      "title": "Olhos Famintos",
+      "original_title": "Jeepers Creepers",
+      "release_date": "2001-07-01",
+      "overview": "Ao voltarem para casa por uma estrada sem movimento, os irmãos Trish e Darry veem um vulto atirando o que parece ser um corpo embrulhado. Parando para investigar, eles descobrem centenas de corpos mutilados, pendurados embaixo de uma antiga igreja.",
+      "local_poster_path": "assets/poster_images/8922.jpg",
+      "genres": [
+        "Terror",
+        "Thriller",
+        "Mistério",
+        "Drama"
+      ],
+      "runtime": 91,
+      "vote_average": 6.466,
+      "directors": [
+        "Victor Salva"
+      ],
+      "cast": [
+        "Gina Philips",
+        "Justin Long",
+        "Jonathan Breck",
+        "Patricia Belcher",
+        "Eileen Brennan"
+      ],
+      "trailer_key": null,
+      "file_path": "D:/Movies/Olhos Famintos 2001 REMASTERIZADO (1080p) WWW.BLUDV.COM/Olhos.Famintos.2001.REMASTERIZADO.1080p.BluRay.x264.DUAL-WWW.BLUDV.COM.mkv",
+      "date_added": "2025-05-02T21:51:08.234524",
+      "last_updated": "2025-05-02T21:51:08.234532"
     }
   ]
 }

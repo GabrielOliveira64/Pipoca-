@@ -1,0 +1,42 @@
+Processo para lançar atualizações
+
+Fazer as alterações no código-fonte (correções de bugs, novos recursos, etc.)
+Atualizar o número da versão no arquivo version.json (é importante para que o sistema de atualização automática detecte que há uma nova versão disponível)
+Empacotar o programa usando o PyInstaller com o comando que configuramos
+Criar um arquivo ZIP contendo:
+
+O executável gerado pelo PyInstaller
+Qualquer outro arquivo necessário que não tenha sido incluído no executável
+
+
+Enviar para o GitHub:
+
+Subir o código-fonte atualizado para o repositório
+Criar uma nova release/tag no GitHub
+Anexar o arquivo ZIP como um asset da release
+
+
+
+Isso garante que quando seu sistema de atualização automática verificar novas versões no GitHub, ele encontrará o pacote completo e atualizado do seu aplicativo.
+Dicas para otimizar seu processo
+
+Automatize o empacotamento: Crie um script de build que:
+
+Atualize automaticamente a versão
+Execute o PyInstaller
+Crie o ZIP
+Isso reduzirá erros manuais e tornará o processo mais rápido
+
+
+Controle de versões: Adote um esquema de controle de versão semântico (como X.Y.Z):
+
+X = Versão principal (mudanças incompatíveis)
+Y = Versão menor (novos recursos mantendo compatibilidade)
+Z = Patch (correções de bugs)
+
+
+Changelog: Mantenha um registro de alterações para cada versão, facilitando para os usuários saberem o que mudou
+Testes antes do lançamento: Sempre teste o executável gerado em um ambiente limpo antes de fazer o upload para o GitHub para garantir que tudo está funcionando corretamente
+Verificação de integridade: Considere implementar uma verificação de soma de verificação (checksum) no processo de atualização para garantir que os downloads não estejam corrompidos
+
+Se seu código de atualização automática estiver verificando corretamente o version.json no GitHub e baixando a nova versão do executável quando disponível, seu fluxo de trabalho está no caminho certo.

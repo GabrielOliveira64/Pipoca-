@@ -1,5 +1,6 @@
 import os
 import sys
+from utils import resource_path
 from PyQt5.QtWidgets import (QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, QLabel, 
                             QScrollArea, QGridLayout, QPushButton, QMessageBox, QAction, 
                             QMenuBar, QMenu, QFileDialog, QInputDialog, QFrame, QDialog,
@@ -169,7 +170,7 @@ class MainWindow(QMainWindow):
         self.menu_button.setObjectName("menuButton")
         self.menu_button.setFixedSize(36, 36)
         self.menu_button.clicked.connect(self.toggle_menu)
-        self.menu_svg = QSvgWidget("ui/icons/menu_bars_close.svg")
+        self.menu_svg = QSvgWidget(resource_path("ui/icons/menu_bars_close.svg"))
         self.menu_svg.setFixedSize(20, 20)
         menu_button_layout = QVBoxLayout(self.menu_button)
         menu_button_layout.setContentsMargins(8, 8, 8, 8)
@@ -405,11 +406,11 @@ class MainWindow(QMainWindow):
         if self.menu_open:
             self.menu_open = False
             self.sidebar.setFixedWidth(0)
-            self.menu_svg.load("ui/icons/menu_bars_close.svg")
+            self.menu_svg = QSvgWidget(resource_path("ui/icons/menu_bars_close.svg"))
         else:
             self.menu_open = True
             self.sidebar.setFixedWidth(self.menu_width)
-            self.menu_svg.load("ui/icons/menu_bars_open.svg")
+            self.menu_svg = QSvgWidget(resource_path("ui/icons/menu_bars_open.svg"))
         QTimer.singleShot(50, self.force_layout_update)
     
     def populate_genres(self, movies):
