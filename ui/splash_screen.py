@@ -11,7 +11,7 @@ class SplashScreen(QWidget):
     def __init__(self):
         super().__init__()
         # Configurações da janela principal
-        self.setWindowTitle("Pipoca+")
+        self.setWindowTitle("PipocaZ")
         self.setFixedSize(1920, 1080)  # Tamanho para tela cheia
         self.setWindowFlag(Qt.FramelessWindowHint)
         self.setAttribute(Qt.WA_TranslucentBackground)
@@ -26,7 +26,7 @@ class SplashScreen(QWidget):
         self.setLayout(self.layout)
         
         # Label para o texto
-        self.text_label = QLabel("pipoca+", self)
+        self.text_label = QLabel("pipocaZ", self)
         font = QFont("Arial", 120, QFont.Bold)
         self.text_label.setFont(font)
         self.text_label.setStyleSheet("color: rgb(229, 9, 20);")

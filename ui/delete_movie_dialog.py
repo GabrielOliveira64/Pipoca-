@@ -1,7 +1,8 @@
 import os
 from PyQt5.QtWidgets import (QDialog, QVBoxLayout, QHBoxLayout, QLabel, 
                             QPushButton, QLineEdit, QListWidget, QListWidgetItem,
-                            QMessageBox, QFrame, QSizePolicy, QToolButton)
+                            QMessageBox, QFrame, QSizePolicy, QToolButton,
+                            QApplication)
 from PyQt5.QtCore import Qt, pyqtSignal, QSize
 from PyQt5.QtGui import QPixmap, QIcon, QFont, QCursor
 
@@ -50,10 +51,131 @@ class MovieListItem(QListWidgetItem):
         self.setSizeHint(QSize(0, height))
 
 
+class DeleteConfirmationDialog(QDialog):
+    """Janela de diálogo para confirmar a exclusão de todos os filmes."""
+    
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.confirmed = False
+        self.init_ui()
+        
+    def init_ui(self):
+        """Inicializa a interface da janela de confirmação."""
+        self.setWindowTitle("Confirmar Exclusão")
+        self.setFixedSize(400, 220)
+        
+        # Aplica o mesmo estilo da janela principal
+        self.setStyleSheet("""
+            QDialog {
+                background-color: #141414;
+                color: white;
+                border-radius: 8px;
+            }
+            QLabel {
+                color: white;
+            }
+            QPushButton {
+                background-color: #E50914;
+                color: white;
+                border: none;
+                border-radius: 4px;
+                padding: 8px 16px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+            QPushButton:hover {
+                background-color: #F40D12;
+            }
+            QPushButton:disabled {
+                background-color: #5c5c5c;
+                color: #aaa;
+            }
+            QPushButton#cancelButton {
+                background-color: #333;
+                color: white;
+            }
+            QPushButton#cancelButton:hover {
+                background-color: #444;
+            }
+            QLineEdit {
+                background-color: #1f1f1f;
+                color: white;
+                border: 2px solid #333;
+                border-radius: 6px;
+                padding: 10px;
+                font-size: 13px;
+            }
+            QLineEdit:focus {
+                border: 2px solid #E50914;
+                background-color: #252525;
+            }
+        """)
+        
+        # Layout principal
+        main_layout = QVBoxLayout(self)
+        main_layout.setContentsMargins(20, 20, 20, 20)
+        main_layout.setSpacing(15)
+        
+        # Ícone de alerta (emoji)
+        warning_label = QLabel("⚠️")
+        warning_label.setStyleSheet("font-size: 32px; color: #FFD700; text-align: center;")
+        warning_label.setAlignment(Qt.AlignCenter)
+        main_layout.addWidget(warning_label)
+        
+        # Texto de aviso
+        message_label = QLabel("ATENÇÃO: Esta ação irá deletar TODOS os filmes do catálogo e não pode ser desfeita!")
+        message_label.setWordWrap(True)
+        message_label.setStyleSheet("font-size: 14px; color: #FF6B6B; font-weight: bold;")
+        message_label.setAlignment(Qt.AlignCenter)
+        main_layout.addWidget(message_label)
+        
+        # Instrução
+        instruction_label = QLabel("Digite \"confirmo\" para prosseguir:")
+        instruction_label.setStyleSheet("font-size: 13px; margin-top: 10px;")
+        main_layout.addWidget(instruction_label)
+        
+        # Campo de confirmação
+        self.confirmation_input = QLineEdit()
+        self.confirmation_input.setPlaceholderText("confirmo")
+        self.confirmation_input.textChanged.connect(self.validate_input)
+        main_layout.addWidget(self.confirmation_input)
+        
+        # Botões
+        buttons_layout = QHBoxLayout()
+        
+        # Botão de cancelar
+        self.cancel_button = QPushButton("Cancelar")
+        self.cancel_button.setObjectName("cancelButton")
+        self.cancel_button.clicked.connect(self.reject)
+        buttons_layout.addWidget(self.cancel_button)
+        
+        # Espaçador
+        buttons_layout.addStretch()
+        
+        # Botão de confirmar
+        self.confirm_button = QPushButton("Confirmar")
+        self.confirm_button.setEnabled(False)  # Desabilitado por padrão
+        self.confirm_button.clicked.connect(self.accept_confirmation)
+        buttons_layout.addWidget(self.confirm_button)
+        
+        main_layout.addLayout(buttons_layout)
+    
+    def validate_input(self):
+        """Valida o texto inserido e habilita o botão se for 'confirmo'."""
+        text = self.confirmation_input.text().strip().lower()
+        self.confirm_button.setEnabled(text == "confirmo")
+    
+    def accept_confirmation(self):
+        """Confirma a exclusão e fecha o diálogo."""
+        self.confirmed = True
+        self.accept()
+
+
 class DeleteMovieDialog(QDialog):
     """Janela de diálogo para pesquisar e deletar filmes do catálogo."""
     
     movie_deleted = pyqtSignal()  # Sinal emitido quando um filme é deletado
+    all_movies_deleted = pyqtSignal()  # Novo sinal para quando todos os filmes são deletados
     
     def __init__(self, movie_manager, parent=None):
         super().__init__(parent)
@@ -98,6 +220,13 @@ class DeleteMovieDialog(QDialog):
             }
             QPushButton#cancelButton:hover {
                 background-color: #444;
+            }
+            QPushButton#deleteAllButton {
+                background-color: #8B0000;
+                color: white;
+            }
+            QPushButton#deleteAllButton:hover {
+                background-color: #A50000;
             }
             QLineEdit {
                 background-color: #1f1f1f;
@@ -210,11 +339,17 @@ class DeleteMovieDialog(QDialog):
         self.delete_button.clicked.connect(self.delete_selected_movie)
         buttons_layout.addWidget(self.delete_button)
         
+        # NOVO: Botão para deletar todos os filmes
+        self.delete_all_button = QPushButton("Deletar Todos")
+        self.delete_all_button.setObjectName("deleteAllButton")
+        self.delete_all_button.clicked.connect(self.show_delete_all_confirmation)
+        buttons_layout.addWidget(self.delete_all_button)
+        
         main_layout.addLayout(buttons_layout)
         
         # Carrega os filmes iniciais
         self.load_movies()
-        
+    
     def load_movies(self):
         """Carrega todos os filmes do catálogo na lista."""
         self.movies_list.clear()
@@ -222,12 +357,14 @@ class DeleteMovieDialog(QDialog):
         movies = self.movie_manager.get_all_movies()
         if not movies:
             self.status_label.setText("O catálogo está vazio")
+            self.delete_all_button.setEnabled(False)  # Desabilita o botão se não houver filmes
             return
         
         for movie in movies:
             self.add_movie_to_list(movie)
         
         self.status_label.setText(f"{len(movies)} filmes encontrados no catálogo")
+        self.delete_all_button.setEnabled(True)  # Habilita o botão se houver filmes
     
     def add_movie_to_list(self, movie):
         """Adiciona um filme à lista com formato mais simples e confiável."""
@@ -327,3 +464,63 @@ class DeleteMovieDialog(QDialog):
                     "Erro ao Deletar", 
                     f'Não foi possível deletar o filme "{title}" (ID: {movie_id}).'
                 )
+    
+    def show_delete_all_confirmation(self):
+        """Mostra o diálogo de confirmação para deletar todos os filmes."""
+        # Verifica se há filmes para deletar
+        movies = self.movie_manager.get_all_movies()
+        if not movies:
+            QMessageBox.information(
+                self, 
+                "Catálogo Vazio", 
+                "Não há filmes no catálogo para deletar."
+            )
+            return
+        
+        # Abre o diálogo de confirmação
+        confirm_dialog = DeleteConfirmationDialog(self)
+        result = confirm_dialog.exec_()
+        
+        # Se o usuário confirmou a exclusão
+        if result == QDialog.Accepted and confirm_dialog.confirmed:
+            self.delete_all_movies()
+    
+    def delete_all_movies(self):
+        """Deleta todos os filmes do catálogo."""
+        # Obtém a quantidade de filmes antes da exclusão
+        movies = self.movie_manager.get_all_movies()
+        total_movies = len(movies)
+        
+        if total_movies == 0:
+            return
+        
+        # Tenta deletar todos os filmes usando o método do MovieManager
+        success = self.movie_manager.delete_all_movies()
+        
+        if success:
+            # Atualiza contadores e limpa a lista
+            self.deleted_count += total_movies
+            self.movies_list.clear()
+            
+            # Emite sinal para atualização da interface principal
+            self.all_movies_deleted.emit()
+            
+            # Atualiza o status
+            self.status_label.setText(f"Catálogo vazio | {total_movies} filmes deletados nesta operação")
+            
+            # Desabilita os botões de exclusão
+            self.delete_button.setEnabled(False)
+            self.delete_all_button.setEnabled(False)
+            
+            # Mostra confirmação
+            QMessageBox.information(
+                self, 
+                "Catálogo Limpo", 
+                f"Todos os {total_movies} filmes foram removidos do catálogo."
+            )
+        else:
+            QMessageBox.warning(
+                self, 
+                "Erro ao Deletar", 
+                "Não foi possível deletar todos os filmes do catálogo."
+            )

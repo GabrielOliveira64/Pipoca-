@@ -17,6 +17,7 @@ from ui.movie_card import MovieCard
 from ui.add_movie_dialog import AddMovieDialog
 from ui.delete_movie_dialog import DeleteMovieDialog
 from ui.splash_screen import SplashScreen
+from ui.sidebar import Sidebar
 import json
 
 def get_version():
@@ -84,6 +85,11 @@ class MainWindow(QMainWindow):
         self.main_layout = QHBoxLayout(central_widget)
         self.main_layout.setContentsMargins(0, 0, 0, 0)
         self.main_layout.setSpacing(0)
+        self.sidebar = Sidebar()
+        self.sidebar.setFixedWidth(0)  # Inicialmente fechada
+        self.sidebar.searchChanged.connect(self.filter_movies)
+        self.sidebar.genreFilterChanged.connect(self.filter_movies)
+        
         file_menu = menubar.addMenu("Arquivo")
         add_action = QAction("Adicionar Filme", self)
         add_action.triggered.connect(self.add_movie)
@@ -119,47 +125,7 @@ class MainWindow(QMainWindow):
         app_info_action = QAction("Informações do App", self)
         app_info_action.triggered.connect(self.show_about_info)
         about_menu.addAction(app_info_action)
-        self.sidebar = QFrame()
-        self.sidebar.setObjectName("sidebar")
-        self.sidebar.setFixedWidth(0)
-        self.sidebar_layout = QVBoxLayout()
-        self.sidebar_layout.setContentsMargins(15, 20, 15, 20)
-        self.sidebar_layout.setSpacing(15)
-        self.sidebar.setLayout(self.sidebar_layout)
-        search_label = QLabel("Pesquisar Filmes")
-        search_label.setStyleSheet("font-size: 16px; font-weight: bold; color: white;")
-        self.sidebar_layout.addWidget(search_label)
-        self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("Digite para pesquisar...")
-        self.search_input.setStyleSheet("""
-            QLineEdit {
-                background-color: #333;
-                color: white;
-                border: none;
-                border-radius: 4px;
-                padding: 8px;
-                font-size: 14px;
-            }
-            QLineEdit:focus {
-                background-color: #444;
-            }
-        """)
-        self.search_input.textChanged.connect(self.filter_movies)
-        self.sidebar_layout.addWidget(self.search_input)
-        genres_label = QLabel("Filtrar por Gênero")
-        genres_label.setStyleSheet("font-size: 16px; font-weight: bold; color: white; margin-top: 10px;")
-        self.sidebar_layout.addWidget(genres_label)
-        genres_scroll = QScrollArea()
-        genres_scroll.setWidgetResizable(True)
-        genres_scroll.setStyleSheet("background-color: transparent; border: none;")
-        self.genres_container = QWidget()
-        self.genres_container.setStyleSheet("background-color: transparent;")
-        self.genres_layout = QVBoxLayout(self.genres_container)
-        self.genres_layout.setContentsMargins(0, 0, 0, 0)
-        self.genres_layout.setSpacing(8)
-        genres_scroll.setWidget(self.genres_container)
-        self.sidebar_layout.addWidget(genres_scroll)
-        self.sidebar_layout.addStretch()
+        
         self.main_layout.addWidget(self.sidebar)
         self.content_container = QWidget()
         content_layout = QVBoxLayout()
@@ -284,90 +250,18 @@ class MainWindow(QMainWindow):
         dialog.movie_deleted.connect(self.load_movies)
         dialog.exec_()
     
-    def init_sidebar(self):
-        self.sidebar.setStyleSheet("""
-            QFrame#sidebar {
-                background-color: #141414;
-                border-right: 1px solid #333;
-            }
-        """)
-        sidebar_title = QLabel("FILTROS")
-        sidebar_title.setStyleSheet("""
-            font-size: 18px;
-            font-weight: bold;
-            color: white;
-            margin-bottom: 15px;
-            padding-bottom: 8px;
-            border-bottom: 2px solid #E50914;
-        """)
-        self.sidebar_layout.insertWidget(0, sidebar_title)
-        search_container = QFrame()
-        search_container.setStyleSheet("""
-            background-color: transparent;
-            margin-bottom: 15px;
-        """)
-        search_layout = QVBoxLayout(search_container)
-        search_layout.setContentsMargins(0, 0, 0, 0)
-        search_layout.setSpacing(8)
-        search_label = QLabel("PESQUISAR")
-        search_label.setStyleSheet("""
-            font-size: 14px;
-            font-weight: bold;
-            color: #E50914;
-            letter-spacing: 1px;
-        """)
-        self.search_input = QLineEdit()
-        self.search_input.setPlaceholderText("Digite para pesquisar...")
-        self.search_input.setStyleSheet("""
-            QLineEdit {
-                background-color: #1f1f1f;
-                color: white;
-                border: 2px solid #333;
-                border-radius: 6px;
-                padding: 10px;
-                font-size: 13px;
-            }
-            QLineEdit:focus {
-                border: 2px solid #E50914;
-                background-color: #252525;
-            }
-        """)
-        self.search_input.textChanged.connect(self.filter_movies)
-        search_layout.addWidget(search_label)
-        search_layout.addWidget(self.search_input)
-        for i in range(self.sidebar_layout.count()):
-            item = self.sidebar_layout.itemAt(i)
-            widget = item.widget()
-            if isinstance(widget, QLabel) and widget.text() == "Pesquisar Filmes":
-                widget.deleteLater()
-                self.sidebar_layout.removeItem(item)
-                break
-        for i in range(self.sidebar_layout.count()):
-            item = self.sidebar_layout.itemAt(i)
-            widget = item.widget()
-            if isinstance(widget, QLineEdit):
-                widget.deleteLater()
-                self.sidebar_layout.removeItem(item)
-                break
-        self.sidebar_layout.insertWidget(1, search_container)
-        for i in range(self.sidebar_layout.count()):
-            item = self.sidebar_layout.itemAt(i)
-            widget = item.widget()
-            if isinstance(widget, QLabel) and widget.text() == "Filtrar por Gênero":
-                widget.deleteLater()
-                self.sidebar_layout.removeItem(item)
-                break
-    
     def load_movies(self):
         while self.grid_layout.count():
             item = self.grid_layout.takeAt(0)
             widget = item.widget()
             if widget:
                 widget.deleteLater()
-        self.grid_layout.setSpacing(4)
+        self.grid_layout.setSpacing(0)
+        self.grid_layout.setHorizontalSpacing(0)
+        self.grid_layout.setVerticalSpacing(10)
         self.grid_layout.setContentsMargins(0, 0, 0, 0)
         movies = self.movie_manager.get_all_movies()
-        self.populate_genres(movies)
+        self.sidebar.populate_genres(movies)
         filtered_movies = self.apply_filters(movies)
         if not filtered_movies:
             empty_message = "Sua biblioteca está vazia. Adicione filmes usando o botão acima."
@@ -378,11 +272,11 @@ class MainWindow(QMainWindow):
             empty_label.setStyleSheet("color: #888; font-size: 16px; padding: 40px;")
             self.grid_layout.addWidget(empty_label, 0, 0)
             return
-        available_width = self.content_container.width() - 40
+        available_width = self.content_container.width() - 20
         if self.menu_open:
             available_width -= self.menu_width
-        card_width = 160
-        card_margin = 2
+        card_width = 200
+        card_margin = 0
         cols_with_margin = max(1, int(available_width / (card_width + 2*card_margin)))
         row, col = 0, 0
         unique_movies = {}
@@ -413,181 +307,23 @@ class MainWindow(QMainWindow):
             self.menu_svg.load(resource_path("ui/icons/menu_bars_open.svg"))
         QTimer.singleShot(50, self.force_layout_update)
     
-    def populate_genres(self, movies):
-        while self.genres_layout.count():
-            item = self.genres_layout.takeAt(0)
-            widget = item.widget()
-            if widget:
-                widget.deleteLater()
-        all_genres = set()
-        for movie in movies:
-            genres = movie.get("genres", [])
-            for genre in genres:
-                all_genres.add(genre)
-        genres_title = QLabel("GÊNEROS")
-        genres_title.setStyleSheet("""
-            font-size: 14px;
-            font-weight: bold;
-            color: #E50914;
-            letter-spacing: 1px;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #333;
-            margin-bottom: 12px;
-        """)
-        self.genres_layout.addWidget(genres_title)
-        if not all_genres:
-            no_genres_container = QFrame()
-            no_genres_container.setStyleSheet("""
-                background-color: #1f1f1f;
-                border-radius: 6px;
-                padding: 10px;
-            """)
-            no_genres_layout = QVBoxLayout(no_genres_container)
-            no_genres_label = QLabel("Nenhum gênero disponível")
-            no_genres_label.setStyleSheet("""
-                color: #888;
-                font-size: 13px;
-                font-style: italic;
-                padding: 5px;
-            """)
-            no_genres_label.setAlignment(Qt.AlignCenter)
-            no_genres_layout.addWidget(no_genres_label)
-            self.genres_layout.addWidget(no_genres_container)
-            return
-        filter_container = QFrame()
-        filter_container.setStyleSheet("""
-            background-color: #1a1a1a;
-            border-radius: 8px;
-            padding: 2px;
-        """)
-        filter_layout = QVBoxLayout(filter_container)
-        filter_layout.setSpacing(2)
-        filter_layout.setContentsMargins(8, 8, 8, 8)
-        for genre in sorted(all_genres):
-            genre_widget = QFrame()
-            genre_widget.setStyleSheet("""
-                QFrame {
-                    border-radius: 6px;
-                    padding: 2px;
-                }
-                QFrame:hover {
-                    background-color: #252525;
-                }
-            """)
-            genre_layout = QHBoxLayout(genre_widget)
-            genre_layout.setContentsMargins(5, 5, 5, 5)
-            genre_layout.setSpacing(8)
-            checkbox = QCheckBox()
-            checkbox.setChecked(genre in self.selected_genres)
-            checkbox.setStyleSheet("""
-                QCheckBox {
-                    spacing: 5px;
-                }
-                QCheckBox::indicator {
-                    width: 18px;
-                    height: 18px;
-                    border-radius: 3px;
-                    border: 2px solid #555;
-                }
-                QCheckBox::indicator:unchecked {
-                    background-color: #2a2a2a;
-                }
-                QCheckBox::indicator:checked {
-                    background-color: #E50914;
-                    border: 2px solid #E50914;
-                    image: url(ui/icons/check.svg);
-                }
-                QCheckBox::indicator:hover {
-                    border: 2px solid #888;
-                }
-            """)
-            checkbox.stateChanged.connect(lambda state, g=genre: self.handle_genre_filter(g, state))
-            genre_count = sum(1 for movie in movies if genre in movie.get("genres", []))
-            genre_label = QLabel(f"{genre} <span style='color: #888; font-size: 11px;'>({genre_count})</span>")
-            genre_label.setStyleSheet("""
-                color: #ddd;
-                font-size: 13px;
-            """)
-            genre_layout.addWidget(checkbox)
-            genre_layout.addWidget(genre_label, 1)
-            filter_layout.addWidget(genre_widget)
-        clear_filters_btn = QPushButton("Limpar Filtros")
-        clear_filters_btn.setCursor(QCursor(Qt.PointingHandCursor))
-        clear_filters_btn.setStyleSheet("""
-            QPushButton {
-                background-color: transparent;
-                color: #888;
-                border: 1px solid #444;
-                border-radius: 4px;
-                padding: 6px;
-                margin-top: 10px;
-                font-size: 12px;
-                text-align: center;
-            }
-            QPushButton:hover {
-                background-color: #252525;
-                color: white;
-                border: 1px solid #555;
-            }
-            QPushButton:pressed {
-                background-color: #333;
-            }
-        """)
-        clear_filters_btn.clicked.connect(self.clear_genre_filters)
-        self.genres_layout.addWidget(filter_container)
-        self.genres_layout.addWidget(clear_filters_btn)
-        self.genres_layout.addStretch()
-
-    def clear_genre_filters(self):
-        if not self.selected_genres:
-            return
-        self.selected_genres = []
-        was_menu_open = self.menu_open
-        QTimer.singleShot(50, lambda: self.safe_force_layout_update(was_menu_open))
-        for i in range(self.genres_layout.count()):
-            item = self.genres_layout.itemAt(i)
-            widget = item.widget()
-            if isinstance(widget, QFrame):
-                for child in widget.findChildren(QCheckBox):
-                    child.setChecked(False)
-
-    def handle_genre_filter(self, genre, state):
-        if state == Qt.Checked:
-            if genre not in self.selected_genres:
-                self.selected_genres.append(genre)
-        else:
-            if genre in self.selected_genres:
-                self.selected_genres.remove(genre)
-        was_menu_open = self.menu_open
-        self.search_term = self.search_input.text().lower()
-        QTimer.singleShot(50, lambda: self.safe_force_layout_update(was_menu_open))
-    
-    def toggle_genre_filter(self, genre, state):
-        self.handle_genre_filter(genre, state)
-        if self.menu_open:
-            self.menu_open = False
-            self.sidebar.setFixedWidth(0)
-            self.menu_svg.load(resource_path("ui/icons/menu_bars_close.svg"))
-        else:
-            self.menu_open = True
-            self.sidebar.setFixedWidth(self.menu_width)
-            self.menu_svg.load(resource_path("ui/icons/menu_bars_open.svg"))
-        QTimer.singleShot(100, self.load_movies)
-    
     def filter_movies(self):
-        self.search_term = self.search_input.text().lower()
         was_menu_open = self.menu_open
         QTimer.singleShot(50, lambda: self.safe_force_layout_update(was_menu_open))
 
     def force_layout_update(self):
-        self.grid_layout.setSpacing(2)
+        self.grid_layout.setSpacing(0)
+        self.grid_layout.setHorizontalSpacing(0)
+        self.grid_layout.setVerticalSpacing(2)
         self.grid_layout.setContentsMargins(0, 0, 0, 0)
         self.load_movies()
         self.content_container.update()
         QApplication.processEvents()
 
     def safe_force_layout_update(self, should_keep_menu_open):
-        self.grid_layout.setSpacing(2)
+        self.grid_layout.setSpacing(0)
+        self.grid_layout.setHorizontalSpacing(0)
+        self.grid_layout.setVerticalSpacing(2)
         self.grid_layout.setContentsMargins(0, 0, 0, 0)
         self.load_movies()
         self.content_container.update()
@@ -599,21 +335,27 @@ class MainWindow(QMainWindow):
     
     def apply_filters(self, movies):
         filtered_movies = []
+        search_term = self.sidebar.get_search_term()
+        selected_genres = self.sidebar.get_selected_genres()
+        
         for movie in movies:
             match_search = True
-            if self.search_term:
+            if search_term:
                 title = movie.get("title", "").lower()
                 original_title = movie.get("original_title", "").lower()
                 overview = movie.get("overview", "").lower()
-                match_search = (self.search_term in title or 
-                               self.search_term in original_title or 
-                               self.search_term in overview)
+                match_search = (search_term in title or 
+                              search_term in original_title or 
+                              search_term in overview)
+            
             match_genre = True
-            if self.selected_genres:
+            if selected_genres:
                 movie_genres = movie.get("genres", [])
-                match_genre = any(genre in movie_genres for genre in self.selected_genres)
+                match_genre = any(genre in movie_genres for genre in selected_genres)
+            
             if match_search and match_genre:
                 filtered_movies.append(movie)
+        
         return filtered_movies
     
     def add_movie(self):
